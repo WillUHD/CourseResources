@@ -38,23 +38,25 @@ Unless prior written permission is provided, you may not:
   changing headers, or other minimal alterations that can be easily traced
   back to the original source.
 
+Allowed Actions
+---------------
+You may request usage of the Software from its original owner. Under Fair Use, 
+you are allowed to read, reference, quote, or parse the source code from its
+original source "willuhd/GPAResources", with no intent of the Prohibited Actions, 
+while crediting the owner via a direct, non-misleading hyperlink, leading to the 
+project repository. 
+
 Attribution Protection
 ----------------------
 You may not remove, replace, or modify the author’s name, copyright notice, 
 or credits. Any attempt to re‑publish the Software under a different name 
-or claim authorship is strictly prohibited.
-
-No Warranty
------------
-The Software is provided “as is,” without warranty of any kind, express or 
-implied. The copyright holder is not liable for any damages arising from the 
-use or inability to use the Software.
+or claim any kind of authorship is strictly prohibited.
 
 Termination
 -----------
 Any unauthorized use of the Software immediately terminates any implied or 
-previously granted permissions. Upon termination, you must destroy all copies 
-of the Software in your possession.
+previously granted permissions. Upon termination, you must remove all instances 
+of the Software that you have infringed.
 
 Governing Law
 -------------
