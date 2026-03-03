@@ -29,8 +29,10 @@ In other words, you are NOT allowed to use my code in ways including:
 
 Of course, these are not the only possible violations. Other violations exist 
 but are not listed. This does not mean you should attempt them. 
-This license itself is also proprietary and boostrapped under its own terms. 
-You can, however, learn from the code, privately use it, or quote it under fair use.
+This license itself is also proprietary and bootstrapped under its own terms. 
+
+You can, however, learn from my code or quote it under fair use.
 Any changes to my code without my explicit permission is considered infringement 
 and is a violation. 
+
 I will not ask for financial compensation or total takedown of your code. 
