@@ -7,7 +7,7 @@ They belong to the repository owner (willuhd). These files are NOT open source.
 
 Ownership
 ---------
-This software, including all source code, binaries, assets, documentation, and
+This software, including all source code, assets, documentation, and
 associated files (“Software”), is the exclusive property of the copyright holder
 willuhd. No ownership rights are transferred to anyone else.
 
@@ -30,8 +30,7 @@ Unless prior written permission is provided, you may not:
 - Use the Software for any purpose.
 - Copy or redistribute the Software in any form.
 - Modify, adapt, translate, or create derivative works of the Software.
-- Reverse engineer, decompile, disassemble, or attempt to derive the source
-  code, structure, or underlying ideas of the Software.
+- Reverse-engineer or try to build a public rip-off competitor to the Software.
 - Remove, alter, or obscure copyright notices, author credits, or attribution
   within the Software.
 - Claim authorship, ownership, or contribution to the Software, including
