@@ -1,15 +1,15 @@
-Copyright (c) 2026 Will Chen, All Rights Reserved. 
+Copyright (c) 2026 Will Chen (willuhd), All Rights Reserved. 
 
 This repository and all contents within it contain code that is fully PROPRIETARY. 
-They belong to the owner of the repository. These files are NOT open source. 
+They belong to the repository owner (willuhd). These files are NOT open source. 
 **ALL RIGHTS RESERVED**. 
 
 This repository is licensed under a custom proprietary license (willuhd). 
 No rights are granted unless explicitly provided in writing. 
 It may not be copied, modified, redistributed, or used in other projects 
-without explicit, signed permission from the copyright holder. 
+without explicit, signed permission from the copyright holder willuhd. 
 Any individual seeking to use the files in any other way (commercial or 
-open-source) is expected to ask for permission to the owner of this repository. 
+open-source) is expected to ask for permission to willuhd, the owner. 
 
 Attribution may not be removed or altered. No other party is authorized to
 claim authorship or co-authorship of this file. Removing or altering the 
