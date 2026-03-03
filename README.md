@@ -1,9 +1,6 @@
 # GPAResources
 Continuously updated course profile of SHSID's updated curriculums for the GPA Calculator app
 
-> [!warning]
-> While the original [GPA Calcualtor](https://github.com/michelg10/GPA-Calculator) remains open source under the **GPL v3** license, the contents of this repository are strictly **PROPRIETARY**. ALL rights for this configuration profile are fully reserved. If you would like to fork, modify, or copy this code, notify me in advance with a separate agreement. 
-
 ### `./presets.plist`
 - This is the current course profile for SHSID's high school, and will be continuously updated
 - Resources (via gh-proxy mirror) is used by the [GPA Calc app](https://apps.apple.com/us/app/gpa-calculator-by-michel/id1540111715)
