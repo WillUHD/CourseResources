@@ -12,10 +12,10 @@ Any individual seeking to use the files in any other way (commercial or
 open-source) is expected to ask for permission to willuhd, the owner. 
 
 Attribution may not be removed or altered. No other party is authorized to
-claim authorship or co-authorship of this file. Removing or altering the 
-header documentations, changing the license, or attempting to claim 
-any authorship of the code through changing it without further notice, 
-are violations of copyright policy. 
+claim authorship or co-authorship of this file or any file in this repository. 
+Removing or altering the header documentations, changing the license, 
+or attempting to claim any authorship of the code through changing it 
+without further notice, are violations of copyright policy. 
 
 In other words, you are NOT allowed to use my code in ways including: 
 - using it in any project, commercial or open-source. 
