@@ -1,38 +1,63 @@
-Copyright (c) 2026 Will Chen (willuhd), All Rights Reserved. 
+Copyright (c) 2026 Will Chen (willuhd). All rights reserved. 
+============================================================
 
-This repository and all contents within it contain code that is fully PROPRIETARY. 
+This repository and all contents within it contain code that is fully proprietary. 
 They belong to the repository owner (willuhd). These files are NOT open source. 
 **ALL RIGHTS RESERVED**. 
 
-This repository is licensed under a custom proprietary license (willuhd). 
-No rights are granted unless explicitly provided in writing. 
-It may not be copied, modified, redistributed, or used in other projects 
-without explicit, signed permission from the copyright holder willuhd. 
-Any individual seeking to use the files in any other way (commercial or 
-open-source) is expected to ask for permission to willuhd, the owner. 
+Ownership
+---------
+This software, including all source code, binaries, assets, documentation, and
+associated files (“Software”), is the exclusive property of the copyright holder
+willuhd. No ownership rights are transferred to anyone else.
 
-Attribution may not be removed or altered. No other party is authorized to
-claim authorship or co-authorship of this file or any file in this repository. 
-Removing or altering the header documentations, changing the license, 
-or attempting to claim any authorship of the code through changing it 
-without further notice, are violations of copyright policy. 
+License Grant
+-------------
+No rights are granted to use, copy, modify, merge, publish, distribute, sublicense, 
+sell, or otherwise exploit the Software unless express written permission is 
+provided by the copyright holder willuhd.
 
-In other words, you are NOT allowed to use my code in ways including: 
-- using it in any project, commercial or open-source. 
-- copying my files in your code without telling me first. 
-- modifying my code without my permission. 
-- secretly changing the headers to give credit to yourself (even
-  if already including my credit) without further notice. 
-- using my code openly in other projects without telling me in person. 
-- any usage that is considered DERIVATIVE WORK (eg. refactoring or changing 
-  the content in a way where the majority can still be traced back to mine) 
+Internal Use Restriction
+------------------------
+If written permission is granted, such permission applies only to internal use 
+within the project "michelg10/GPA-Calculator". The Software may not be used in 
+any other project, product, service, or environment without additional written 
+authorization.
 
-Of course, these are not the only possible violations. Other violations exist 
-but are not listed. This does not mean you should attempt them. 
-This license itself is also proprietary and bootstrapped under its own terms. 
+Prohibited Actions
+------------------
+Unless prior written permission is provided, you may not:
+- Use the Software for any purpose.
+- Copy or redistribute the Software in any form.
+- Modify, adapt, translate, or create derivative works of the Software.
+- Reverse engineer, decompile, disassemble, or attempt to derive the source
+  code, structure, or underlying ideas of the Software.
+- Remove, alter, or obscure copyright notices, author credits, or attribution
+  within the Software.
+- Claim authorship, ownership, or contribution to the Software, including
+  through superficial changes such as variable renaming, formatting adjustments,
+  changing headers, or other minimal alterations that can be easily traced
+  back to the original source.
 
-You can, however, learn from my code or quote it under fair use.
-Any changes to my code without my explicit permission is considered infringement 
-and is a violation. 
+Attribution Protection
+----------------------
+You may not remove, replace, or modify the author’s name, copyright notice, 
+or credits. Any attempt to re‑publish the Software under a different name 
+or claim authorship is strictly prohibited.
 
-I will not ask for financial compensation or total takedown of your code. 
+No Warranty
+-----------
+The Software is provided “as is,” without warranty of any kind, express or 
+implied. The copyright holder is not liable for any damages arising from the 
+use or inability to use the Software.
+
+Termination
+-----------
+Any unauthorized use of the Software immediately terminates any implied or 
+previously granted permissions. Upon termination, you must destroy all copies 
+of the Software in your possession.
+
+Governing Law
+-------------
+This license is governed by the laws of the jurisdiction in which the copyright 
+holder resides, without regard to conflict‑of‑law principles.
