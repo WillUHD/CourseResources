@@ -23,12 +23,9 @@ In other words, you are NOT allowed to use my code in ways including:
 - modifying my code without my permission. 
 - secretly changing the headers to give credit to yourself (even
   if already including my credit) without further notice. 
-- secretly changing the contents of the code itself to the extent 
-  where the core premise or purpose of the code is unchanged, 
-  and majority portions of the changed code can still be traced back to mine. 
 - using my code openly in other projects without telling me in person. 
 - any usage that is considered DERIVATIVE WORK (eg. refactoring or changing 
-  my code in a way that is still traceable to the original) 
+  the content in a way where the majority can still be traced back to mine) 
 
 Of course, these are not the only possible violations. Other violations exist 
 but are not listed. This does not mean you should attempt them. 
