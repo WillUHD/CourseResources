@@ -54,9 +54,8 @@ or claim any kind of authorship is strictly prohibited.
 
 Termination
 -----------
-Any unauthorized use of the Software immediately terminates any implied or 
-previously granted permissions. Upon termination, you must remove all instances 
-of the Software that you have infringed.
+Any unauthorized use of the Software immediately requires you to remove all 
+instances of the Software that you have infringed. 
 
 Governing Law
 -------------
