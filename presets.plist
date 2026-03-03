@@ -5,26 +5,38 @@
    GPA Calculator
 
    Created by WillUHD at Nov 28, 2025
-   Course edition: Winter 2025 v2
+   Course edition: Spring 2026 v3
 
-    This plist stores all the course data, and is continuously updated at https://github.com/WillUHD/GPAResources
-    Contribute with me! willcxd is my outlook, wechat, and instagram
-    Huge props to Michel for even making the GPA Calc app in the first place
+      This plist stores all the course data, and is continuously updated at https://github.com/WillUHD/GPAResources
+      Contribute with me! willcxd is my outlook, wechat, and instagram
+      Huge props to Michel for even making the GPA Calc app in the first place
 
-    This version includes:
-    - grades 9-12 use the course catalog at https://file.garden/aJSHHExjjB1KFGN6/SHSID%20ARC/25-26%20Course%20Catalog%20SHSID%20High%20School_compressed.pdf
-        (from yunzhan365 link using tampermonkey PDF grabber, DO NOT share outside!)
-    - new module selection logic using lists, so G11 Module's are finally together!! (with the exception of IB Track)
-    - advanced cross-module and cross-course elimination logic for better course selections
-    - ..and will be continuously updated in the future
-    
+   Copyright (c) 2026 Will Chen, All Rights Reserved. 
+
+      All contents within this file is fully PROPRIETARY. They belong to the owner of the repository. These files are NOT open source. ALL RIGHTS RESERVED. 
+      This file is licensed under a custom proprietary license (my license). No rights are granted unless explicitly provided in writing. It may not be copied, modified, redistributed, or used in other projects without explicit, signed permission from the copyright holder. Any individual seeking to use this file in any other way (commercial or open-source) is expected to ask for permission to the owner of this repository. 
+      Attribution may not be removed or altered. No other party is authorized to claim authorship or co-authorship of this file. Removing or altering this header documentation, changing this license, or attempting to claim any authorship of this file through changing it without further notice, are violations of copyright policy. 
+      In other words: You are NOT allowed to use this code in ways including: 
+         - using it in any project, commercial or open-source. 
+         - copying my files in your code without telling me first. 
+         - modifying my code without my permission. 
+         - secretly changing the headers to include your name as well as mine without further notice. 
+         - secretly changing the contents of the code itself to the extent where the core premise or purpose of the code is unchanged, and majority portions of the changed code can still be traced back to mine. 
+         - using my code openly in other projects without telling me in person. 
+         - any usage that is considered DERIVATIVE WORK (eg. refactoring or changing my code in a way that is still traceable to the original) 
+      Of course, these are not the only possible violations. Other violations exist but are not listed. This does not mean you should attempt them. This license itself is also proprietary and boostrapped under its own terms. 
+      You are, however, allowed to learn from this code or privately use it.
+      Any public changes to this code without my explicit permission is considered infringement and is a violation. I will not ask for financial compensation or total takedown of your code. 
+
+   This version includes:
+      - a redefined license
 -->
 <plist version="1.0">
 <dict>
     <key>catalogName</key>
-    <string>SHSID '25-26 Catalog, Winter 2025 Edition v2 by WillUHD</string>
+    <string>SHSID '26-27 Catalog, Spring 2026 Edition v3 by WillUHD</string>
     <key>lastUpdated</key>
-    <string>2025-11-28</string>
+    <string>2026-3-3</string>
     <key>commonScoreMap</key>
     <array>
         <dict><key>percentageName</key><string>0</string><key>letterName</key><string>F</string><key>baseGPA</key><real>0</real></dict>
@@ -38,6 +50,7 @@
     </array>
 
     <!-- main course catalog starts here -->
+    <!-- AGAIN: All Rights Reserved to willuhd -->
     <key>presets</key>
     <array>
         <dict><key>id</key><string>stockshsidgrade6</string>
