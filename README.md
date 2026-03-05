@@ -6,14 +6,9 @@ Continuously updated course profile of SHSID's new curriculums for the GPA Calcu
 
 ### `./presets.plist`
 - This is the current course profile for SHSID's high school, and will be continuously updated
-- **LAST UPDATE**: `March 3, 2026`
-- Resources (via gh-proxy mirror) is used by the [GPA Calc app](https://apps.apple.com/us/app/gpa-calculator-by-michel/id1540111715)
+- Resources is used by the [GPA Calc app](https://apps.apple.com/us/app/gpa-calculator-by-michel/id1540111715)
 - Original app made by [MichelG](https://github.com/michelg10/GPA-Calculator), updated by me (WillUHD)
 
 ### GPA Calc's logic
 - The app will download the continuously updated configuration file (.gpa) to use in its own UI.
 - So, in theory, the app's physical code won't have to be updated. Only the course profiles will be, and the resources will be automatically updated by the app.
-
-### View the resources
-- View the source for the current configuration profile (last updated spring 2026 by willuhd) [here](https://raw.githubusercontent.com/WillUHD/GPAResources/refs/heads/main/presets.plist)
-- View the gh-proxy mirror for the profile [here](https://edgeone.gh-proxy.org/https://raw.githubusercontent.com/WillUHD/GPAResources/refs/heads/main/presets.plist) (makes the profile available in mainland China)
