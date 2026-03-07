@@ -9,5 +9,5 @@ Continuously updated course profile of SHSID's new curriculums for the GPA Calcu
 - Original app made by [MichelG](https://github.com/michelg10/GPA-Calculator), updated by me (WillUHD)
 
 ### GPA Calc's logic
-- The app will download the continuously updated configuration file (.gpa) to use in its own UI.
+- The app will download a continuously updated configuration file hosted here to use in its own UI.
 - So, in theory, the app's physical code won't have to be updated. Only the course profiles will be, and the resources will be automatically updated by the app.
