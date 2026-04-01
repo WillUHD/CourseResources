@@ -12,8 +12,8 @@
 //
 
 { "catalogName": "SHSID Course Catalog - Spring 2026",
-  "version": "3.3",
-  "lastUpdated": "March 31, 2026",
+  "version": "3.4",
+  "lastUpdated": "April 1, 2026",
   "credit": "Catalog by willuhd, original project by Michel",
   
   // the order in which the score map is defined matters
