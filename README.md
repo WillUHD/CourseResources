@@ -13,5 +13,5 @@ Continuously updated course profile of SHSID's new curriculums for the GPA Calcu
 - So, in theory, the app's physical code doesn't have to be updated. Only the course profiles have to, and the resources will automatically be updated by the app.
 
 ### View the resources
-- View the source for the current configuration profile (last updated spring 2026 by willuhd) [here](https://raw.githubusercontent.com/WillUHD/GPAResources/refs/heads/main/Courses.gpa)
+- View the source for the current configuration profile [here](https://raw.githubusercontent.com/WillUHD/GPAResources/refs/heads/main/Courses.gpa)
 - View the gh-proxy mirror for the profile [here](https://edgeone.gh-proxy.org/https://raw.githubusercontent.com/WillUHD/GPAResources/refs/heads/main/Courses.gpa) (makes the profile available in mainland China)
