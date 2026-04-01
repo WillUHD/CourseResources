@@ -1,0 +1,705 @@
+//
+//    Courses.gpa
+//    michel10g/GPA-Calculator
+//
+//    Created by WillUHD at March 9, 2026
+//    Co-contributions by ziqian-huang0607
+//    Course edition: Spring 2026 (SHSID Course Catalog 26-27)
+//
+//    This file stores all the course data, and is continuously updated at
+//    https://github.com/WillUHD/GPAResources. This is a DSL, custom dialect of JSON.
+//    Huge props to Michel!
+//
+
+{ "catalogName": "SHSID Course Catalog - Spring 2026",
+  "version": "3.3",
+  "lastUpdated": "March 31, 2026",
+  "credit": "Catalog by willuhd, original project by Michel",
+  
+  // the order in which the score map is defined matters
+  // for instance, defining A+ first will reverse the selector
+  // (though it won't make the GPA calculation incorrect)
+  "scoreMaps": {
+    "default": [
+        {"percent": "0",  "letter": "F",    "gpa": 0.0},
+        {"percent": "60", "letter": "D/C",  "gpa": 2.6},
+        {"percent": "68", "letter": "C+",   "gpa": 3.0},
+        {"percent": "73", "letter": "B-",   "gpa": 3.3},
+        {"percent": "78", "letter": "B",    "gpa": 3.6},
+        {"percent": "83", "letter": "B+",   "gpa": 3.9},
+        {"percent": "88", "letter": "A-",   "gpa": 4.2},
+        {"percent": "93", "letter": "A/A+", "gpa": 4.5}
+    ],
+    "AP": [
+        {"percent": "1", "letter": "1", "gpa": 0.0},
+        {"percent": "2", "letter": "2", "gpa": 1.0},
+        {"percent": "3", "letter": "3", "gpa": 2.5},
+        {"percent": "4", "letter": "4", "gpa": 3.5},
+        {"percent": "5", "letter": "5", "gpa": 4.5}
+    ],
+    "ASA2": [
+        {"percent": "U", "letter": "U", "gpa": 0.0},
+        {"percent": "E", "letter": "E", "gpa": 1.0},
+        {"percent": "D", "letter": "D", "gpa": 2.5},
+        {"percent": "C", "letter": "C", "gpa": 3.0},
+        {"percent": "B", "letter": "B", "gpa": 3.5},
+        {"percent": "A", "letter": "A", "gpa": 4.0},
+        {"percent": "A*", "letter": "A*", "gpa": 4.5}
+    ],
+    "IB": [
+        {"percent": "1", "letter": "1", "gpa": 0.0},
+        {"percent": "2", "letter": "2", "gpa": 2.0},
+        {"percent": "3", "letter": "3", "gpa": 2.5},
+        {"percent": "4", "letter": "4", "gpa": 3.0},
+        {"percent": "5", "letter": "5", "gpa": 3.5},
+        {"percent": "6", "letter": "6", "gpa": 4.0},
+        {"percent": "7", "letter": "7", "gpa": 4.5}
+    ],
+  },
+  
+  "templates": [
+    {   "id": "school_SH",
+        "weight": 4.5,
+        "levels": [
+            {"name": "S", "offset": 0.5},
+            {"name": "H", "offset": 0.2}
+        ]
+    }, {"id": "AP_only",
+        "weight": 6.0,
+        "levels": [{"name": "AP", "offset": 0.0, "tags": ["AP"]}]
+    }, {"id": "grade10_SH3",
+        "weight": 3.0,
+        "levels": [
+            {"name": "S", "offset": 0.5},
+            {"name": "H", "offset": 0.2}
+        ]
+    }, {"id": "AS_only",
+        "weight": 6.0,
+        "levels": [{"name": "AS", "offset": 0.0, "tags": ["ASA2"]}]
+    }, 
+    // IB subject weights, contributed by ziqian-huang0607
+    {"id": "IB_subject",
+        "weight": 6.0,
+        "levels": [
+            {"name": "HL", "offset": 0.0, "tags": ["IB"]},
+            {"name": "SL", "offset": 0.0, "tags": ["IB"]}
+        ]
+    }
+  ],
+  
+  "presets": [
+    {   "id": "stockshsidgrade6",
+        "name": "Grade 6",
+        "modules": [
+            {   "type": "core",
+                "name": "required",
+                "subjects": [
+                    {   "name": "English",
+                        "weight": 6.5,
+                        "levels": [
+                            {"name": "S",  "offset": 0.5},
+                            {"name": "S+", "offset": 0.4},
+                            {"name": "H",  "offset": 0.2},
+                            {"name": "H+", "offset": 0.0}
+                        ]
+                    }, {"name": "Math",
+                        "weight": 6.5,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "S+", "offset": 0.35},
+                            {"name": "H", "offset": 0.0}
+                        ]
+                    }, {"name": "Chinese",
+                        "weight": 5.0,
+                        "levels": [
+                            {"name": "1-2", "offset": 0.4},
+                            {"name": "3-4", "offset": 0.3},
+                            {"name": "S",   "offset": 0.2},
+                            {"name": "H",   "offset": 0.0}
+                        ]
+                    }, {"name": "Science",
+                        "weight": 2.5,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "S+", "offset": 0.0}
+                        ]
+                    }, {"name": "History",
+                        "weight": 2.5,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "S+", "offset": 0.0}
+                        ]
+                    }
+                ]
+            }
+        ]
+    }, {"id": "stockshsidgrade7",
+        "name": "Grade 7",
+        "modules": [
+            {   "type": "core",
+                "name": "required",
+                "subjects": [
+                    {
+                        "name": "English",
+                        "weight": 6.5,
+                        "levels": [
+                            {"name": "S",  "offset": 0.5},
+                            {"name": "S+", "offset": 0.4},
+                            {"name": "H",  "offset": 0.2},
+                            {"name": "H+", "offset": 0.0}
+                        ]
+                    }, {"name": "Math",
+                        "weight": 6.5,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "S+", "offset": 0.35},
+                            {"name": "H", "offset": 0.0}
+                        ]
+                    }, {"name": "History",
+                        "weight": 5.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "S+","offset": 0.35},
+                            {"name": "H","offset": 0.0}
+                        ]
+                    }, {"name": "Chinese",
+                        "weight": 5.0,
+                        "levels": [
+                            {"name": "1-2", "offset": 0.4},
+                            {"name": "3-4", "offset": 0.3},
+                            {"name": "S", "offset": 0.2},
+                            {"name": "H", "offset": 0.0}
+                        ]
+                    }, {"name": "Science",
+                        "weight": 3.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "H", "offset": 0.0}
+                        ]
+                    }
+                ]
+            }
+        ]
+    }, {"id": "stockshsidgrade8",
+        "name": "Grade 8",
+        "modules": [
+            {   "type": "core",
+                "name": "required",
+                "subjects": [
+                    {   "name": "English",
+                        "weight": 6.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "S+", "offset": 0.4},
+                            {"name": "H", "offset": 0.2},
+                            {"name": "H+", "offset": 0.0}
+                        ]
+                    }, {"name": "Math",
+                        "weight": 6.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "S+", "offset": 0.35},
+                            {"name": "H", "offset": 0.0}
+                        ]
+                    }, {"name": "Geography",
+                        "weight": 5.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "S+", "offset": 0.35},
+                            {"name": "H", "offset": 0.0}
+                        ]
+                    }, {"name": "Chinese",
+                        "weight": 5.0,
+                        "levels": [
+                            {"name": "1-2", "offset": 0.4},
+                            {"name": "3-4", "offset": 0.3},
+                            {"name": "S", "offset": 0.2},
+                            {"name": "H", "offset": 0.0}
+                        ]
+                    }, {"name": "Biology",
+                        "weight": 3.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "H", "offset": 0.0}
+                        ]
+                    }, {"name": "Physics",
+                        "weight": 2.5,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "H", "offset": 0.0}
+                        ]
+                    }
+                ]
+            }
+        ]
+    }, {"id": "shsid2026grade9",
+        "name": "Grade 9",
+        "modules": [
+            {   "type": "core",
+                "name": "required",
+                "subjects": [
+                    {   "name": "English",
+                        "weight": 6.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "S+", "offset": 0.4},
+                            {"name": "H", "offset": 0.2},
+                            {"name": "H+", "offset": 0.0}
+                        ]
+                    }, {"name": "Math",
+                        "weight": 6.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "S+", "offset": 0.35},
+                            {"name": "H", "offset": 0.0}
+                        ]
+                    }, {"name": "Chinese",
+                        "weight": 3.0,
+                        "levels": [
+                            {"name": "Non-native","offset": 0.5},
+                            {"name": "S","offset": 0.25},
+                            {"name": "H/H+","offset": 0.0}
+                        ]
+                    }, {"name": "Physics",
+                        "weight": 3.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "S+", "offset": 0.35},
+                            {"name": "H", "offset": 0.0}
+                        ]
+                    }, {"name": "Chemistry",
+                        "weight": 3.0,
+                        "levels": [
+                            {"name": "S/N","offset": 0.5},
+                            {"name": "S+", "offset": 0.35},
+                            {"name": "H", "offset": 0.0}
+                        ]
+                    }, {"name": "History",
+                        "weight": 4.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "S+", "offset": 0.35},
+                            {"name": "H", "offset": 0.0}
+                        ]
+                    }
+                ]
+            }, {"type": "choice",
+                "name": "Module 2 (4 credits)",
+                "limit": 1,
+                "minSelection": 1,
+                "subjects": [
+                    {   "name": "Biology",
+                        "weight": 4.0,
+                        "levels": [
+                            {"name": "S","offset": 0.5},
+                            {"name": "H", "offset": 0.0}
+                        ]
+                    }, {"name": "Computer Science",
+                        "weight": 4.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "H", "offset": 0.0}
+                        ]
+                    }, {"name": "Physical Geography",
+                        "weight": 4.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "H", "offset": 0.0}
+                        ]
+                    }
+                ]
+            }, {"type": "choice",
+                "name": "Module 3 (2 credits)",
+                "limit": 1,
+                "minSelection": 1,
+                "subjects": [
+                    {   "name": "Music",
+                        "weight": 2.0,
+                        "levels": [{"name": "N", "offset": 0.5}]
+                    }, {"name": "Art",
+                        "weight": 2.0,
+                        "levels": [{"name": "N", "offset": 0.5}]
+                    }
+                ]
+            }
+        ]
+    }, {"id": "shsid2026grade10",
+        "name": "Grade 10",
+        "modules": [
+            {   "type": "core",
+                "name": "required",
+                "subjects": [
+                    {   "name": "English",
+                        "weight": 5.5,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "S+", "offset": 0.35},
+                            {"name": "H", "offset": 0.2},
+                            {"name": "H+", "offset": 0.1},
+                            {"name": "AP", "offset": 0.0, "tags": ["AP"]}
+                        ]
+                    }, {"name": "Math",
+                        "weight": 5.5,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "H", "offset": 0.2},
+                            {"name": "AP PreCalc", "offset": 0.0, "tags": ["AP"]},
+                            {"name": "AP Calc", "offset": 0.0, "tags": ["AP"]}
+                        ]
+                    }, {"name": "Chinese",
+                        "weight": 3.0,
+                        "levels": [
+                            {"name": "L0-6", "offset": 0.5},
+                            {"name": "AP (7)", "offset": 0.35, "tags": ["AP"]},
+                            {"name": "S (8)", "offset": 0.2},
+                            {"name": "H/H+ (9)", "offset": 0.0}
+                        ]
+                    }, {"name": "History",
+                        "weight": 4.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "S+", "offset": 0.35},
+                            {"name": "H", "offset": 0.2},
+                            {"name": "WHAP", "offset": 0.0, "tags": ["AP"]}
+                        ]}
+                ]
+            }, {"type": "choice",
+                "name": "Module 1 (Sciences)",
+                "limit": 2,
+                "minSelection": 2,
+                "subjects": [
+                    {"name": "Physics",     "template": "grade10_SH3"},
+                    {"name": "Chemistry",   "template": "grade10_SH3"},
+                    {"name": "Biology",     "template": "grade10_SH3"}
+                ]
+            }, {"type": "choice",
+                "name": "Module 2 (Elective)",
+                "limit": 1,
+                "minSelection": 1,
+                "subjects": [
+                    {"name": "Visual Arts",      "template": "grade10_SH3"},
+                    {"name": "Computer Science", "template": "grade10_SH3"},
+                    {"name": "Human Geography",  "template": "grade10_SH3"},
+                    {"name": "Western Theater",  "template": "grade10_SH3"},
+                    {"name": "Music App",        "template": "grade10_SH3"},
+                    {"name": "Economics", 
+                      "weight": 4.0,
+                      "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "H", "offset": 0.2},
+                            {"name": "AP", "offset": 0.0, "tags": ["AP"]}
+                      ]
+                    }
+                ]
+            }
+        ], "track": {"id": "AP", "scoreMapId": "AP", "displayName": "AP"}
+    }, {"id": "shsid2026grade11",
+        "name": "Grade 11",
+        "subtitle": "AP Track",
+        "modules": [
+            {   "type": "core",
+                "limit": 0,
+                "minSelection": 0,
+                "subjects": [
+                    {   "name": "English", "weight": 6.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "S+", "offset": 0.35},
+                            {"name": "H", "offset": 0.2},
+                            {"name": "H+", "offset": 0.1},
+                            {"name": "AP Lang", "offset": 0.0, "tags": ["AP"]}
+                        ]},
+                    {"name": "Math", "weight": 6.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "H", "offset": 0.2},
+                            {"name": "AP Calc AB", "offset": 0.0, "tags": ["AP"]},
+                            {"name": "AP Calc BC", "offset": 0.0, "tags": ["AP"]},
+                            {"name": "AP Stats", "offset": 0.0, "tags": ["AP"]}
+                        ]
+                    }
+                ]
+            }, {"type": "choice",
+                "name": "World Languages",
+                "limit": 1,
+                "minSelection": 1,
+                "subjects": [
+                    {   "id": "g11_lang_chinese",
+                        "name": "Chinese",
+                        "weight": 3.0,
+                        "levels": [
+                            {"name": "L0-L6", "offset": 0.5},
+                            {"name": "AP", "offset": 0.35, "tags": ["AP"]},
+                            {"name": "L8", "offset": 0.2},
+                            {"name": "L9-L10", "offset": 0.0}
+                        ]
+                    }, {"id": "g11_lang_world", "name": "World", "weight": 3.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "H", "offset": 0.0}
+                        ]
+                    }
+                ]
+            }, {"type": "choice",
+                "name": "Module 1 (Sciences)",
+                "limit": 2,
+                "minSelection": 1,
+                "subjects": [
+                    {   "id": "g11_m1_phy",
+                        "name": "Physics",
+                        "weight": 6.0,
+                            "levels": [
+                                {"name": "S", "offset": 0.5},
+                                {"name": "H", "offset": 0.25},
+                                {"name": "AP", "offset": 0.0, "tags": ["AP"]}
+                            ]
+                    }, {"id": "g11_m1_chem",
+                        "name": "Chemistry",
+                        "weight": 6.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "H", "offset": 0.25},
+                            {"name": "AP", "offset": 0.0, "tags": ["AP"]}
+                        ]
+                    }, {"id": "g11_m1_bio",
+                        "name": "Biology",
+                        "weight": 6.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "H", "offset": 0.25},
+                            {"name": "AP", "offset": 0.0, "tags": ["AP"]}
+                        ]
+                    }
+                ]
+            }, {"type": "choice",
+                "name": "Module 2 (Humanities)",
+                "limit": 1,
+                "minSelection": 1,
+                "subjects": [
+                    {"name": "US Overview", "template": "school_SH"},
+                    {"name": "Human Geography 2", "template": "school_SH"},
+                    {"name": "Chinese History", "template": "school_SH"},
+                    {"name": "Western Civ 1", "template": "school_SH"},
+                    {"name": "AP Psychology", "template": "AP_only"},
+                    {"name": "AP CS A", "template": "AP_only"},
+                    {"name": "AP Human Geo", "template": "AP_only"},
+                    {"name": "APUSH", "template": "AP_only"},
+                    {"name": "AP World History", "template": "AP_only"},
+                    {"name": "AP Art History", "template": "AP_only"},
+                    {"id": "g11_m2_ap_micro", "name": "AP Micro", "template": "AP_only"},
+                    {"id": "g11_m2_ap_macro", "name": "AP Macro", "template": "AP_only"}
+                ]
+            }, {"type": "choice",
+                "name": "Module 3 (Electives)",
+                "limit": 1,
+                "minSelection": 0,
+                "subjects": [
+                    {"name": "Env. Eng", "template": "school_SH"},
+                    {"name": "Philosophy", "template": "school_SH"},
+                    {"name": "Creative Writing", "template": "school_SH"},
+                    {"name": "Business Mgmt", "template": "school_SH"},
+                    {"name": "Computer Skills", "template": "school_SH"},
+                    {"name": "Intro to Law", "template": "school_SH"},
+                    {"name": "Psychology", "template": "school_SH"},
+                    {"name": "Intro to Sociology", "template": "school_SH"},
+                    {"name": "AP Music Theory", "template": "AP_only"}
+                ]
+            }, {"type": "choice",
+                "name": "Module 4",
+                "limit": 1,
+                "minSelection": 0,
+                "subjects": [
+                    {"name": "App. Acting", "template": "school_SH"},
+                    {"name": "Arts 1", "template": "school_SH"},
+                    {"name": "Opera", "template": "school_SH"},
+                    {"name": "A Capella", "template": "school_SH"},
+                    {"id": "g11_m4_ap_envSci", "name": "AP ES", "template": "AP_only"},
+                    {"id": "g11_m4_ap_micro", "name": "AP Micro", "template": "AP_only"},
+                    {"id": "g11_m4_ap_macro", "name": "AP Macro", "template": "AP_only"},
+                    {"id": "g11_m4_ap_3d", "name": "AP 3D Art", "template": "AP_only"},
+                    {"id": "g11_m4_ap_draw", "name": "AP Drawing", "template": "AP_only"}
+                ]
+            }
+        ],
+        
+        "rules": {
+            "exclusionTags": [["AP", "nonAP"]],
+            "exclusionIds": [["g11_m2_ap_micro", "g11_m4_ap_micro", "g11_m4_maybe_same_micro"],
+                ["g11_m2_ap_macro", "g11_m4_ap_macro", "g11_m4_maybe_same_macro"]
+            ],
+            "dynamicLimits": [{
+                    "triggerModuleIndex": 2,
+                    "triggerCondition": ">= 2", "targetModuleIndices": [4, 5],
+                    "newLimit": 0
+                }
+            ],
+            "conditionalRequirements": [{
+                    "id": "econ_ap_rule", "trigger": {
+                        "selectedSubjectIds": ["g11_m2_ap_micro", "g11_m2_ap_macro"],
+                        "moduleConditions": [{"moduleIndex": 2, "minSelected": 1, "requireTag": "AP", "exactCount": 1}]
+                    },
+                    "requiresAnyOfSubjectIds": ["g11_m4_ap_draw", "g11_m4_ap_3d"],
+                    "errorMessage": "Selecting AP Econ in M2 with 1xM1 requires AP Drawing/3D in M4"
+                }, {"id": "ap_es_rule", "trigger": {
+                        "selectedSubjectIds": ["g11_m4_ap_envSci"],
+                        "moduleConditions": [{"moduleIndex": 5, "minSelected": 1}]
+                    },
+                    "enforceModuleLimits": [
+                        {"moduleIndex": 2, "newLimit": 1},
+                        {"moduleIndex": 4,"newLimit": 0}
+                    ], "errorMessage": "Selecting AP ES requires 1xM1 (and M3 is disabled :P)"
+                }
+            ],
+            "requirements": [{
+                    "triggerTag": "AP", "requiredAnyTag": ["AP"],
+                    "errorMessage": "??? how did you get the app to run in this state bro"
+                }
+            ]
+        },"track": {"id": "AP", "scoreMapId": "AP","displayName": "AP"}
+    }, {"id": "shsid2026grade11-alevel",
+        "name": "Grade 11",
+        "subtitle": "A-level",
+        "modules": [
+            {   "type": "core",
+                "limit": 0,
+                "minSelection": 0,
+                "subjects": [
+                    {   "name": "English", "weight": 6.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "S+", "offset": 0.35},
+                            {"name": "H", "offset": 0.2},
+                            {"name": "H+", "offset": 0.1}
+                        ]},
+                    {"name": "Math", "weight": 6.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "H", "offset": 0.2},
+                            {"name": "AS Math", "offset": 0.0, "tags": ["ASA2"]}
+                        ]
+                    }
+                ]
+            }, {"type": "choice",
+                "name": "World Languages",
+                "limit": 1,
+                "minSelection": 1,
+                "subjects": [
+                    {   "name": "Chinese",
+                        "weight": 3.0,
+                        "levels": [
+                            {"name": "L0-L6", "offset": 0.5},
+                            {"name": "L7-L8", "offset": 0.2},
+                            {"name": "L9-L10", "offset": 0.0}
+                        ]
+                    }, {"name": "World",
+                        "weight": 3.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "H", "offset": 0.0}
+                        ]
+                    }
+                ]
+            }, {"type": "choice",
+                "name": "Module 1 (Sciences)",
+                "limit": 2,
+                "minSelection": 1,
+                "subjects": [
+                    {   "id": "g11_m1_phy",
+                        "name": "Physics",
+                        "weight": 6.0,
+                            "levels": [
+                                {"name": "S", "offset": 0.5},
+                                {"name": "H", "offset": 0.25},
+                                {"name": "AS", "offset": 0.0, "tags": ["ASA2"]}
+                            ]
+                    }, {"id": "g11_m1_chem",
+                        "name": "Chemistry",
+                        "weight": 6.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "H", "offset": 0.25}
+                        ]
+                    }, {"id": "g11_m1_bio",
+                        "name": "Biology",
+                        "weight": 6.0,
+                        "levels": [
+                            {"name": "S", "offset": 0.5},
+                            {"name": "H", "offset": 0.25},
+                            {"name": "AS", "offset": 0.0, "tags": ["ASA2"]}
+                        ]
+                    }
+                ]
+            }, {"type": "choice",
+                "name": "Module 2 (Humanities)",
+                "limit": 1,
+                "minSelection": 1,
+                "subjects": [
+                    {"name": "US Overview", "template": "school_SH"},
+                    {"name": "Human Geography 2", "template": "school_SH"},
+                    {"name": "Chinese History", "template": "school_SH"},
+                    {"name": "Western Civ 1", "template": "school_SH"},
+                    {"name": "AS Economics", "template": "AS_only"},
+                    {"name": "AS Further Math", "template": "AS_only"}
+                ]
+            }, {"type": "choice",
+                "name": "Module 3 (Electives)",
+                "limit": 1,
+                "minSelection": 0,
+                "subjects": [
+                    {"name": "Env. Eng", "template": "school_SH"},
+                    {"name": "Philosophy", "template": "school_SH"},
+                    {"name": "Creative Writing", "template": "school_SH"},
+                    {"name": "Business Mgmt", "template": "school_SH"},
+                    {"name": "Computer Skills", "template": "school_SH"},
+                    {"name": "Intro to Law", "template": "school_SH"},
+                    {"name": "Psychology", "template": "school_SH"},
+                    {"name": "Intro to Sociology", "template": "school_SH"}
+                ]
+            }, {"type": "choice",
+                "name": "Module 4",
+                "limit": 1,
+                "minSelection": 0,
+                "subjects": [
+                    {"name": "App. Acting", "template": "school_SH"},
+                    {"name": "Arts 1", "template": "school_SH"},
+                    {"name": "Opera", "template": "school_SH"},
+                    {"name": "A Capella", "template": "school_SH"},
+                    {"name": "AS Chemistry", "template": "AS_only"},
+                    {"name": "AS Psychology", "template": "AS_only"}
+                ]
+            }
+        ], "track": {"id": "ASA2", "scoreMapId": "ASA2","displayName": "A-level"}
+    }, 
+    // 2-year IB course, partially contributed by ziqian-huang0607
+    {   "id": "shsid_ib_track",
+        "name": "IB Track",
+        "subtitle": "2-year IB (G11/G12)",
+        "modules": [
+            {   "type": "core",
+                "subjects": [
+                    {"name": "English A/B", "template": "IB_subject"},
+                    {"name": "Math AA/AI", "template": "IB_subject"},
+                    {"name": "Chinese A/B", "template": "IB_subject"},
+                    {"name": "ToK", "weight": 3.0, "levels": [{"name": "IB", "offset": 0.0, "tags": ["IB"]}]}
+                ]
+            }, {"type": "choice",
+                "name": "IB Electives",
+                "limit": 3,
+                "subjects": [
+                    {"name": "IB Physics", "template": "IB_subject"},
+                    {"name": "IB Chemistry", "template": "IB_subject"},
+                    {"name": "IB Biology", "template": "IB_subject"},
+                    {"name": "IB Economics", "template": "IB_subject"},
+                    {"name": "IB Business Mgmt", "template": "IB_subject"},
+                    {"name": "IB Psychology", "template": "IB_subject"},
+                    {"name": "IB History", "template": "IB_subject"},
+                    {"name": "IB Philosophy", "template": "IB_subject"},
+                    {"name": "IB Visual Arts", "template": "IB_subject"},
+                    {"name": "IB Comp Sci", "template": "IB_subject"},
+                    {"name": "IB ESS", "weight": 6.0, "levels": [{"name": "SL", "offset": 0.0, "tags": ["IB"]}]}
+                ]
+            }
+        ], "track": {"id": "IB", "scoreMapId": "IB", "displayName": "IB"}
+    }
+  ]
+}
