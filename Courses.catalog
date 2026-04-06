@@ -1,9 +1,6 @@
-// SHSID's continuously updated Course Catalog
-// 
-
 {
     "catalogName": "Course catalog 26-27 exp", 
     "version": "0.1 alpha", 
     "lastUpdated": "Apr 5 2026", 
-    "credit": "Indexademics, Data Science Club - willuhd, ziqian-huang0607", 
+    "credit": "Indexademics, Data Science Club - willuhd, ziqian-huang0607"
 }
