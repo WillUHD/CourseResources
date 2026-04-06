@@ -6,39 +6,4 @@
     "version": "0.1 alpha", 
     "lastUpdated": "Apr 5 2026", 
     "credit": "Indexademics, Data Science Club - willuhd, ziqian-huang0607", 
-    "grades": ["9", "10", "11", "12"],
-    "tracks": ["AP", "IB", "A-level"],
-    "courses": {
-
-        // the department name (eg. Bio, CS, Math, English, etc)
-        // This one is an example, refers to page 21 in the CC pdf ("page 18")
-        "Biology": {
-
-            // available courses
-            "9": {
-
-                // CC course ID (not shown publicly, but useful for indexing / backend)
-                "BIO109Eo10": {
-
-                    // CC information
-                    "name": "9S Biology", 
-                    "req": "", 
-                    "duration": "year", 
-                    "track": "", 
-
-                    // official CC intro
-                    "intro": "This is a standard level Biology course for the 9th....... and so on", 
-
-                    // the community notes
-                    "crowdNotes": "Biology 9s is actually very gay. HW is confusing and also quite shite.", 
-                    "crowdSuggestion": "Don't take it, take CS instead because CS has htz",
-                    "crowdDifficulty": "9.9",
-                    "crowdRate": "2.3"
-                }
-            }, 
-            // and so on for 10, 11, 12th grades
-        }, "another department": {
-            // whatever
-        }
-    }
 }
