@@ -5,7 +5,6 @@
 - Comments are defined by the regex `^\s*\/\/.*` (regex used for easy parsing in programs)
 - In words: full-line comments span a whole line, starting with any amount of whitespace, and then immediately after, `//`.
 - Files that follow the Common Course can have any convenient suffix (it doesn't matter). Usually, the prefix is something that the file itself (or the service using it) does (such as `.gpa`, `.catalog`).
-- As a best practice (currently), insert the license boilerplate at the end of the file. It's weird and may change in the future. 
 - Example:
   ```CommonCourse
   // this comment is OK.
