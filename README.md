@@ -1,5 +1,5 @@
 # GPAResources
-Continuously updated course profile of SHSID's new curriculums for the GPA Calculator app
+Continuously updated course profile and catalogs of SHSID's new curriculums for the GPA Calculator app
 
 ### `./Courses.gpa`
 - This is the current course profile for SHSID's high school, and will be continuously updated
@@ -7,6 +7,9 @@ Continuously updated course profile of SHSID's new curriculums for the GPA Calcu
 - Written in a custom JSON DSL with full-line comment support.
 - Resources (via gh-proxy mirror) is used by the [GPA Calc app](https://apps.apple.com/us/app/gpa-calculator-by-michel/id1540111715) 
 - Original app made by [MichelG](https://github.com/michelg10/), updated by me, contributions made by [ziqian-huang0607](https://github.com/Ziqian-Huang0607)
+
+### `./Course.catalog`
+- The catalog file used for the IDX Course Selection
 
 ### GPA Calc's logic
 - The app will download the continuously updated configuration file from here to use in its own UI.
