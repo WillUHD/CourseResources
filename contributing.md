@@ -18,7 +18,7 @@
 ### FAQs
 - **wHy nO inLiNe cOmMeNtS?!?**
   - Sorting inline comments will become slow to parse, especially for files that have thousands of lines.
-  - It is a design choice to not support inline comments, because it's also complex to solve for edge cases inside strings/quotes, nested strings, or string blocks.
+  - It is a design choice to not support inline comments, because it's also complex to solve for edge cases inside strings, nested strings, escaped quotes, and string blocks.
   - We think having full-line comments is enough to get the point across of what an inline comment would do.
   - PLEASE do not PR any related projects with aigc bug fixes claiming to add inline support. It's not planned for the specification.
 - **wHy nOt JSONc oR yAML ?!?** Requires extra, non-native dependencies especially for Swift. The project originally had no dependencies so I don't want the rework to bloat everything up.
