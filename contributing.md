@@ -5,6 +5,7 @@
 - Comments are defined by the regex `^\s*\/\/.*` (regex used for easy parsing in programs)
 - In words: full-line comments span a whole line, starting with any amount of whitespace, and then immediately after, `//`.
 - Files that follow the Common Course can have any convenient suffix (it doesn't matter). Usually, the prefix is something that the file itself (or the service using it) does (such as `.gpa`, `.catalog`).
+- If your app caches the data in any way, the best practice is to cache as-is (not a modified version with comments and license removed) in order to respect author credits, and then re-parse on the fly. 
 - Example:
   ```CommonCourse
   // this comment is OK.
