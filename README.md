@@ -18,5 +18,6 @@ Continuously updated course profiles and catalogs of SHSID's curriculums for cur
 - I'm the primary maintainer of these course configurations and this repository serves as the hosting point for all of them. They may contain contributions made by many people, credits given as-is in the files themselves (in a credits section or commented). For future SHSID course profile projects that need hosting, adding to this repository is recommended over making another one. 
 
 ### View the resources
-- `Courses.gpa` as raw [here](https://raw.githubusercontent.com/WillUHD/CourseResources/refs/heads/main/Courses.gpa), gh-proxy mirror [here](https://edgeone.gh-proxy.org/https://raw.githubusercontent.com/WillUHD/CourseResources/refs/heads/main/Courses.gpa) (the EdgeOne mirror is used in the iOS/web GPA Calculators and makes it available worldwide including mainland China)
+- For production (eg. iOS/web GPA Calculators), the EdgeOne mirrors are used. This makes the content accessible worldwide, including mainland China.
+- `Courses.gpa` as raw [here](https://raw.githubusercontent.com/WillUHD/CourseResources/refs/heads/main/Courses.gpa), gh-proxy mirror [here](https://edgeone.gh-proxy.org/https://raw.githubusercontent.com/WillUHD/CourseResources/refs/heads/main/Courses.gpa)
 - `Courses.catalog` as raw [here](https://raw.githubusercontent.com/WillUHD/CourseResources/refs/heads/main/Courses.catalog), gh-proxy mirror [here](https://edgeone.gh-proxy.org/https://raw.githubusercontent.com/WillUHD/CourseResources/refs/heads/main/Courses.catalog)
