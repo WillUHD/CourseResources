@@ -8,7 +8,7 @@ Continuously updated course profiles and catalogs of SHSID's curriculums for cur
 - Original app made by [MichelG](https://github.com/michelg10/)
 - Reworked by me (to include remote update functionality, rule checking, configurable score maps), with some IB contributions by [ziqian-huang0607](https://github.com/Ziqian-Huang0607)
 
-### `Courses.catalog` (last update: `April 5, 2026`)
+### `Courses.catalog` (last update: `April 7, 2026`)
 - The catalog file used for SHSID's interactive course planner (made by Indexademics)
 - Currently in alpha! PRs NOT(!!!) welcome we are sTILL testing; contact me in person if something is really wrong.
 
@@ -18,7 +18,5 @@ Continuously updated course profiles and catalogs of SHSID's curriculums for cur
 - I'm the primary maintainer of these course configurations and this repository serves as the hosting point for all of them. They may contain contributions made by many people, credits given as-is in the files themselves (in a credits section or commented). For future SHSID course profile projects that need hosting, adding to this repository is recommended over making another one. 
 
 ### View the resources
-- `Courses.gpa` as raw [here](https://raw.githubusercontent.com/WillUHD/CourseResources/refs/heads/main/Courses.gpa)
-- `Courses.gpa` as a gh-proxy mirror [here](https://edgeone.gh-proxy.org/https://raw.githubusercontent.com/WillUHD/CourseResources/refs/heads/main/Courses.gpa)
-  > This is the URL used in the iOS/web GPA Calculators. The gh-proxy mirror via EdgeOne makes it available worldwide including mainland China.
-
+- `Courses.gpa` as raw [here](https://raw.githubusercontent.com/WillUHD/CourseResources/refs/heads/main/Courses.gpa), gh-proxy mirror [here](https://edgeone.gh-proxy.org/https://raw.githubusercontent.com/WillUHD/CourseResources/refs/heads/main/Courses.gpa) (the EdgeOne mirror is used in the iOS/web GPA Calculators and makes it available worldwide including mainland China)
+- `Courses.catalog` as raw [here](https://raw.githubusercontent.com/WillUHD/CourseResources/refs/heads/main/Courses.catalog), gh-proxy mirror [here](https://edgeone.gh-proxy.org/https://raw.githubusercontent.com/WillUHD/CourseResources/refs/heads/main/Courses.catalog)
