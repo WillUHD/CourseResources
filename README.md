@@ -1,4 +1,4 @@
-# CourseReasources
+# CourseResources
 Continuously updated course profiles and catalogs of SHSID's curriculums for curriculum services. 
 
 ### `Courses.gpa` (last update: `April 1, 2026`)
