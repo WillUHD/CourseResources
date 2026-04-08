@@ -1,6 +1,560 @@
 {
     "catalogName": "Course catalog 26-27 exp", 
     "version": "0.1 alpha", 
-    "lastUpdated": "Apr 5 2026", 
-    "credit": "Indexademics, Data Science Club - willuhd, ziqian-huang0607"
+    "lastUpdated": "Apr 8", 
+    "credit": "willuhd",
+    "grades": [
+        "9",
+        "10",
+        "11",
+        "12"
+    ],
+    "tracks": [
+        "school",
+        "AP",
+        "IB",
+        "ASA2"
+    ],
+    "departments": {
+        "biology": {
+            "9": [
+                {
+                    "id": "BIO109E010",
+                    "name": "Biology 9 Standard",
+                    "track": "school",
+                    "level": "S",
+                    "description": "This is a standard level Biology course for the 9th grade students. It gives students the opportunity to experience Biology before making their choices in grades 10, 11 and 12, and to develop skills and interest within the scope of Biology disciplines. The topics covered include: Ecology and Evolution. After learning this course, students should know the basic terms and general ideas of Ecosystem and Biogeography, and learn how living things react to their environments, what the history and \"rule\" of Evolution is. This course will also use lab practices, field studies, and seminars to help students build critical thinking and grasp basic experimental technique that will be used and expanded on in future Biology courses.",
+                    "crowdRating": 6.7,
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "crowdPopularity": 6.7
+                },
+                {
+                    "id": "BIO109E030",
+                    "name": "Biology 9 Honors",
+                    "track": "school",
+                    "level": "H",
+                    "description": "This is an honors level Biology course for the 9th grade students. It gives students the opportunity to experience Biology before making their choices in grades 10, 11 and 12, and to develop a deeper understanding of Biology-specific lab skills and thought processes. The course develops student understanding in the areas of Ecology and Evolution. Though using the same textbook, this Honors Biology course differs significantly from the standard level course in Biology with respect to the range and depth of topics covered, the type of laboratory work done by students, and the time and effort required of students. Students are required to understand about Darwin's Theory of Evolution, Evidence of Evolution, Patterns and Processes of Evolution, Nutrient Cycle and Energy Flow in the Ecosystem, and Basic Concepts of Ecology. Through daily homework assignments, lab experiments, projects, and regular exams, students will gain the knowledge of Evolution and Ecology and the ability of scientific inquiry and reasoning.",
+                    "crowdRating": 6.7,
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "crowdPopularity": 6.7,
+                    "rules": {
+                        "pre": [
+                            [
+                                "BIO008E030"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG109SPLUS"
+                            ]
+                        ]
+                    }
+                }
+            ],
+            "10": [
+                {
+                    "id": "BIO110E010",
+                    "name": "Biology 10 Standard",
+                    "track": "school",
+                    "level": "S",
+                    "description": "This is a standard level Biology course for the 10th grade students. It gives students the opportunity to experience Biology before making their choices in grades 11 and 12, and to develop skills and interest within the scope of Biology disciplines. The topics covered include: the Science of Biology, the Chemistry of Life, Cell Structure and Function, Photosynthesis, Cellular Respiration, Cell Growth and Division, Introduction to Genetics, and Modern/ Molecular Genetics. Through daily homework assignments, lab experiments, projects, and regular exams, students will gain a basic understanding of how scientific knowledge is acquired, analyzed, and supported in the fields of Biology.",
+                    "crowdRating": 6.7,
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "crowdPopularity": 6.7
+                },
+                {
+                    "id": "BIO110E030",
+                    "name": "Biology 10 Honors",
+                    "track": "school",
+                    "level": "H",
+                    "description": "This is a 10th grade Honors Biology course designed to be taken by students who intends to undertake IB/AP Biology in their junior years, Though using the same textbook, this Honors Biology course differs significantly from the Standard level course in Biology with respect to the range and depth of topics covered, the type of laboratory work done by students, and the time and effort required of students. Students in this course are required to study topics including Biochemistry, Cell Biology, Genetics, and Biotechnology in greater depth, and to study additional topics aligned with the IB/AP Biology. By carrying out laboratory work, students are encouraged to develop important skills such as detailed observation, accurate recording, experimental design, manual manipulation, data interpretation, statistical analysis, and operation of technical equipment. This two-semester course will provide students with the conceptual framework, factual knowledge and analytical skills necessary for the IB/AP Biology. Successful completion of this course is a prerequisite for IB and AP Biology.",
+                    "crowdRating": 6.7,
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "crowdPopularity": 6.7,
+                    "rules": {
+                        // Solves the OR problem natively: Bio 8 H OR Bio 9 H
+                        "pre": [
+                            [
+                                "BIO008E030",
+                                "BIO109E030"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG110SPLUS"
+                            ]
+                        ]
+                    }
+                }
+            ],
+            "11": [
+                {
+                    "id": "BIO111E010",
+                    "name": "Elective Biology Standard 11",
+                    "track": "school",
+                    "level": "S",
+                    "description": "This course is designed to students who want to explore more in the world of Biology and who may consider Biology as a major in the university, to make a connection between the high school and college curriculums for the students, We use the Glencoe Science Biology (2013 version) as our textbook, which is shared with H Level, and follow the topics Ecology, Cell Biology, Genetics, Biodiversity, Taxonomy, Botany, Zoology, and Physiology, which are major branches of Biology. Our aim is to let the students have a broader understanding of Biology, and develop some experimental skills to study practical problems.",
+                    "crowdRating": 6.7,
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "crowdPopularity": 6.7
+                },
+                {
+                    "id": "BIO111E030",
+                    "name": "Elective Biology Honors 11",
+                    "track": "school",
+                    "level": "H",
+                    "description": "This course is designed for students who have already developed an interest in Biology and who have a strong Biology basis through the previous studying and who may consider Biology as a major in the university. We use the Glencoe Science Biology (2013 version) as our textbook and follow the topics Ecology, Cell Biology, Genetics, Biodiversity, Taxonomy, Botany, Zoology, and Physiology, which are major branches of Biology. The Honors Biology course is different from the standard level in Biology with respect to the depth of topics covered, the requirement for experimental skills, the amount of homework assigned, and the time and effort required. We also develop some project and presentations for the students so that they are encouraged to develop a capacity for self-study, professional presentation and critical thinking. Our aim is to let the students have a broader understanding of Biology, a better grasp of the basic biological processes (details involved), a solid basis on practical skills.",
+                    "crowdRating": 6.7,
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "crowdPopularity": 6.7,
+                    "rules": {
+                        "pre": [
+                            [
+                                "BIO110E010",
+                                "BIO110E030"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG111SPLUS"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "id": "BIO111E070",
+                    "name": "AP Biology 11",
+                    "track": "AP",
+                    "description": "The AP Biology course is designed to be the equivalent of a college introductory course usually taken by biology majors during their first year. The course framework includes two essential components: science practices and course contents. Science practices are skills that are fundamental to the discipline of Biology, and students are trained to develop those skills during this course. Examples of science practices include concept explanation, visual representation, representation and describing data, etc. The course content is organized into eight units: chemistry of life, cell structure and function, cellular energetics, cell communication and cell cycle, heredity, gene expression and regulation, natural selection, and ecology. The goal of this course will be readiness for the study of advanced topics in subsequent college courses. All students enrolled in an AP subject must sit the external exam at the end of the school year.",
+                    "crowdRating": 6.7,
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "crowdPopularity": 6.7,
+                    "rules": {
+                        "pre": [
+                            [
+                                "BIO110E030"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG111SPLUS"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "id": "ENV111E070",
+                    "name": "AP Environmental Science 11",
+                    "track": "AP",
+                    "description": "The AP Environmental Science course is designed to be the equivalent of a one-semester, introductory college course in environmental science. Environmental science is offered from a wide variety of departments, including geology, biology, environmental studies, environmental studies, environmental science, chemistry, and geography. The goal of the course is to provide students with the scientific principles, concepts, and methodologies required to understand the interrelationships of the natural world, to identify and analyze environmental problems both natural and human-made, to evaluate the relative risks associated with these problems, to examine alternative solutions for resolving and/or preventing them, and to develop and focus their own political perspective. AP Environmental science is interdisciplinary; it embraces a wide variety of topics from different areas of study. Yet there are several major unifying constructs, or themes, that cut across the many topics included in the study of environmental science. The following themes provide a foundation for the structure of the AP Environmental Science course: Science is a process. Energy conversions underlie all ecological processes. The Earth itself is one interconnected system. Humans alter natural systems. Environmental problems have a cultural and social context. Human survival depends on developing practices that will achieve sustainable systems.",
+                    "crowdRating": 6.7,
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "crowdPopularity": 6.7,
+                    "rules": {
+                        "pre": [
+                            [
+                                "BIO110E030",
+                                "CHE110E030"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG111H"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "id": "ENV111E100",
+                    "name": "Environmental Engineering 11",
+                    "track": "school",
+                    "description": "Environmental Engineering is the branch of engineering that is concerned with protecting people from the effects of adverse environmental effects, such as pollution, as well as improving environmental quality. This course is designed for students who are interested in environmental issues and the scientific principles involved. The course includes energy mechanics, conservation of energy, heat and work, environmental issues like air pollution, global warming and thermal pollution, different types of traditional energy sources and alternative energy sources. The goal of this course is to provide students with the basic physical principles behind the different energy transformations, to seek potential solutions to environmental issues arising from energy use, to understand the environmental, social and economic tradeoffs that must be made and to improve students' environmental awareness.",
+                    "crowdRating": 6.7,
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "crowdPopularity": 6.7,
+                    "rules": {
+                        "current": [
+                            [
+                                "ENG111SPLUS"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "id": "ENV111E040",
+                    "name": "IB Environmental Systems and Societies SL Y1",
+                    "track": "IB",
+                    "level": "SL",
+                    "description": "The ESS curriculum includes three unifying concepts that are revisited throughout the course: Perspectives, Systems and Sustainability. Perspectives allow students to develop deeper understandings of worldviews and individual perspectives on environmental issues. Systems theory allows students to apply holistic analysis and understand the mechanics and purpose of human constructed systems and the function of natural ones. The concept of sustainability is also central to ESS. Resource management issues are pivotal to sustainability, and students' attention is drawn to this throughout the course. In addition, the syllabus is organized around seven topics - Ecology, Biodiversity and conservation, Water, Land, Atmosphere and climate change, Natural resources, Human populations and urban systems - giving students the understandings required to engage with a wide range of environmental issues.",
+                    "crowdRating": 6.7,
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "crowdPopularity": 6.7,
+                    "rules": {
+                        "pre": [
+                            [
+                                "BIO110E030",
+                                "CHE110E030"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG111H"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "id": "BIO111E040",
+                    "name": "IB Biology SL Y1",
+                    "track": "IB",
+                    "level": "SL",
+                    "description": "The IB Biology program is structured into two tiers: Standard Level (SL) and Higher Level (HL). In the recently revised curriculum for the 2025 assessment, both SL and HL students engage with a shared core syllabus and a unified scientific investigation framework. This new syllabus is organized around four key themes: Unity and Diversity, Form and Function, Interactions and Interdependencies, and Continuity and Change. These overarching themes are further delineated into four levels of biological organization, namely Molecules, Cells, Organisms, and Ecosystems. The designed curriculum fosters the cultivation of specific skills, attributes, and dispositions. While the fundamental skills and practical activities in Biology remain consistent for both SL and HL students, those pursuing HL are expected to delve deeper into certain topics through the exploration of additional higher-level (AHL) materials. The primary difference between SL and HL lies in the scope and intensity of the subject matter. This course is geared towards highly motivated students who are eager to embrace intellectual challenges. By studying IB Biology, students gain insights into the scientific community's collaborative work ethos and communication practices. Emphasis is placed on the practical application of the scientific method through hands-on experimental work. It is mandatory for all students enrolled in an IB subject to take the external exam at the conclusion of Year 2.",
+                    "crowdRating": 6.7,
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "crowdPopularity": 6.7,
+                    "rules": {
+                        "pre": [
+                            [
+                                "BIO110E030"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG111H"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "id": "BIO111E050",
+                    "name": "IB Biology HL Y1",
+                    "track": "IB",
+                    "level": "HL",
+                    "description": "The IB Biology program is structured into two tiers: Standard Level (SL) and Higher Level (HL). In the recently revised curriculum for the 2025 assessment, both SL and HL students engage with a shared core syllabus and a unified scientific investigation framework. This new syllabus is organized around four key themes: Unity and Diversity, Form and Function, Interactions and Interdependencies, and Continuity and Change. These overarching themes are further delineated into four levels of biological organization, namely Molecules, Cells, Organisms, and Ecosystems. The designed curriculum fosters the cultivation of specific skills, attributes, and dispositions. While the fundamental skills and practical activities in Biology remain consistent for both SL and HL students, those pursuing HL are expected to delve deeper into certain topics through the exploration of additional higher-level (AHL) materials. The primary difference between SL and HL lies in the scope and intensity of the subject matter. This course is geared towards highly motivated students who are eager to embrace intellectual challenges. By studying IB Biology, students gain insights into the scientific community's collaborative work ethos and communication practices. Emphasis is placed on the practical application of the scientific method through hands-on experimental work. It is mandatory for all students enrolled in an IB subject to take the external exam at the conclusion of Year 2.",
+                    "crowdRating": 6.7,
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "crowdPopularity": 6.7,
+                    "rules": {
+                        "pre": [
+                            [
+                                "BIO110E030"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG111H"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "id": "BIO111E080",
+                    "name": "A-Level Biology AS",
+                    "track": "ASA2",
+                    "level": "AS",
+                    "description": "This course is designed for students who have already developed an interest in Biology and plan to take AS and A-Level biology exam in grade 11 and 12. We use the International A-Level Biology (Oxford International AQA examination) as our textbook and follow the topics of diversity of living organisms, biological system and disease, population and genes, control and practical experiment. We provide the course in aspect of updated A-Level curriculum, as well as sample exercises and corresponding assignments. Experiment design and discussion are also framed around all contents. Students who take an A-Level Biology course will mainly develop advanced inquiry and reasoning skill. Students can take the International Advanced Subsidiary Biology (AS) test in the first year and Advanced Level biology (A2) test in the second year after learning.",
+                    "crowdRating": 6.7,
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "crowdPopularity": 6.7,
+                    "rules": {
+                        "pre": [
+                            [
+                                "BIO110E010",
+                                "BIO110E030"
+                            ]
+                        ]
+                    }
+                }
+            ],
+            "12": [
+                {
+                    "id": "BIO112E010",
+                    "name": "Elective Biology Standard 12",
+                    "track": "school",
+                    "level": "S",
+                    "description": "This course is designed to students who want to explore more in the world of Biology and who may consider Biology as a major in the university, to make a connection between the high school and college curriculums for the students, We use the Glencoe Science Biology (2013 version) as our textbook, which is shared with H Level, and follow the topics Ecology, Cell Biology, Genetics, Biodiversity, Taxonomy, Botany, Zoology, and Physiology, which are major branches of Biology. Our aim is to let the students have a broader understanding of Biology, and develop some experimental skills to study practical problems.",
+                    "crowdRating": 6.7,
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "crowdPopularity": 6.7
+                },
+                {
+                    "id": "BIO112E030",
+                    "name": "Elective Biology Honors 12",
+                    "track": "school",
+                    "level": "H",
+                    "description": "This course is designed for students who have already developed an interest in Biology and who have a strong Biology basis through the previous studying and who may consider Biology as a major in the university. We use the Glencoe Science Biology (2013 version) as our textbook and follow the topics Ecology, Cell Biology, Genetics, Biodiversity, Taxonomy, Botany, Zoology, and Physiology, which are major branches of Biology. The Honors Biology course is different from the standard level in Biology with respect to the depth of topics covered, the requirement for experimental skills, the amount of homework assigned, and the time and effort required. We also develop some project and presentations for the students so that they are encouraged to develop a capacity for self-study, professional presentation and critical thinking. Our aim is to let the students have a broader understanding of Biology, a better grasp of the basic biological processes (details involved), a solid basis on practical skills.",
+                    "crowdRating": 6.7,
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "crowdPopularity": 6.7,
+                    "rules": {
+                        "pre": [
+                            [
+                                "BIO110E010",
+                                "BIO110E030"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG112SPLUS"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "id": "BIO112E070",
+                    "name": "AP Biology 12",
+                    "track": "AP",
+                    "description": "The AP Biology course is designed to be the equivalent of a college introductory course usually taken by biology majors during their first year. The course framework includes two essential components: science practices and course contents. Science practices are skills that are fundamental to the discipline of Biology, and students are trained to develop those skills during this course. Examples of science practices include concept explanation, visual representation, representation and describing data, etc. The course content is organized into eight units: chemistry of life, cell structure and function, cellular energetics, cell communication and cell cycle, heredity, gene expression and regulation, natural selection, and ecology. The goal of this course will be readiness for the study of advanced topics in subsequent college courses. All students enrolled in an AP subject must sit the external exam at the end of the school year.",
+                    "crowdRating": 6.7,
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "crowdPopularity": 6.7,
+                    "rules": {
+                        "pre": [
+                            [
+                                "BIO111E030",
+                                "CHE111E070",
+                                "ENV111E070"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG112SPLUS"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "id": "ENV112E070",
+                    "name": "AP Environmental Science 12",
+                    "track": "AP",
+                    "description": "The AP Environmental Science course is designed to be the equivalent of a one-semester, introductory college course in environmental science. Environmental science is offered from a wide variety of departments, including geology, biology, environmental studies, environmental studies, environmental science, chemistry, and geography. The goal of the course is to provide students with the scientific principles, concepts, and methodologies required to understand the interrelationships of the natural world, to identify and analyze environmental problems both natural and human-made, to evaluate the relative risks associated with these problems, to examine alternative solutions for resolving and/or preventing them, and to develop and focus their own political perspective. AP Environmental science is interdisciplinary; it embraces a wide variety of topics from different areas of study. Yet there are several major unifying constructs, or themes, that cut across the many topics included in the study of environmental science. The following themes provide a foundation for the structure of the AP Environmental Science course: Science is a process. Energy conversions underlie all ecological processes. The Earth itself is one interconnected system. Humans alter natural systems. Environmental problems have a cultural and social context. Human survival depends on developing practices that will achieve sustainable systems.",
+                    "crowdRating": 6.7,
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "crowdPopularity": 6.7,
+                    "rules": {
+                        "pre": [
+                            [
+                                "BIO111E070",
+                                "CHE111E070"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG112H"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "id": "ENV112E100",
+                    "name": "Environmental Engineering 12",
+                    "track": "school",
+                    "description": "Environmental Engineering is the branch of engineering that is concerned with protecting people from the effects of adverse environmental effects, such as pollution, as well as improving environmental quality. This course is designed for students who are interested in environmental issues and the scientific principles involved. The course includes energy mechanics, conservation of energy, heat and work, environmental issues like air pollution, global warming and thermal pollution, different types of traditional energy sources and alternative energy sources. The goal of this course is to provide students with the basic physical principles behind the different energy transformations, to seek potential solutions to environmental issues arising from energy use, to understand the environmental, social and economic tradeoffs that must be made and to improve students' environmental awareness.",
+                    "crowdRating": 6.7,
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "crowdPopularity": 6.7,
+                    "rules": {
+                        "current": [
+                            [
+                                "ENG112SPLUS"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "id": "ENV112E040",
+                    "name": "IB Environmental Systems and Societies SL Y2",
+                    "track": "IB",
+                    "level": "SL",
+                    "description": "The ESS curriculum includes three unifying concepts that are revisited throughout the course: Perspectives, Systems and Sustainability. Perspectives allow students to develop deeper understandings of worldviews and individual perspectives on environmental issues. Systems theory allows students to apply holistic analysis and understand the mechanics and purpose of human constructed systems and the function of natural ones. The concept of sustainability is also central to ESS. Resource management issues are pivotal to sustainability, and students' attention is drawn to this throughout the course. In addition, the syllabus is organized around seven topics - Ecology, Biodiversity and conservation, Water, Land, Atmosphere and climate change, Natural resources, Human populations and urban systems - giving students the understandings required to engage with a wide range of environmental issues.",
+                    "crowdRating": 6.7,
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "crowdPopularity": 6.7,
+                    "rules": {
+                        "pre": [
+                            [
+                                "ENV111E040"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG112H"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "id": "BIO112E040",
+                    "name": "IB Biology SL Y2",
+                    "track": "IB",
+                    "level": "SL",
+                    "description": "The IB Biology program is structured into two tiers: Standard Level (SL) and Higher Level (HL). In the recently revised curriculum for the 2025 assessment, both SL and HL students engage with a shared core syllabus and a unified scientific investigation framework. This new syllabus is organized around four key themes: Unity and Diversity, Form and Function, Interactions and Interdependencies, and Continuity and Change. These overarching themes are further delineated into four levels of biological organization, namely Molecules, Cells, Organisms, and Ecosystems. The designed curriculum fosters the cultivation of specific skills, attributes, and dispositions. While the fundamental skills and practical activities in Biology remain consistent for both SL and HL students, those pursuing HL are expected to delve deeper into certain topics through the exploration of additional higher-level (AHL) materials. The primary difference between SL and HL lies in the scope and intensity of the subject matter. This course is geared towards highly motivated students who are eager to embrace intellectual challenges. By studying IB Biology, students gain insights into the scientific community's collaborative work ethos and communication practices. Emphasis is placed on the practical application of the scientific method through hands-on experimental work. It is mandatory for all students enrolled in an IB subject to take the external exam at the conclusion of Year 2.",
+                    "crowdRating": 6.7,
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "crowdPopularity": 6.7,
+                    "rules": {
+                        "pre": [
+                            [
+                                "BIO111E040"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG112H"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "id": "BIO112E050",
+                    "name": "IB Biology HL Y2",
+                    "track": "IB",
+                    "level": "HL",
+                    "description": "The IB Biology program is structured into two tiers: Standard Level (SL) and Higher Level (HL). In the recently revised curriculum for the 2025 assessment, both SL and HL students engage with a shared core syllabus and a unified scientific investigation framework. This new syllabus is organized around four key themes: Unity and Diversity, Form and Function, Interactions and Interdependencies, and Continuity and Change. These overarching themes are further delineated into four levels of biological organization, namely Molecules, Cells, Organisms, and Ecosystems. The designed curriculum fosters the cultivation of specific skills, attributes, and dispositions. While the fundamental skills and practical activities in Biology remain consistent for both SL and HL students, those pursuing HL are expected to delve deeper into certain topics through the exploration of additional higher-level (AHL) materials. The primary difference between SL and HL lies in the scope and intensity of the subject matter. This course is geared towards highly motivated students who are eager to embrace intellectual challenges. By studying IB Biology, students gain insights into the scientific community's collaborative work ethos and communication practices. Emphasis is placed on the practical application of the scientific method through hands-on experimental work. It is mandatory for all students enrolled in an IB subject to take the external exam at the conclusion of Year 2.",
+                    "crowdRating": 6.7,
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "crowdPopularity": 6.7,
+                    "rules": {
+                        "pre": [
+                            [
+                                "BIO111E050"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG112H"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "id": "BIO112E080",
+                    "name": "A-Level Biology A2",
+                    "track": "ASA2",
+                    "level": "A2",
+                    "description": "This course is designed for students who have already developed an interest in Biology and plan to take AS and A-Level biology exam in grade 11 and 12. We use the International A-Level Biology (Oxford International AQA examination) as our textbook and follow the topics of diversity of living organisms, biological system and disease, population and genes, control and practical experiment. We provide the course in aspect of updated A-Level curriculum, as well as sample exercises and corresponding assignments. Experiment design and discussion are also framed around all contents. Students who take an A-Level Biology course will mainly develop advanced inquiry and reasoning skill. Students can take the International Advanced Subsidiary Biology (AS) test in the first year and Advanced Level biology (A2) test in the second year after learning.",
+                    "crowdRating": 6.7,
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "crowdPopularity": 6.7,
+                    "rules": {
+                        "pre": [
+                            [
+                                "BIO111E080"
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        // Flat array of edge-case/external nodes required to satisfy biology prerequisites
+        "residuals": [
+            {
+                "id": "BIO008E030",
+                "name": "Biology 8 Honors",
+                "track": "school",
+                "grade": "8",
+                "subject": "biology",
+                "level": "H",
+                "description": "Pre-high school honors track foundational biology.",
+                "crowdRating": 7.0,
+                "crowdReview": "Good intro course before hitting G9.",
+                "crowdPopularity": 7.5
+            },
+            {
+                "id": "ENG109SPLUS",
+                "name": "English 9 S+",
+                "track": "school",
+                "grade": "9",
+                "subject": "english",
+                "level": "S+",
+                "description": "Standard Plus Level English for Grade 9.",
+                "crowdRating": 6.5,
+                "crowdReview": "Heavy workload but necessary.",
+                "crowdPopularity": 8.0
+            },
+            {
+                "id": "ENG110SPLUS",
+                "name": "English 10 S+",
+                "track": "school",
+                "grade": "10",
+                "subject": "english",
+                "level": "S+",
+                "description": "Standard Plus Level English for Grade 10.",
+                "crowdRating": 6.5,
+                "crowdReview": "Required for higher track sciences.",
+                "crowdPopularity": 8.0
+            },
+            {
+                "id": "ENG111SPLUS",
+                "name": "English 11 S+",
+                "track": "school",
+                "grade": "11",
+                "subject": "english",
+                "level": "S+",
+                "description": "Standard Plus Level English for Grade 11.",
+                "crowdRating": 6.5,
+                "crowdReview": "Standard English course.",
+                "crowdPopularity": 8.0
+            },
+            {
+                "id": "ENG112SPLUS",
+                "name": "English 12 S+",
+                "track": "school",
+                "grade": "12",
+                "subject": "english",
+                "level": "S+",
+                "description": "Standard Plus Level English for Grade 12.",
+                "crowdRating": 6.5,
+                "crowdReview": "Standard English course.",
+                "crowdPopularity": 8.0
+            },
+            {
+                "id": "ENG111H",
+                "name": "English 11 Honors",
+                "track": "school",
+                "grade": "11",
+                "subject": "english",
+                "level": "H",
+                "description": "Honors Level English for Grade 11.",
+                "crowdRating": 7.5,
+                "crowdReview": "Rigorous writing expectations.",
+                "crowdPopularity": 6.0
+            },
+            {
+                "id": "ENG112H",
+                "name": "English 12 Honors",
+                "track": "school",
+                "grade": "12",
+                "subject": "english",
+                "level": "H",
+                "description": "Honors Level English for Grade 12.",
+                "crowdRating": 7.5,
+                "crowdReview": "Rigorous writing expectations.",
+                "crowdPopularity": 6.0
+            },
+            {
+                "id": "CHE110E030",
+                "name": "Chemistry 10 Honors",
+                "track": "school",
+                "grade": "10",
+                "subject": "chemistry",
+                "level": "H",
+                "description": "Honors Level Chemistry for Grade 10.",
+                "crowdRating": 8.0,
+                "crowdReview": "Great prep for AP.",
+                "crowdPopularity": 8.5
+            },
+            {
+                "id": "CHE111E070",
+                "name": "AP Chemistry",
+                "track": "AP",
+                "grade": "11",
+                "subject": "chemistry",
+                "description": "AP Chemistry course equivalent to college freshman chemistry.",
+                "crowdRating": 8.5,
+                "crowdReview": "Very difficult but rewarding.",
+                "crowdPopularity": 7.5
+            }
+        ]
+    }
 }
