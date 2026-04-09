@@ -57,6 +57,8 @@
                     "description": "This is a standard level Biology course for the 10th grade students. It gives students the opportunity to experience Biology before making their choices in grades 11 and 12, and to develop skills and interest within the scope of Biology disciplines. The topics covered include: the Science of Biology, the Chemistry of Life, Cell Structure and Function, Photosynthesis, Cellular Respiration, Cell Growth and Division, Introduction to Genetics, and Modern/ Molecular Genetics. Through daily homework assignments, lab experiments, projects, and regular exams, students will gain a basic understanding of how scientific knowledge is acquired, analyzed, and supported in the fields of Biology.",
                     "crowdRating": 6.7,
                     "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "moveUp": "Strong midyear performance may qualify students to move up into Honors Biology 10.",
+                    "moveUpTargetId": "BIO110E030",
                 },
                 {
                     "id": "BIO110E030",
