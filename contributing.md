@@ -17,14 +17,13 @@
 - Use this regex in code: `^\s*\/\/.*`
 
 ### JSON best practices
-- The preferred style is a "hybrid-compact human-readable JSON with cuddled brackets"
+- The preferred style is a "hybrid-compact human-readable JSON with cuddled brackets" with 4-space indenting and preferred space padding for alignment
 - The goal is a high-density, human-readable format that minimizes vertical & horizontal line stress (but mainly vertical) by bridging delimiters (similar? to TOON). You can find examples all in this repo here!
 - Specific styling:
-  - Never place a closing bracket on its own line if another item follows it - do it like `], "10": [` or `}, {`
+  - Start the first property on the same line as its opening brace, padded with 3 spaces so it aligns with the rest on the 4-space indent (like `{   "id": "name",`)
+  - Cuddling properties fit perfectly on the 4-space indent (following the previous example, like `}, {"id": "name2",`)
   - Only expand primary object properties (like `id`, `name`, `description`) onto new lines
-  - Simple nested structures (like single-element arrays) remain on a single line unless they exceed a general rule of thumb for horizontal complexity or length
-  - Minimize vertical whitespace by trailing the opening bracket of a new object or array immediately after the previous one's closing bracket
-  - Ensure the first property of a nested object starts on the same line as the opening brace to keep the block tight
+  - Simple nested structures (like single-element arrays) remain on a single line unless they exceed a general rule of thumb for horizontal complexity/length
 
 ### FAQs
 - **wHy nO inLiNe cOmMeNtS?!?**
