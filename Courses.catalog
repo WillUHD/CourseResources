@@ -5,7 +5,7 @@
 
 {
     "catalogName": "Course catalog 26-27 (experimental)",
-    "version": "0.3a",
+    "version": "0.3b",
     "lastUpdated": "Apr 9, 2026",
     "grades": ["9", "10", "11", "12"],
     "tracks": ["school", "AP", "IB", "ASA2"],
@@ -26,7 +26,7 @@
                     "description": "This is an honors level Biology course for the 9th grade students. It gives students the opportunity to experience Biology before making their choices in grades 10, 11 and 12, and to develop a deeper understanding of Biology-specific lab skills and thought processes. The course develops student understanding in the areas of Ecology and Evolution. Though using the same textbook, this Honors Biology course differs significantly from the standard level course in Biology with respect to the range and depth of topics covered, the type of laboratory work done by students, and the time and effort required of students. Students are required to understand about Darwin's Theory of Evolution, Evidence of Evolution, Patterns and Processes of Evolution, Nutrient Cycle and Energy Flow in the Ecosystem, and Basic Concepts of Ecology. Through daily homework assignments, lab experiments, projects, and regular exams, students will gain the knowledge of Evolution and Ecology and the ability of scientific inquiry and reasoning.",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": {"current": [["MISSING: ENG 9S+"]]}
+                    "rules": {"current": [["ENG009S120"]]}
                 }
             ], "10": [
                 {   "id": "BIO110E010",
@@ -45,7 +45,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["BIO109E030"]], 
-                        "current": [["MISSING: ENG 10S+"]]
+                        "current": [["ENG010S120"]]
                     }
                 }
             ], "11": [
@@ -66,7 +66,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["BIO110E010", "BIO110E030"]], 
-                        "current": [["MISSING: ENG 11S+"]], 
+                        "current": [["ENG011S120"]], 
                         "next": [["BIO112E030"]]
                     }
                 }, { "id": "BIO111E070",
@@ -77,7 +77,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["BIO110E030"]], 
-                        "current": [["MISSING: ENG 11S+"]]
+                        "current": [["ENG011S120"]]
                     }
                 }, { "id": "ENV111E070",
                     "name": "AP Environmental Science 11",
@@ -87,7 +87,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["BIO110E030", "CHE110E030"]], 
-                        "current": [["MISSING: ENG 11H"]]
+                        "current": [["ENG011F130"]]
                     }
                 }, { "id": "ENV111E100",
                     "name": "Environmental Engineering 11",
@@ -95,7 +95,7 @@
                     "description": "Environmental Engineering is the branch of engineering that is concerned with protecting people from the effects of adverse environmental effects, such as pollution, as well as improving environmental quality. This course is designed for students who are interested in environmental issues and the scientific principles involved. The course includes energy mechanics, conservation of energy, heat and work, environmental issues like air pollution, global warming and thermal pollution, different types of traditional energy sources and alternative energy sources. The goal of this course is to provide students with the basic physical principles behind the different energy transformations, to seek potential solutions to environmental issues arising from energy use, to understand the environmental, social and economic tradeoffs that must be made and to improve students' environmental awareness.",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "current": [["MISSING: TOEFL 90 or IELTS 6.5 or English S+ level"]] }
+                    "rules": { "current": [["ENG011S120"]] }
                 }, { "id": "ENV111E040",
                     "name": "IB Environmental Systems and Societies SL Y1",
                     "track": "IB",
@@ -105,7 +105,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["BIO110E030", "CHE110E030"]], 
-                        "current": [["MISSING: ENG 11H"]], 
+                        "current": [["ENG011F130"]], 
                         "next": [["ENV112E040"]]
                     }
                 }, { "id": "BIO111E040",
@@ -117,7 +117,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["BIO110E030"]], 
-                        "current": [["MISSING: ENG 11H"]], 
+                        "current": [["ENG011F130"]], 
                         "next": [["BIO112E040"]]
                     }
                 }, { "id": "BIO111E050",
@@ -129,7 +129,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["BIO110E030"]], 
-                        "current": [["MISSING: ENG 11H"]], 
+                        "current": [["ENG011F130"]], 
                         "next": [["BIO112E050"]]
                     }
                 }, { "id": "BIO111E080",
@@ -161,7 +161,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["BIO110E010", "BIO110E030"]], 
-                        "current": [["MISSING: ENG 12S+"]]
+                        "current": [["ENG011S110"]]
                     }
                 }, { "id": "BIO112E070",
                     "name": "AP Biology 12",
@@ -171,7 +171,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["BIO111E030", "CHE111E070", "ENV111E070"]], 
-                        "current": [["MISSING: ENG 12S+"]]
+                        "current": [["ENG011S110"]]
                     }
                 }, { "id": "ENV112E070",
                     "name": "AP Environmental Science 12",
@@ -181,7 +181,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["BIO111E070", "CHE111E070"]], 
-                        "current": [["MISSING: ENG 12S+"]]
+                        "current": [["ENG011S110"]]
                     }
                 }, { "id": "ENV112E100",
                     "name": "Environmental Engineering 12",
@@ -189,7 +189,7 @@
                     "description": "Environmental Engineering is the branch of engineering that is concerned with protecting people from the effects of adverse environmental effects, such as pollution, as well as improving environmental quality. This course is designed for students who are interested in environmental issues and the scientific principles involved. The course includes energy mechanics, conservation of energy, heat and work, environmental issues like air pollution, global warming and thermal pollution, different types of traditional energy sources and alternative energy sources. The goal of this course is to provide students with the basic physical principles behind the different energy transformations, to seek potential solutions to environmental issues arising from energy use, to understand the environmental, social and economic tradeoffs that must be made and to improve students' environmental awareness.",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "current": [["MISSING: TOEFL 90 or IELTS 6.5 or English S+ level"]] }
+                    "rules": { "current": [["ENG011S110"]] }
                 }, { "id": "ENV112E040",
                     "name": "IB Environmental Systems and Societies SL Y2",
                     "track": "IB",
@@ -199,7 +199,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["ENV111E040"]], 
-                        "current": [["MISSING: ENG 12H"]]
+                        "current": [["ENG012F130"]]
                     }
                 }, { "id": "BIO112E040",
                     "name": "IB Biology SL Y2",
@@ -210,7 +210,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["BIO111E040"]], 
-                        "current": [["MISSING: ENG 12H"]]
+                        "current": [["ENG012F130"]]
                     }
                 }, { "id": "BIO112E050",
                     "name": "IB Biology HL Y2",
@@ -221,7 +221,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["BIO111E050"]], 
-                        "current": [["MISSING: ENG 12H"]]
+                        "current": [["ENG012F130"]]
                     }
                 }, { "id": "BIO112E080",
                     "name": "A-Level Biology A2",
@@ -300,7 +300,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["CHE010E030"]],
-                        "current": [["MISSING: ENG 11S+"]]
+                        "current": [["ENG011S120"]]
                     }
                 }, { "id": "CHE011E040",
                     "name": "IB Chemistry SL Y1",
@@ -311,7 +311,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["CHE010E030"]],
-                        "current": [["MISSING: ENG 11S+"]],
+                        "current": [["ENG011S120"]],
                         "next": [["CHE012E040"]]
                     }
                 }, { "id": "CHE011E050",
@@ -323,7 +323,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["CHE010E030"]],
-                        "current": [["MISSING: ENG 11S+"]],
+                        "current": [["ENG011S120"]],
                         "next": [["CHE012E050"]]
                     }
                 }, { "id": "CHE011E180",
@@ -363,7 +363,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["MISSING: G11 AP SCIENCE", "CHE011E070"]],
-                        "current": [["MISSING: ENG 12S+"]]
+                        "current": [["ENG012S120"]]
                     }
                 }, { "id": "CHE012E040",
                     "name": "IB Chemistry SL Y2",
@@ -374,7 +374,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["CHE011E040"]],
-                        "current": [["MISSING: ENG 12S+"]]
+                        "current": [["ENG012S120"]]
                     }
                 }, { "id": "CHE012E050",
                     "name": "IB Chemistry HL Y2",
@@ -385,7 +385,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["CHE011E050"]],
-                        "current": [["MISSING: ENG 12S+"]]
+                        "current": [["ENG012S120"]]
                     }
                 }, { "id": "CHE012E180",
                     "name": "A-Level Chemistry A2",
@@ -939,7 +939,7 @@
                     "description": "Economics and Business is a course combined with theories and applications of economics and basic understanding of business organizations and management. The Economics part covers three fundamental sections including Microeconomics, Macroeconomics and International Economics. The Business part covers functions and types of business and basic analytical tools. After one-year study of the course, students are expected to achieve the following goals: identify economics terms, understand economic theories and apply to real-life situations, draw economics diagrams to illustrate economic phenomenon, read and interpret economic data such as tables and graphs; understand function of business organizations; apply business analytical tools on real-life cases. Students will also have the opportunity to explore the most recent economic and business issues in the semester project. The course is offered at Standard level and Honors level. Standard level will have questions including multiple choices, theory interpretation and case studies, while Honors level will emphasize more on evaluation and application skills particularly on economics in the real world. The level will be decided after the first month of the first semester based on students' English level and first course test. Students should in English H, or have an equivalent TOEFL score of 100+ or an IELTS score of 7.5+. Students in Standard Level can move up to Honors level as long as they pass the move-up tests later after midterm or final exam. Homework expectations: 1-2 hours per week",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "current": [["MISSING: English 10 Honors"]] }
+                    "rules": { "current": [["ENG010S120"]] }
                 }, { "id": "ECO110E170",
                     "name": "AP Microeconomics 10",
                     "track": "AP",
@@ -1023,7 +1023,7 @@
                     "description": "The AP Psychology course offers a college-level introduction to the scientific study of behavior and mental processes in humans and other animals. It emphasizes core concepts, theoretical perspectives, and scientific reasoning skills central to psychology as a discipline. Students will explore major content areas through psychological principles, empirical research, ethical inquiry, and real-world applications. The redesigned AP Psychology framework is organized around five major units, each representing a foundational pillar of the discipline. Across the year students will engage with these themes while building essential science practices such as research design evaluation, quantitative data interpretation, concept application, and evidence-based argumentation.",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["MISSING: English 10 Honors"]] }
+                    "rules": { "pre": [["ENG010S120"]] }
                 }, { "id": "PSY111E140",
                     "name": "IB Psychology SL Y1",
                     "track": "IB",
@@ -1032,7 +1032,7 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "current": [["MISSING: English 11 Honors"]], 
+                        "current": [["ENG011F130"]], 
                         "next": [["PSY112E140"]]
                     }
                 }, { "id": "PSY111E140",
@@ -1043,7 +1043,7 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "current": [["MISSING: English 11 Honors"]], 
+                        "current": [["ENG011F130"]], 
                         "next": [["PSY112E140"]]
                     }
                 }, { "id": "PSY111E180",
@@ -1099,7 +1099,7 @@
                     "description": "The Accounting is a pre-college level course specially designed for 12th graders. The purpose of this course is to help our students understand the fundamental theories of financial accounting. The landscape of the business environment is changing at a fast pace and thus it is essential to better prepare our students for their rigorous college life and future career path. The world is round and that's why we are never able to see too far down the road. Our students may become top executives such as CEO, CFO, COO or may start up their own companies within a few years, and thus the first thing they need to know is to understand a company's financial statements. If they wish to work in a consulting firm, an investment banking group or a private equity firm after they graduate from the university, having accounting skills is essential to land decent jobs in those industries. The key to the successful learning accounting is through practicing exercises, working on problems and analyzing case studies. Study resources are attached at the end of each chapter. We strongly encourage students to go through every problem after each lecture. After one year of study, students are expected □ To understand and analyze real life situations by applying US GAAP: Generally Accepted Accounting Principles.\n □ To conduct a full cycle accounting by following the US GAAP.\n □ To be able to post daily journal entries, prepare a general ledger and financial statements including the balance sheet, income statement, cash flow statement and statement of stockholders' equity.\n□ To prepare financial statements and analyze financial information o f companies from different industries at the end of the school year.\n Homework: home work will be assigned on a weekly basis, approximately 2-3 hours per week. Students are expected to hand in their assignments on time.",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "current": [["MISSING: English 12 Honors"]] }
+                    "rules": { "current": [["ENG012F130"]] }
                 }, { "id": "LAW112E130",
                     "name": "Introduction to Law 12",
                     "track": "school",
@@ -1216,7 +1216,7 @@
                         "pre": [["ENG009S120"]],
                         "next": [["ENG011S120", "ENG011F130"]]
                     }
-                }, { "id": "ENG010F130",
+                }, { "id": "ENG010S130",
                     "name": "English 10 Honors",
                     "track": "school",
                     "level": "H",
@@ -1596,7 +1596,7 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "current": [["MISSING: ENG 9S+"]],
+                        "current": [["ENG009S120"]],
                         "next": [["GEO110E130"]]
                     }
                 }
@@ -1618,7 +1618,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["GEO109E130"]],
-                        "current": [["MISSING: ENG 10S+"]],
+                        "current": [["ENG010S120"]],
                         "next": [["GEO111E170"]]
                     }
                 }
@@ -1638,7 +1638,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["GEO110E130"]],
-                        "current": [["MISSING: ENG 10S+"]]
+                        "current": [["ENG010S120"]]
                     }
                 }
             ]
@@ -1658,7 +1658,7 @@
                     "description": "This course will be taught in a chronological sequence. The focus of this course is the study of the historical development of people, places, and patterns of life from ancient times until 1500 AD. Students will start with Prehistory and move into the earliest civilizations that developed in the River Valleys of Africa, Asia, and Europe. The students will then work their way through the classical civilizations of Egypt, Early India & China, Greece, and Rome. Next, they will study the Middle Ages, the Renaissance, and the Reformation. The class will finish with the Age of Exploration and Conquest. Lectures, readings, assignments, and discussions are designed to offer insights into the cultural, economic, political, religious, and social aspects of human experience; special attention will be given to cross-cultural interactions and exchange up to the 1500. Homework Expectation: 2-3 hours per week",
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "current": [["MISSING: ENG 9S+"]] }
+                    "rules": { "current": [["ENG009S120"]] }
                 }, { "id": "HIS009E130",
                     "name": "World History to 1500 9 Honors",
                     "track": "school",
@@ -1666,7 +1666,7 @@
                     "description": "This course will be taught in a chronological sequence. The focus of this course is the study of the historical development of people, places, and patterns of life from ancient times until 1500 AD. Students will start with Prehistory and move into the earliest civilizations that developed in the River Valleys of Africa, Asia, and Europe. The students will then work their way through the classical civilizations of Egypt, Early India & China, Greece, and Rome. Next, they will study the Middle Ages, the Renaissance, and the Reformation. The class will finish with the Age of Exploration and Conquest. Lectures, readings, assignments, and discussions are designed to offer insights into the cultural, economic, political, religious, and social aspects of human experience. Students will gain an enhanced ability to analyze and evaluate primary and secondary source materials, in order to view history not as a single and fixed narrative but as diverse and shifting narratives based on different perspectives and the interpretation of sources. Homework Expectation: 2-4 hours per week",
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "current": [["MISSING: ENG 9H"]] }
+                    "rules": { "current": [["ENG009F130"]] }
                 }
             ], "10": [
                 {   "id": "HIS010E110",
@@ -1701,7 +1701,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["HIS009E130"]], 
-                        "current": [["MISSING: ENG 10H"]]
+                        "current": [["ENG010S130"]]
                     }
                 }
             ], "11": [
@@ -1719,7 +1719,7 @@
                     "description": "This history course examines the rich cultural, economic, historical, and social heritage of the United States as it has developed from the origins of the American Revolution through to major developments in the modern era. This course also focuses on class, gender and racial issues and their significance to U.S. national history, the placement of American history in its global context, and the constant discussion between change and continuity. This course hopes to give students planning to study in the United States a rigorous background in the major institutions and structures of U.S. society and to provide students with essential knowledge and insights to better understand the significant issues that face American society today. Additionally, the course will integrate a chronological and thematic study of the significant cultural, economic, historical, and social issues encountered by the United States. Each unit will focus on important cultural, economic, historical, and social events that have shaped the United States government's domestic, economic, and foreign policies during those periods. This course examines the historical and multicultural heritage of the United States, the role of the government in domestic matters and its role in world affairs. Homework Expectation: 3-4 hours per week",
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "current": [["MISSING: ENG 11H"]] }
+                    "rules": { "current": [["ENG011F130"]] }
                 }, { "id": "HIS111E111",
                     "name": "Traditional China: History and Culture 11 Standard",
                     "track": "school",
@@ -1752,7 +1752,7 @@
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "current": [["MISSING: ENG 11H"]], 
+                        "current": [["ENG011F130"]], 
                         "next": [["HIS112E130"]]
                     }
                 }, { "id": "HIS111E160",
@@ -1763,7 +1763,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["HIS010E130", "HIS110E170"]], 
-                        "current": [["MISSING: ENG 11H"]], 
+                        "current": [["ENG011F130"]], 
                         "next": [["HIS112E160"]]
                     }
                 }, { "id": "PHI111E140",
@@ -1774,7 +1774,7 @@
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "current": [["MISSING: ENG 11H+"]], 
+                        "current": [["ENG011F130"]], 
                         "next": [["PHI112E140"]]
                     }
                 }, { "id": "HIS111E171",
@@ -1785,7 +1785,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["HIS010E130", "HIS111E130"]], 
-                        "current": [["MISSING: ENG 11H"]]
+                        "current": [["ENG011F130"]]
                     }
                 }, { "id": "HIS111E170",
                     "name": "AP World History 11",
@@ -1795,7 +1795,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["HIS010E130"]], 
-                        "current": [["MISSING: ENG 11H"]]
+                        "current": [["ENG011F130"]]
                     }
                 }, { "id": "HIS111E172",
                     "name": "AP Art History 11",
@@ -1805,15 +1805,14 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["HIS010E120", "HIS010E130", "HIS110E170"]], 
-                        "current": [["MISSING: ENG 10H"]]
+                        "current": [["ENG010S130"]]
                     }
                 }, { "id": "PHI111E100",
                     "name": "Philosophy 11",
                     "track": "school",
                     "description": "The philosophy school course is taught with the assumption you have not studied philosophy before, the course begins with an introduction unit. Philosophy is one of the oldest subjects and is prized by top universities for its emphasis on critical thinking skills and logical thinking. Students are trained 'to do philosophy' that means your opinion and honing your argument is what matters! The course uses thought experiments, ethical dilemmas and grounds these discussions in popular culture like film. For example, we explore questions raised in sci-fi shows like Star Trek about the rights of robots or AI. You will study human nature, identity, philosophy of mind, and consciousness, as well as answer questions such as \"Do I have free will?\", and ethical questions about right and wrong, and answer the question \"How do we know what I think I know?\". A variety of assessments will be used including creative projects and short essays. For example, the semester 1 philosophy comic creation project. The class is student-centred and focuses on students developing their own voice, as well as developing their critical argumentative skills. This course would be suitable for students hoping to, express their point of view, and improve their critical, argumentative, and analytical skills, as well as their independent research skills. Homework Expectation: 1-2 hours per week",
                     "crowdRating": 0.0,
-                    "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "current": [["MISSING: ADVANCED ENGLISH"]] }
+                    "crowdReview": "ISA - Hack the system. Build the future."
                 }
             ], "12": [
                 {   "id": "HIS112E110",
@@ -1833,7 +1832,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["HIS111E132"]], 
-                        "current": [["MISSING: ENG 12H"]]
+                        "current": [["ENG012F130"]]
                     }
                 }, { "id": "HIS112E111",
                     "name": "American Government and Politics 12 Standard",
@@ -1849,7 +1848,7 @@
                     "description": "This class will introduce students to the basic components of the American system of government. The first unit will discuss the Constitutional foundations of the government. The second unit will consider beliefs and behaviors regarding government. The third unit will look at various court cases and analyze their impact on America. The last unit will discuss civil rights and liberties in America. This class is designed to be a survey course in American government and it will allow students to have a better understanding of many aspects of American history. This class would work well for students who plan to go to the United States for university providing them with a good understanding of the country they will be moving to. Homework Expectation: 3-4 hours per week",
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "current": [["MISSING: ENG 12H"]] }
+                    "rules": { "current": [["ENG012F130"]] }
                 }, { "id": "HIS112E160",
                     "name": "IB World History SL/HL Y2",
                     "track": "IB",
@@ -1873,7 +1872,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["HIS010E130", "HIS111E130"]], 
-                        "current": [["MISSING: ENG 12H"]]
+                        "current": [["ENG012F130"]]
                     }
                 }, { "id": "HIS112E172",
                     "name": "AP Art History 12",
@@ -1883,15 +1882,14 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["HIS111E171", "HIS111E170"]], 
-                        "current": [["MISSING: ENG 11H"]]
+                        "current": [["ENG011F130"]]
                     }
                 }, { "id": "PHI112E100",
                     "name": "Philosophy 12",
                     "track": "school",
                     "description": "The philosophy school course is taught with the assumption you have not studied philosophy before, the course begins with an introduction unit. Philosophy is one of the oldest subjects and is prized by top universities for its emphasis on critical thinking skills and logical thinking. Students are trained 'to do philosophy' that means your opinion and honing your argument is what matters! The course uses thought experiments, ethical dilemmas and grounds these discussions in popular culture like film. For example, we explore questions raised in sci-fi shows like Star Trek about the rights of robots or AI. You will study human nature, identity, philosophy of mind, and consciousness, as well as answer questions such as \"Do I have free will?\", and ethical questions about right and wrong, and answer the question \"How do we know what I think I know?\". A variety of assessments will be used including creative projects and short essays. For example, the semester 1 philosophy comic creation project. The class is student-centred and focuses on students developing their own voice, as well as developing their critical argumentative skills. This course would be suitable for students hoping to, express their point of view, and improve their critical, argumentative, and analytical skills, as well as their independent research skills. Homework Expectation: 1-2 hours per week",
                     "crowdRating": 0.0,
-                    "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "current": [["MISSING: ADVANCED ENGLISH"]] }
+                    "crowdReview": "ISA - Hack the system. Build the future."
                 }
             ]
         }, "math": {
@@ -2004,7 +2002,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["MAT010E93PC", "MAT010E50PC"]],
-                        "current": [["MISSING: ENG 10H"]],
+                        "current": [["ENG010S130"]],
                         "next": [["MAT012E93SP", "MAT012E51CL"]]
                     }
                 }, { "id": "MAT011E51CL",
@@ -2015,7 +2013,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["MAT010E93PC", "MAT010E50PC"]],
-                        "current": [["MISSING: ENG 10S+"]],
+                        "current": [["ENG010S120"]],
                         "next": [["MAT012E50ST"]]
                     }
                 }, { "id": "MAT011E53CL",
@@ -2026,7 +2024,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["MAT010E50PC"]],
-                        "current": [["MISSING: ENG 10S+"]],
+                        "current": [["ENG010S120"]],
                         "next": [["MAT012E93MC", "MAT012E50ST"]]
                     }
                 }, { "id": "MAT011E71AA",
@@ -2145,7 +2143,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["MAT011E93CL", "MAT011E51CL", "MAT011E53CL"]],
-                        "current": [["MISSING: ENG 11H"]]
+                        "current": [["ENG011F130"]]
                     }
                 }, { "id": "MAT012E51CL",
                     "name": "AP Calculus AB 12",
@@ -2223,7 +2221,7 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "current": [["MISSING: ENG 10S+"]], 
+                        "current": [["ENG010S120"]], 
                         "next": [["MUS110E170"]]
                     }
                 }, { "id": "MUS110E170",
@@ -2234,7 +2232,7 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["MUS110E130"]], 
-                        "current": [["MISSING: ENG 10S+"]]
+                        "current": [["ENG010S120"]]
                     }
                 }, { "id": "MUS110E131",
                     "name": "Western Theatre 10 Standard",
@@ -2297,7 +2295,8 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [["MUS110E131"]], 
-                        "current": [["MISSING: ENG 10H"]], "next": [["MUS112E141"]]
+                        "current": [["ENG010S130"]], 
+                        "next": [["MUS112E141"]]
                     }
                 }
             ], "12": [
@@ -2418,7 +2417,7 @@
                     "description": "AP Physics 1 is an algebra-based, introductory college-level physics course that explores topics such as Newtonian mechanics (including rotational motion); work, energy, and power; mechanical waves and sound; and introductory, simple circuits. Through inquiry-based learning, students will develop scientific critical thinking and reasoning skills. The curriculum framework is structured around the \u201cbig ideas\u201d, which encompass core scientific principles, theories, and processes of discipline. The framework encourages instruction that allows students to make connections across domains through a broader way of thinking about the physical world. Big ideas cut across the traditional principles of physics and are supported with enduring understandings, which communicate the core concepts that student should retain from their learning experiences. This course requires that 25 percent of the instructional time will be spent in hands-on laboratory work, with an emphasis on inquiry-based investigations that provide students with opportunities to apply the science practices.",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["PHY010E130"]], "current": [["MISSING: ENG 10S+"]], "next": [["PHY112E170"]] }
+                    "rules": { "pre": [["PHY010E130"]], "current": [["ENG010S120"]], "next": [["PHY112E170"]] }
                 }, { "id": "PHY111E140",
                     "name": "IB Physics SL Y1",
                     "track": "IB",
