@@ -5,7 +5,7 @@
 
 {
     "catalogName": "Course catalog 26-27 (experimental)",
-    "version": "0.3b",
+    "version": "0.3c",
     "lastUpdated": "Apr 9, 2026",
     "grades": ["9", "10", "11", "12"],
     "tracks": ["school", "AP", "IB", "ASA2"],
@@ -1413,14 +1413,14 @@
                     "description": "This course aims to serve students with a strong interest in learning French, French culture and customs, and students who are planning to pursue further study in France. This course is divided into four levels, preliminary level, Level 1, Level 2, level 3. The preliminary level intends to help students preview basic phonetics and master basic language skills for living in France, while the other three progressive levels intend to prepare students for written and more formal language learning. This course will be taught via the methodology of lecturing as well as students’ active in-class participation, through which students are expected to not only be immersed in the language and grammars of French, but also acquire fluency through active colloquial communication. By following the teaching materials for two years, students are expected to have a comprehensive study of French in listening, speaking, reading and writing. Upon completing this course, students are expected to be able to sit the French language test known as Test d’Evaluation de Francais administrated by Alliance Francaise.",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["LAN110E000"]], "next": [["LAN112E130"]] }
+                    "rules": {"next": [["LAN112E130"]] }
                 }, { "id": "LAN111E132",
                     "name": "World Language 11 Japanese/Spanish",
                     "track": "school",
                     "description": "This course aims to serve students with a strong interest in learning Japanese language, culture and customs, and students who are planning to pursue further study in Japan. This course is divided into two levels, Level 1 (grade 11) and Level 2 (grade 12). Level 1 intends to help students to build up their vocabulary, enhance their grammar and improve their oral skills. Level 2 intends to focus more on reading comprehension and writing. Supplementary teaching materials including listening and grammar practice books will be used along with certain video and audio teaching aids. After following the course materials for two years, students are expected to be able to communicate in Japanese fluently and to compose short essays in Japanese. Students should also be able to take Japanese Language Proficiency Test and those who pass the test successfully will be qualified to attend colleges in Japan.",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["LAN110E000"]], "next": [["LAN112E132"]] }
+                    "rules": {"next": [["LAN112E132"]] }
                 }, { "id": "LAN111E161",
                     "name": "IB French ab initio Y1",
                     "track": "IB",
@@ -1428,7 +1428,7 @@
                     "description": "The IB French ab initio course is a two-year Standard Level language acquisition programme for students with little or no prior experience of French. The course aims to develop students’ ability to communicate effectively in spoken and written French in familiar and practical contexts. Learning is organized around the five IB prescribed themes—identities, experiences, human ingenuity, social organization, and sharing the planet—through which students explore language and culture together. Students engage with a variety of authentic texts while developing receptive, productive, and interactive skills, as well as an understanding of how language is shaped by audience, purpose, and context. The course promotes international-mindedness and intercultural awareness and provides a strong foundation for further study of French. Assessment follows IB guidelines and includes both internal and external components.",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["LAN110E000"]], "next": [["LAN112E161"]] }
+                    "rules": {"next": [["LAN112E161"]] }
                 }, { "id": "LAN111E160",
                     "name": "IB Spanish ab initio Y1",
                     "track": "IB",
@@ -1436,7 +1436,7 @@
                     "description": "The IB Spanish ab initio course is a two-year introductory language acquisition programme offered at Standard Level for students with very limited or no prior exposure to Spanish. The course focuses on building practical communication skills that enable students to use Spanish confidently in everyday situations. Through the study of language, themes, and texts linked to the five IB-prescribed themes, students develop listening, speaking, reading, and writing skills across a range of contexts. Emphasis is placed on understanding how meaning is constructed through language in relation to audience, purpose, and cultural variation. The course encourages curiosity, enjoyment, and openness toward the Spanish-speaking world while fostering international-mindedness and preparing students for further language learning. Assessment is conducted in accordance with IB requirements.",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["LAN110E000"]], "next": [["LAN112E160"]] }
+                    "rules": {"next": [["LAN112E160"]] }
                 }
             ], "12": [
                 {   "id": "LAN112E130",
