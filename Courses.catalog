@@ -1,9 +1,19 @@
 {
     "catalogName": "Course catalog 26-27 experimental", 
-    "version": "0.3d", 
+    "version": "0.3e by willuhd", 
     "lastUpdated": "Apr 9, 2026", 
-    "grades": ["9", "10", "11", "12"],
-    "tracks": ["school", "AP", "IB", "ASA2"],
+    "grades": [
+        "9",
+        "10",
+        "11",
+        "12"
+    ],
+    "tracks": [
+        "school",
+        "AP",
+        "IB",
+        "ASA2"
+    ],
     "departments": {
         "biology": {
             "9": [
@@ -13,7 +23,7 @@
                     "track": "school",
                     "level": "S",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future."
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher"
                 },
                 {
                     "id": "BIO109E030",
@@ -21,10 +31,13 @@
                     "track": "school",
                     "level": "H",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
                     "rules": {
-                        "pre": [["BIO008E030"]],
-                        "current": [["ENG009S120", "ENG009F130", "ENG009F131"]]
+                        "current": [
+                            [
+                                "ENG109SPLUS"
+                            ]
+                        ]
                     }
                 }
             ],
@@ -35,7 +48,7 @@
                     "track": "school",
                     "level": "S",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
                     "moveUp": "Strong midyear performance may qualify students to move up into Honors Biology 10.",
                     "moveUpTargetId": "BIO110E030"
                 },
@@ -45,10 +58,18 @@
                     "track": "school",
                     "level": "H",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
                     "rules": {
-                        "pre": [["BIO008E030", "BIO109E030"]],
-                        "current": [["ENG010S120", "ENG010S130", "ENG010F131"]]
+                        "pre": [
+                            [
+                                "BIO109E030"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG110SPLUS"
+                            ]
+                        ]
                     }
                 }
             ],
@@ -59,7 +80,14 @@
                     "track": "school",
                     "level": "S",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future."
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
+                    "rules": {
+                        "next": [
+                            [
+                                "BIO112E010"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "BIO111E030",
@@ -67,10 +95,24 @@
                     "track": "school",
                     "level": "H",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
                     "rules": {
-                        "pre": [["BIO110E010", "BIO110E030"]],
-                        "current": [["ENG011S120", "ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F161", "ENG011F162"]]
+                        "pre": [
+                            [
+                                "BIO110E010",
+                                "BIO110E030"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG111SPLUS"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "BIO112E030"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -78,10 +120,18 @@
                     "name": "AP Biology 11",
                     "track": "AP",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
                     "rules": {
-                        "pre": [["BIO110E030"]],
-                        "current": [["ENG011S120", "ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F161", "ENG011F162"]]
+                        "pre": [
+                            [
+                                "BIO110E030"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG111SPLUS"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -89,10 +139,19 @@
                     "name": "AP Environmental Science 11",
                     "track": "AP",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
                     "rules": {
-                        "pre": [["BIO110E030", "CHE110E030"]],
-                        "current": [["ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F161", "ENG011F162"]]
+                        "pre": [
+                            [
+                                "BIO110E030",
+                                "CHE110E030"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG111H"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -100,9 +159,13 @@
                     "name": "Environmental Engineering 11",
                     "track": "school",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
                     "rules": {
-                        "pre": [["ENG011S120", "ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F161", "ENG011F162"]]
+                        "current": [
+                            [
+                                "ENG111SPLUS"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -111,11 +174,24 @@
                     "track": "IB",
                     "level": "SL",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
                     "rules": {
-                        "pre": [["BIO110E030", "CHE110E030"]],
-                        "current": [["ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F161", "ENG011F162"]],
-                        "next": [["ENV112E040"]]
+                        "pre": [
+                            [
+                                "BIO110E030",
+                                "CHE110E030"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG111H"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "ENV112E040"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -124,11 +200,23 @@
                     "track": "IB",
                     "level": "SL",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
                     "rules": {
-                        "pre": [["BIO110E030"]],
-                        "current": [["ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F161", "ENG011F162"]],
-                        "next": [["BIO112E040"]]
+                        "pre": [
+                            [
+                                "BIO110E030"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG111H"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "BIO112E040"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -137,11 +225,23 @@
                     "track": "IB",
                     "level": "HL",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
                     "rules": {
-                        "pre": [["BIO110E030"]],
-                        "current": [["ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F161", "ENG011F162"]],
-                        "next": [["BIO112E050"]]
+                        "pre": [
+                            [
+                                "BIO110E030"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG111H"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "BIO112E050"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -150,10 +250,19 @@
                     "track": "ASA2",
                     "level": "AS",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
                     "rules": {
-                        "pre": [["BIO110E010", "BIO110E030"]],
-                        "next": [["BIO112E080"]]
+                        "pre": [
+                            [
+                                "BIO110E010",
+                                "BIO110E030"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "BIO112E080"
+                            ]
+                        ]
                     }
                 }
             ],
@@ -164,7 +273,7 @@
                     "track": "school",
                     "level": "S",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future."
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher"
                 },
                 {
                     "id": "BIO112E030",
@@ -172,9 +281,19 @@
                     "track": "school",
                     "level": "H",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
                     "rules": {
-                        "pre": [["BIO111E010", "BIO111E030"]]
+                        "pre": [
+                            [
+                                "BIO110E010",
+                                "BIO110E030"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG112SPLUS"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -182,10 +301,20 @@
                     "name": "AP Biology 12",
                     "track": "AP",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
                     "rules": {
-                        "pre": [["BIO111E030", "CHE011E070", "ENV111E070"]],
-                        "current": [["ENG012S120", "ENG012F130", "ENG012F170", "ENG012F171", "ENG012F160", "ENG012F161", "ENG012F162"]]
+                        "pre": [
+                            [
+                                "BIO111E030",
+                                "CHE111E070",
+                                "ENV111E070"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG112SPLUS"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -193,10 +322,19 @@
                     "name": "AP Environmental Science 12",
                     "track": "AP",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
                     "rules": {
-                        "pre": [["BIO111E070", "CHE011E070"]],
-                        "current": [["ENG012F130", "ENG012F170", "ENG012F171", "ENG012F160", "ENG012F161", "ENG012F162"]]
+                        "pre": [
+                            [
+                                "BIO111E070",
+                                "CHE111E070"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG112H"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -204,9 +342,13 @@
                     "name": "Environmental Engineering 12",
                     "track": "school",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
                     "rules": {
-                        "pre": [["ENG012S120", "ENG012F130", "ENG012F170", "ENG012F171", "ENG012F160", "ENG012F161", "ENG012F162"]]
+                        "current": [
+                            [
+                                "ENG112SPLUS"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -215,9 +357,18 @@
                     "track": "IB",
                     "level": "SL",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
                     "rules": {
-                        "pre": [["ENV111E040"]]
+                        "pre": [
+                            [
+                                "ENV111E040"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG112H"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -226,9 +377,18 @@
                     "track": "IB",
                     "level": "SL",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
                     "rules": {
-                        "pre": [["BIO111E040"]]
+                        "pre": [
+                            [
+                                "BIO111E040"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG112H"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -237,9 +397,18 @@
                     "track": "IB",
                     "level": "HL",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
                     "rules": {
-                        "pre": [["BIO111E050"]]
+                        "pre": [
+                            [
+                                "BIO111E050"
+                            ]
+                        ],
+                        "current": [
+                            [
+                                "ENG112H"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -248,9 +417,13 @@
                     "track": "ASA2",
                     "level": "A2",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "crowdReview": "This course is full of shite. Please choose CS instead. This is because CS has htz. htz is infinitely better than any other non-人际 bio teacher",
                     "rules": {
-                        "pre": [["BIO111E080"]]
+                        "pre": [
+                            [
+                                "BIO111E080"
+                            ]
+                        ]
                     }
                 }
             ]
@@ -263,7 +436,8 @@
                     "track": "school",
                     "level": "S",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future."
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "moveUpTargetId": "CHE009E020"
                 },
                 {
                     "id": "CHE009E020",
@@ -271,7 +445,8 @@
                     "track": "school",
                     "level": "S+",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future."
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "moveUpTargetId": "CHE009E030"
                 },
                 {
                     "id": "CHE009E030",
@@ -290,7 +465,14 @@
                     "level": "S",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["CHE009E010"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "CHE009E010"
+                            ]
+                        ]
+                    },
+                    "moveUpTargetId": "CHE010E030"
                 },
                 {
                     "id": "CHE010E030",
@@ -299,7 +481,13 @@
                     "level": "H",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["CHE009E030"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "CHE009E030"
+                            ]
+                        ]
+                    }
                 }
             ],
             "11": [
@@ -310,7 +498,14 @@
                     "level": "S",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["CHE010E010"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "CHE010E010"
+                            ]
+                        ]
+                    },
+                    "moveUpTargetId": "CHE011E030"
                 },
                 {
                     "id": "CHE011E030",
@@ -319,7 +514,13 @@
                     "level": "H",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["CHE010E030"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "CHE010E030"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "CHE011E070",
@@ -329,8 +530,14 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [
-                            ["CHE010E030"],
-                            ["ENG010S120", "ENG010S130", "ENG010F131"]
+                            [
+                                "CHE010E030"
+                            ],
+                            [
+                                "ENG010S120",
+                                "ENG010S130",
+                                "ENG010F131"
+                            ]
                         ]
                     }
                 },
@@ -342,8 +549,16 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["CHE010E030"]],
-                        "next": [["CHE012E040"]]
+                        "pre": [
+                            [
+                                "CHE010E030"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "CHE012E040"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -354,8 +569,16 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["CHE010E030"]],
-                        "next": [["CHE012E050"]]
+                        "pre": [
+                            [
+                                "CHE010E030"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "CHE012E050"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -366,8 +589,17 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["CHE010E010", "CHE010E030"]],
-                        "next": [["CHE012E180"]]
+                        "pre": [
+                            [
+                                "CHE010E010",
+                                "CHE010E030"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "CHE012E180"
+                            ]
+                        ]
                     }
                 }
             ],
@@ -379,7 +611,14 @@
                     "level": "S",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["CHE011E010"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "CHE011E010"
+                            ]
+                        ]
+                    },
+                    "moveUpTargetId": "CHE012E130"
                 },
                 {
                     "id": "CHE012E130",
@@ -388,7 +627,13 @@
                     "level": "H",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["CHE011E030"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "CHE011E030"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "CHE012E070",
@@ -398,8 +643,21 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [
-                            ["PHY111E170", "BIO111E070", "ENV111E070", "CHE011E030"],
-                            ["ENG011S120", "ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F161", "ENG011F162"]
+                            [
+                                "PHY111E170",
+                                "BIO111E070",
+                                "ENV111E070",
+                                "CHE011E030"
+                            ],
+                            [
+                                "ENG011S120",
+                                "ENG011F130",
+                                "ENG011F170",
+                                "ENG011F171",
+                                "ENG011F160",
+                                "ENG011F161",
+                                "ENG011F162"
+                            ]
                         ]
                     }
                 },
@@ -410,7 +668,13 @@
                     "level": "SL",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["CHE011E040"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "CHE011E040"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "CHE012E050",
@@ -419,7 +683,13 @@
                     "level": "HL",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["CHE011E050"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "CHE011E050"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "CHE012E180",
@@ -428,7 +698,13 @@
                     "level": "A2",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["CHE011E180"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "CHE011E180"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "CHE012E120",
@@ -436,67 +712,481 @@
                     "track": "school",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["CHE011E070"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "CHE011E070"
+                            ]
+                        ]
+                    }
                 }
             ]
         },
         "chinese": {
             "9": [
-                { "id": "CHI009E001", "name": "Chinese Level 1 9 Y1", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "next": [["CHI010E001"]] } },
-                { "id": "CHI009E002", "name": "Chinese Level 2 9 Y1", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "next": [["CHI010E002"]] } },
-                { "id": "CHI009E003", "name": "Chinese Level 3 9 Y1", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "next": [["CHI010E003"]] } },
-                { "id": "CHI009E004", "name": "Chinese Level 4 9 Y1", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "next": [["CHI010E004"]] } },
-                { "id": "CHI009E005", "name": "Chinese Level 5 9 Y1", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "next": [["CHI010E005"]] } },
-                { "id": "CHI009E006", "name": "Chinese Level 6 9 Y1", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "next": [["CHI010E006", "CHI010E170"]] } },
-                { "id": "CHI009E110", "name": "Chinese Level 8 9 (S)", "track": "school", "level": "S", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "next": [["CHI010E110"]] } },
-                { "id": "CHI009E120", "name": "Chinese Level 9 9 (H)", "track": "school", "level": "H", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "next": [["CHI010E120", "CHI010E130"]] } },
-                { "id": "CHI009E130", "name": "Chinese Level 10 9 (H+)", "track": "school", "level": "H+", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "next": [["CHI010E130"]] } }
+                {
+                    "id": "CHI009E001",
+                    "name": "Chinese Level 1 9 Y1",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI009E002",
+                    "name": "Chinese Level 2 9 Y1",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI009E003",
+                    "name": "Chinese Level 3 9 Y1",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI009E004",
+                    "name": "Chinese Level 4 9 Y1",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI009E005",
+                    "name": "Chinese Level 5 9 Y1",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI009E006",
+                    "name": "Chinese Level 6 9 Y1",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI009E110",
+                    "name": "Chinese Level 8 9 (S)",
+                    "track": "school",
+                    "level": "S",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI009E120",
+                    "name": "Chinese Level 9 9 (H)",
+                    "track": "school",
+                    "level": "H",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI009E130",
+                    "name": "Chinese Level 10 9 (H+)",
+                    "track": "school",
+                    "level": "H+",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                }
             ],
             "10": [
-                { "id": "CH010E000", "name": "Chinese Beginner 10", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future." },
-                { "id": "CHI010E001", "name": "Chinese Level 1 10 Y2", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI009E001"]], "next": [["CHI011E001"]] } },
-                { "id": "CHI010E002", "name": "Chinese Level 2 10 Y2", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI009E002"]], "next": [["CHI011E002"]] } },
-                { "id": "CHI010E003", "name": "Chinese Level 3 10 Y2", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI009E003"]], "next": [["CHI011E003"]] } },
-                { "id": "CHI010E004", "name": "Chinese Level 4 10 Y2", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI009E004"]], "next": [["CHI011E004"]] } },
-                { "id": "CHI010E005", "name": "Chinese Level 5 10 Y2", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI009E005"]], "next": [["CHI011E005"]] } },
-                { "id": "CHI010E006", "name": "Chinese Level 6 10 Y2", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI009E006"]], "next": [["CHI011E006"]] } },
-                { "id": "CHI010E170", "name": "AP Chinese 10 (AP)", "track": "AP", "level": "AP", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI009E005", "CHI009E006", "CHI009E110"]], "next": [["CHI011E160"]] } },
-                { "id": "CHI010E110", "name": "Chinese Level 8 10 (S)", "track": "school", "level": "S", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI009E110"]], "next": [["CHI011E110", "CHI011E160"]] } },
-                { "id": "CHI010E120", "name": "Chinese Level 9 10 (H)", "track": "school", "level": "H", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI009E120"]], "next": [["CHI011E120", "CHI011E130", "CHI011E162", "CHI011E163"]] } },
-                { "id": "CHI010E130", "name": "Chinese Level 10 10 (H+)", "track": "school", "level": "H+", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI009E120", "CHI009E130"]], "next": [["CHI011E130", "CHI011E162", "CHI011E163"]] } }
+                {
+                    "id": "CH010E000",
+                    "name": "Chinese Beginner 10",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI010E001",
+                    "name": "Chinese Level 1 10 Y2",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI010E002",
+                    "name": "Chinese Level 2 10 Y2",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI010E003",
+                    "name": "Chinese Level 3 10 Y2",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI010E004",
+                    "name": "Chinese Level 4 10 Y2",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI010E005",
+                    "name": "Chinese Level 5 10 Y2",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI010E006",
+                    "name": "Chinese Level 6 10 Y2",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI010E170",
+                    "name": "AP Chinese 10 (AP)",
+                    "track": "AP",
+                    "level": "AP",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "rules": {
+                        "pre": [
+                            [
+                                "CHI009E005",
+                                "CHI009E006",
+                                "CHI009E110"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "CHI011E160"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "id": "CHI010E110",
+                    "name": "Chinese Level 8 10 (S)",
+                    "track": "school",
+                    "level": "S",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI010E120",
+                    "name": "Chinese Level 9 10 (H)",
+                    "track": "school",
+                    "level": "H",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI010E130",
+                    "name": "Chinese Level 10 10 (H+)",
+                    "track": "school",
+                    "level": "H+",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                }
             ],
             "11": [
-                { "id": "CHI011E001", "name": "Chinese Level 1 11 Y1", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "next": [["CHI012E001"]] } },
-                { "id": "CHI011E002", "name": "Chinese Level 2 11 Y1", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI010E001"]], "next": [["CHI012E002"]] } },
-                { "id": "CHI011E003", "name": "Chinese Level 3 11 Y1", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI010E002"]], "next": [["CHI012E003"]] } },
-                { "id": "CHI011E004", "name": "Chinese Level 4 11 Y1", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI010E003"]], "next": [["CHI012E004"]] } },
-                { "id": "CHI011E005", "name": "Chinese Level 5 11 Y1", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI010E004"]], "next": [["CHI012E005"]] } },
-                { "id": "CHI011E006", "name": "Chinese Level 6 11 Y1", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI010E005"]], "next": [["CHI012E006"]] } },
-                { "id": "CHI011E007", "name": "Chinese Level 7 11 (AP) Y1", "track": "school", "level": "AP", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI010E006"]], "next": [["CHI012E007"]] } },
-                { "id": "CHI011E110", "name": "Chinese Level 8 11 (S)", "track": "school", "level": "S", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI010E110"]], "next": [["CHI012E110"]] } },
-                { "id": "CHI011E120", "name": "Chinese Level 9 11 (H)", "track": "school", "level": "H", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI010E120"]], "next": [["CHI012E120"]] } },
-                { "id": "CHI011E130", "name": "Chinese Level 10 11 (H+)", "track": "school", "level": "H+", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI010E120", "CHI010E130"]], "next": [["CHI012E130"]] } },
-                { "id": "CHI011E160", "name": "IB Acquisition Mandarin SL 11 Y1", "track": "IB", "level": "SL", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI010E005", "CHI010E006", "CHI010E170"]], "next": [["CHI012E160"]] } },
-                { "id": "CHI011E161", "name": "IB Acquisition Mandarin HL 11 Y1", "track": "IB", "level": "HL", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI010E110", "CHI010E170"]], "next": [["CHI012E161"]] } },
-                { "id": "CHI011E162", "name": "IB Language and Literature 11 Y1", "track": "IB", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI010E120", "CHI010E130"]], "next": [["CHI012E162"]] } },
-                { "id": "CHI011E163", "name": "IB Chinese Literature 11 Y1", "track": "IB", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI010E120", "CHI010E130"]], "next": [["CHI012E163"]] } }
+                {
+                    "id": "CHI011E001",
+                    "name": "Chinese Level 1 11 Y1",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI011E002",
+                    "name": "Chinese Level 2 11 Y1",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI011E003",
+                    "name": "Chinese Level 3 11 Y1",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI011E004",
+                    "name": "Chinese Level 4 11 Y1",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI011E005",
+                    "name": "Chinese Level 5 11 Y1",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI011E006",
+                    "name": "Chinese Level 6 11 Y1",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI011E007",
+                    "name": "Chinese Level 7 11 (AP) Y1",
+                    "track": "school",
+                    "level": "AP",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI011E110",
+                    "name": "Chinese Level 8 11 (S)",
+                    "track": "school",
+                    "level": "S",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI011E120",
+                    "name": "Chinese Level 9 11 (H)",
+                    "track": "school",
+                    "level": "H",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI011E130",
+                    "name": "Chinese Level 10 11 (H+)",
+                    "track": "school",
+                    "level": "H+",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI011E160",
+                    "name": "IB Acquisition Mandarin SL 11 Y1",
+                    "track": "IB",
+                    "level": "SL",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "rules": {
+                        "pre": [
+                            [
+                                "CHI010E005",
+                                "CHI010E006",
+                                "CHI010E170"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "CHI012E160"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "id": "CHI011E161",
+                    "name": "IB Acquisition Mandarin HL 11 Y1",
+                    "track": "IB",
+                    "level": "HL",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "rules": {
+                        "pre": [
+                            [
+                                "CHI010E110",
+                                "CHI010E170"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "CHI012E161"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "id": "CHI011E162",
+                    "name": "IB Language and Literature 11 Y1",
+                    "track": "IB",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "rules": {
+                        "pre": [
+                            [
+                                "CHI010E120",
+                                "CHI010E130"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "CHI012E162"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "id": "CHI011E163",
+                    "name": "IB Chinese Literature 11 Y1",
+                    "track": "IB",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "rules": {
+                        "pre": [
+                            [
+                                "CHI010E120",
+                                "CHI010E130"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "CHI012E163"
+                            ]
+                        ]
+                    }
+                }
             ],
             "12": [
-                { "id": "CH012E000", "name": "Chinese Beginner 12", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future." },
-                { "id": "CHI012E001", "name": "Chinese Level 1 12 Y2", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI011E001"]] } },
-                { "id": "CHI012E002", "name": "Chinese Level 2 12 Y2", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI011E002"]] } },
-                { "id": "CHI012E003", "name": "Chinese Level 3 12 Y2", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI011E003"]] } },
-                { "id": "CHI012E004", "name": "Chinese Level 4 12 Y2", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI011E004"]] } },
-                { "id": "CHI012E005", "name": "Chinese Level 5 12 Y2", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI011E005"]] } },
-                { "id": "CHI012E006", "name": "Chinese Level 6 12 Y2", "track": "school", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI011E006"]] } },
-                { "id": "CHI012E007", "name": "Chinese Level 7 12 (AP) Y2", "track": "school", "level": "AP", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI011E007"]] } },
-                { "id": "CHI012E110", "name": "Chinese Level 8 12 (S)", "track": "school", "level": "S", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI011E110"]] } },
-                { "id": "CHI012E120", "name": "Chinese Level 9 12 (H)", "track": "school", "level": "H", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI011E120"]] } },
-                { "id": "CHI012E130", "name": "Chinese Level 10 12 (H+)", "track": "school", "level": "H+", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI011E130"]] } },
-                { "id": "CHI012E160", "name": "IB Acquisition Mandarin SL 12 Y2", "track": "IB", "level": "SL", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI011E160"]] } },
-                { "id": "CHI012E161", "name": "IB Acquisition Mandarin HL 12 Y2", "track": "IB", "level": "HL", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI011E161"]] } },
-                { "id": "CHI012E162", "name": "IB Language and Literature 12 Y2", "track": "IB", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI011E162"]] } },
-                { "id": "CHI012E163", "name": "IB Chinese Literature 12 Y2", "track": "IB", "crowdRating": 6.7, "crowdReview": "ISA - Hack the system. Build the future.", "rules": { "pre": [["CHI011E163"]] } }
+                {
+                    "id": "CH012E000",
+                    "name": "Chinese Beginner 12",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI012E001",
+                    "name": "Chinese Level 1 12 Y2",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI012E002",
+                    "name": "Chinese Level 2 12 Y2",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI012E003",
+                    "name": "Chinese Level 3 12 Y2",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI012E004",
+                    "name": "Chinese Level 4 12 Y2",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI012E005",
+                    "name": "Chinese Level 5 12 Y2",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI012E006",
+                    "name": "Chinese Level 6 12 Y2",
+                    "track": "school",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI012E007",
+                    "name": "Chinese Level 7 12 (AP) Y2",
+                    "track": "school",
+                    "level": "AP",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI012E110",
+                    "name": "Chinese Level 8 12 (S)",
+                    "track": "school",
+                    "level": "S",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI012E120",
+                    "name": "Chinese Level 9 12 (H)",
+                    "track": "school",
+                    "level": "H",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI012E130",
+                    "name": "Chinese Level 10 12 (H+)",
+                    "track": "school",
+                    "level": "H+",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future."
+                },
+                {
+                    "id": "CHI012E160",
+                    "name": "IB Acquisition Mandarin SL 12 Y2",
+                    "track": "IB",
+                    "level": "SL",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "rules": {
+                        "pre": [
+                            [
+                                "CHI011E160"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "id": "CHI012E161",
+                    "name": "IB Acquisition Mandarin HL 12 Y2",
+                    "track": "IB",
+                    "level": "HL",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "rules": {
+                        "pre": [
+                            [
+                                "CHI011E161"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "id": "CHI012E162",
+                    "name": "IB Language and Literature 12 Y2",
+                    "track": "IB",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "rules": {
+                        "pre": [
+                            [
+                                "CHI011E162"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "id": "CHI012E163",
+                    "name": "IB Chinese Literature 12 Y2",
+                    "track": "IB",
+                    "crowdRating": 6.7,
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "rules": {
+                        "pre": [
+                            [
+                                "CHI011E163"
+                            ]
+                        ]
+                    }
+                }
             ]
         },
         "computer science": {
@@ -507,7 +1197,8 @@
                     "track": "school",
                     "level": "S",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future."
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "moveUpTargetId": "COM109E130"
                 },
                 {
                     "id": "COM109E130",
@@ -525,7 +1216,8 @@
                     "track": "school",
                     "level": "S",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future."
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "moveUpTargetId": "COM110E130"
                 },
                 {
                     "id": "COM110E130",
@@ -534,7 +1226,13 @@
                     "level": "H",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["COM109E130"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "COM109E130"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "COM110E170",
@@ -542,7 +1240,13 @@
                     "track": "AP",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["COM109E130"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "COM109E130"
+                            ]
+                        ]
+                    }
                 }
             ],
             "11": [
@@ -552,7 +1256,14 @@
                     "track": "AP",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["COM110E170", "COM110E130"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "COM110E170",
+                                "COM110E130"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "COM111E140",
@@ -562,8 +1273,17 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["COM110E170", "COM110E130"]],
-                        "next": [["COM112E140"]]
+                        "pre": [
+                            [
+                                "COM110E170",
+                                "COM110E130"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "COM112E140"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -574,8 +1294,17 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["COM110E170", "COM110E130"]],
-                        "next": [["COM112E150"]]
+                        "pre": [
+                            [
+                                "COM110E170",
+                                "COM110E130"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "COM112E150"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -594,7 +1323,13 @@
                     "level": "SL",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["COM111E140"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "COM111E140"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "COM112E150",
@@ -603,7 +1338,13 @@
                     "level": "HL",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["COM111E150"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "COM111E150"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "COM112E100",
@@ -624,7 +1365,6 @@
                     "level": "S",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "moveUp": "Pass move-up tests after midterm or final exam",
                     "moveUpTargetId": "ECO110E130"
                 },
                 {
@@ -657,7 +1397,13 @@
                     "track": "AP",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ECO110E170"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ECO110E170"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "ECO111E160",
@@ -666,8 +1412,17 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["ECO110E130", "ECO110E170"]],
-                        "next": [["ECO112E160"]]
+                        "pre": [
+                            [
+                                "ECO110E130",
+                                "ECO110E170"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "ECO112E160"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -678,8 +1433,17 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["ECO110E170", "ECO110E130"]],
-                        "next": [["BUS112E140"]]
+                        "pre": [
+                            [
+                                "ECO110E170",
+                                "ECO110E130"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "BUS112E140"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -689,7 +1453,13 @@
                     "level": "AS",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "next": [["ECO112E180"]] }
+                    "rules": {
+                        "next": [
+                            [
+                                "ECO112E180"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "ECO111E130",
@@ -730,7 +1500,10 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [
-                            ["ENG010S130", "ENG010F131"]
+                            [
+                                "ENG010S130",
+                                "ENG010F131"
+                            ]
                         ]
                     }
                 },
@@ -741,7 +1514,13 @@
                     "level": "SL",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "next": [["PSY112E140"]] }
+                    "rules": {
+                        "next": [
+                            [
+                                "PSY112E140"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "PSY111E150",
@@ -750,7 +1529,13 @@
                     "level": "HL",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "next": [["PSY112E150"]] }
+                    "rules": {
+                        "next": [
+                            [
+                                "PSY112E150"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "PSY111E180",
@@ -759,7 +1544,13 @@
                     "level": "AS",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "next": [["PSY112E180"]] }
+                    "rules": {
+                        "next": [
+                            [
+                                "PSY112E180"
+                            ]
+                        ]
+                    }
                 }
             ],
             "12": [
@@ -776,7 +1567,13 @@
                     "track": "IB",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ECO111E160"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ECO111E160"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "BUS112E140",
@@ -785,7 +1582,13 @@
                     "level": "SL",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["BUS111E140"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "BUS111E140"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "ECO112E180",
@@ -794,7 +1597,13 @@
                     "level": "A2",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ECO111E180"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ECO111E180"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "ECO112E130",
@@ -813,7 +1622,14 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [
-                            ["ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F161", "ENG011F162"]
+                            [
+                                "ENG011F130",
+                                "ENG011F170",
+                                "ENG011F171",
+                                "ENG011F160",
+                                "ENG011F161",
+                                "ENG011F162"
+                            ]
                         ]
                     }
                 },
@@ -861,7 +1677,13 @@
                     "level": "SL",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["PSY111E140"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "PSY111E140"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "PSY112E150",
@@ -870,7 +1692,13 @@
                     "level": "HL",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["PSY111E150"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "PSY111E150"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "PSY112E180",
@@ -879,7 +1707,13 @@
                     "level": "A2",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["PSY111E180"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "PSY111E180"
+                            ]
+                        ]
+                    }
                 }
             ]
         },
@@ -891,7 +1725,8 @@
                     "track": "school",
                     "level": "S",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future."
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "moveUpTargetId": "ENG009S120"
                 },
                 {
                     "id": "ENG009S120",
@@ -899,7 +1734,8 @@
                     "track": "school",
                     "level": "S+",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future."
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "moveUpTargetId": "ENG009F130"
                 },
                 {
                     "id": "ENG009F130",
@@ -907,7 +1743,8 @@
                     "track": "school",
                     "level": "H",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future."
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "moveUpTargetId": "ENG009F131"
                 },
                 {
                     "id": "ENG009F131",
@@ -926,7 +1763,14 @@
                     "level": "S",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ENG009S110"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ENG009S110"
+                            ]
+                        ]
+                    },
+                    "moveUpTargetId": "ENG010S120"
                 },
                 {
                     "id": "ENG010S120",
@@ -935,7 +1779,14 @@
                     "level": "S+",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ENG009S120"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ENG009S120"
+                            ]
+                        ]
+                    },
+                    "moveUpTargetId": "ENG010S130"
                 },
                 {
                     "id": "ENG010S130",
@@ -944,7 +1795,14 @@
                     "level": "H",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ENG009F130"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ENG009F130"
+                            ]
+                        ]
+                    },
+                    "moveUpTargetId": "ENG010F131"
                 },
                 {
                     "id": "ENG010F131",
@@ -953,7 +1811,13 @@
                     "level": "H+",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ENG009F131"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ENG009F131"
+                            ]
+                        ]
+                    }
                 }
             ],
             "11": [
@@ -964,7 +1828,14 @@
                     "level": "S",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ENG010S110"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ENG010S110"
+                            ]
+                        ]
+                    },
+                    "moveUpTargetId": "ENG011S120"
                 },
                 {
                     "id": "ENG011S120",
@@ -973,7 +1844,14 @@
                     "level": "S+",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ENG010S120"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ENG010S120"
+                            ]
+                        ]
+                    },
+                    "moveUpTargetId": "ENG011F130"
                 },
                 {
                     "id": "ENG011F130",
@@ -982,7 +1860,14 @@
                     "level": "H",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ENG010S130", "ENG010F131"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ENG010S130",
+                                "ENG010F131"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "ENG111E101",
@@ -990,7 +1875,14 @@
                     "track": "school",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ENG010S130", "ENG010F131"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ENG010S130",
+                                "ENG010F131"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "ENG011F170",
@@ -998,7 +1890,13 @@
                     "track": "AP",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ENG010F131"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ENG010F131"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "ENG011F171",
@@ -1007,8 +1905,17 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["ENG010S130", "ENG010F131"]],
-                        "next": [["ENG012F171"]]
+                        "pre": [
+                            [
+                                "ENG010S130",
+                                "ENG010F131"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "ENG012F171"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -1018,8 +1925,16 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["ENG010F131"]],
-                        "next": [["ENG012F160"]]
+                        "pre": [
+                            [
+                                "ENG010F131"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "ENG012F160"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -1029,8 +1944,16 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["ENG010F131"]],
-                        "next": [["ENG012F162"]]
+                        "pre": [
+                            [
+                                "ENG010F131"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "ENG012F162"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -1040,8 +1963,17 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["ENG010S130", "ENG010F131"]],
-                        "next": [["ENG012F161"]]
+                        "pre": [
+                            [
+                                "ENG010S130",
+                                "ENG010F131"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "ENG012F161"
+                            ]
+                        ]
                     }
                 }
             ],
@@ -1053,7 +1985,14 @@
                     "level": "S",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ENG011S110"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ENG011S110"
+                            ]
+                        ]
+                    },
+                    "moveUpTargetId": "ENG012S120"
                 },
                 {
                     "id": "ENG012S120",
@@ -1062,7 +2001,14 @@
                     "level": "S+",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ENG011S120"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ENG011S120"
+                            ]
+                        ]
+                    },
+                    "moveUpTargetId": "ENG012F130"
                 },
                 {
                     "id": "ENG012F130",
@@ -1071,7 +2017,14 @@
                     "level": "H",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ENG011F130", "ENG011S120"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ENG011F130",
+                                "ENG011S120"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "ENG112E103",
@@ -1079,7 +2032,13 @@
                     "track": "school",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ENG111E101"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ENG111E101"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "ENG012F170",
@@ -1087,7 +2046,14 @@
                     "track": "AP",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ENG011F170", "ENG011F171"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ENG011F170",
+                                "ENG011F171"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "ENG012F171",
@@ -1095,7 +2061,13 @@
                     "track": "AP",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ENG011F171"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ENG011F171"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "ENG012F160",
@@ -1103,7 +2075,13 @@
                     "track": "IB",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ENG011F160"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ENG011F160"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "ENG012F162",
@@ -1111,7 +2089,13 @@
                     "track": "IB",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ENG011F162"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ENG011F162"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "ENG012F161",
@@ -1119,7 +2103,13 @@
                     "track": "IB",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ENG011F161"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ENG011F161"
+                            ]
+                        ]
+                    }
                 }
             ]
         },
@@ -1133,7 +2123,13 @@
                     "track": "school",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "next": [["LAN112E130"]] }
+                    "rules": {
+                        "next": [
+                            [
+                                "LAN112E130"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "LAN111E132",
@@ -1141,7 +2137,13 @@
                     "track": "school",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "next": [["LAN112E132"]] }
+                    "rules": {
+                        "next": [
+                            [
+                                "LAN112E132"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "LAN111E161",
@@ -1150,7 +2152,13 @@
                     "level": "SL",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "next": [["LAN112E161"]] }
+                    "rules": {
+                        "next": [
+                            [
+                                "LAN112E161"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "LAN111E160",
@@ -1159,7 +2167,13 @@
                     "level": "SL",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "next": [["LAN112E160"]] }
+                    "rules": {
+                        "next": [
+                            [
+                                "LAN112E160"
+                            ]
+                        ]
+                    }
                 }
             ],
             "12": [
@@ -1169,7 +2183,13 @@
                     "track": "school",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["LAN111E130"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "LAN111E130"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "LAN112E132",
@@ -1177,7 +2197,13 @@
                     "track": "school",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["LAN111E132"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "LAN111E132"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "LAN112E161",
@@ -1186,7 +2212,13 @@
                     "level": "SL",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["LAN111E161"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "LAN111E161"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "LAN112E160",
@@ -1195,7 +2227,13 @@
                     "level": "SL",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["LAN111E160"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "LAN111E160"
+                            ]
+                        ]
+                    }
                 }
             ]
         },
@@ -1244,8 +2282,17 @@
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["ART110E130", "ART110E170"]],
-                        "next": [["ART112E150"]]
+                        "pre": [
+                            [
+                                "ART110E130",
+                                "ART110E170"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "ART112E150"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -1256,8 +2303,17 @@
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["ART110E130", "ART110E170"]],
-                        "next": [["ART112E140"]]
+                        "pre": [
+                            [
+                                "ART110E130",
+                                "ART110E170"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "ART112E140"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -1266,7 +2322,14 @@
                     "track": "AP",
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ART110E110", "ART110E130"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ART110E110",
+                                "ART110E130"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "ART111E172",
@@ -1274,7 +2337,14 @@
                     "track": "AP",
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ART110E110", "ART110E130"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ART110E110",
+                                "ART110E130"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "ART111E100",
@@ -1293,7 +2363,13 @@
                     "level": "HL",
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ART111E150"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ART111E150"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "ART112E140",
@@ -1302,7 +2378,13 @@
                     "level": "SL",
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ART111E140"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ART111E140"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "ART112E100",
@@ -1311,7 +2393,13 @@
                     "level": "S",
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["ART111E100"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "ART111E100"
+                            ]
+                        ]
+                    }
                 }
             ]
         },
@@ -1323,7 +2411,8 @@
                     "track": "school",
                     "level": "S",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future."
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "moveUpTargetId": "GEO109E130"
                 },
                 {
                     "id": "GEO109E130",
@@ -1341,7 +2430,8 @@
                     "track": "school",
                     "level": "S",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future."
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "moveUpTargetId": "GEO110E130"
                 },
                 {
                     "id": "GEO110E130",
@@ -1350,7 +2440,13 @@
                     "level": "H",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["GEO109E130"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "GEO109E130"
+                            ]
+                        ]
+                    }
                 }
             ],
             "11": [
@@ -1370,8 +2466,14 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [
-                            ["GEO110E130"],
-                            ["ENG010S120", "ENG010S130", "ENG010F131"]
+                            [
+                                "GEO110E130"
+                            ],
+                            [
+                                "ENG010S120",
+                                "ENG010S130",
+                                "ENG010F131"
+                            ]
                         ]
                     }
                 }
@@ -1385,7 +2487,8 @@
                     "track": "school",
                     "level": "S",
                     "crowdRating": 0.0,
-                    "crowdReview": "ISA - Hack the system. Build the future."
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "moveUpTargetId": "HIS009E120"
                 },
                 {
                     "id": "HIS009E120",
@@ -1393,7 +2496,8 @@
                     "track": "school",
                     "level": "S+",
                     "crowdRating": 0.0,
-                    "crowdReview": "ISA - Hack the system. Build the future."
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "moveUpTargetId": "HIS009E130"
                 },
                 {
                     "id": "HIS009E130",
@@ -1412,7 +2516,14 @@
                     "level": "S",
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["HIS009E110"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "HIS009E110"
+                            ]
+                        ]
+                    },
+                    "moveUpTargetId": "HIS010E120"
                 },
                 {
                     "id": "HIS010E120",
@@ -1421,7 +2532,14 @@
                     "level": "S+",
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["HIS009E120"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "HIS009E120"
+                            ]
+                        ]
+                    },
+                    "moveUpTargetId": "HIS010E130"
                 },
                 {
                     "id": "HIS010E130",
@@ -1430,7 +2548,13 @@
                     "level": "H",
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["HIS009E130"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "HIS009E130"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "HIS110E170",
@@ -1440,8 +2564,13 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [
-                            ["HIS009E130"],
-                            ["ENG010S130", "ENG010F131"]
+                            [
+                                "HIS009E130"
+                            ],
+                            [
+                                "ENG010S130",
+                                "ENG010F131"
+                            ]
                         ]
                     }
                 }
@@ -1453,7 +2582,8 @@
                     "track": "school",
                     "level": "S",
                     "crowdRating": 0.0,
-                    "crowdReview": "ISA - Hack the system. Build the future."
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "moveUpTargetId": "HIS111E130"
                 },
                 {
                     "id": "HIS111E130",
@@ -1470,7 +2600,16 @@
                     "level": "S",
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["CHI010E110", "CHI010E120", "CHI010E130"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "CHI010E110",
+                                "CHI010E120",
+                                "CHI010E130"
+                            ]
+                        ]
+                    },
+                    "moveUpTargetId": "HIS111E131"
                 },
                 {
                     "id": "HIS111E131",
@@ -1479,7 +2618,14 @@
                     "level": "H",
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["CHI010E120", "CHI010E130"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "CHI010E120",
+                                "CHI010E130"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "HIS111E112",
@@ -1487,7 +2633,8 @@
                     "track": "school",
                     "level": "S",
                     "crowdRating": 0.0,
-                    "crowdReview": "ISA - Hack the system. Build the future."
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "moveUpTargetId": "HIS111E132"
                 },
                 {
                     "id": "HIS111E132",
@@ -1505,10 +2652,20 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [
-                            ["HIS010E130", "HIS110E170"],
-                            ["ENG010S130", "ENG010F131"]
+                            [
+                                "HIS010E130",
+                                "HIS110E170"
+                            ],
+                            [
+                                "ENG010S130",
+                                "ENG010F131"
+                            ]
                         ],
-                        "next": [["HIS112E160"]]
+                        "next": [
+                            [
+                                "HIS112E160"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -1519,8 +2676,16 @@
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["ENG010F131"]],
-                        "next": [["PHI112E140"]]
+                        "pre": [
+                            [
+                                "ENG010F131"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "PHI112E140"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -1531,8 +2696,14 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [
-                            ["HIS010E130", "HIS111E130"],
-                            ["ENG010S130", "ENG010F131"]
+                            [
+                                "HIS010E130",
+                                "HIS111E130"
+                            ],
+                            [
+                                "ENG010S130",
+                                "ENG010F131"
+                            ]
                         ]
                     }
                 },
@@ -1544,8 +2715,13 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [
-                            ["HIS010E130"],
-                            ["ENG010S130", "ENG010F131"]
+                            [
+                                "HIS010E130"
+                            ],
+                            [
+                                "ENG010S130",
+                                "ENG010F131"
+                            ]
                         ]
                     }
                 },
@@ -1557,8 +2733,15 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [
-                            ["HIS010E120", "HIS010E130", "HIS110E170"],
-                            ["ENG010S130", "ENG010F131"]
+                            [
+                                "HIS010E120",
+                                "HIS010E130",
+                                "HIS110E170"
+                            ],
+                            [
+                                "ENG010S130",
+                                "ENG010F131"
+                            ]
                         ]
                     }
                 },
@@ -1578,7 +2761,14 @@
                     "level": "S",
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["HIS111E112"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "HIS111E112"
+                            ]
+                        ]
+                    },
+                    "moveUpTargetId": "HIS112E130"
                 },
                 {
                     "id": "HIS112E130",
@@ -1587,7 +2777,13 @@
                     "level": "H",
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["HIS111E132"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "HIS111E132"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "HIS112E111",
@@ -1595,7 +2791,8 @@
                     "track": "school",
                     "level": "S",
                     "crowdRating": 0.0,
-                    "crowdReview": "ISA - Hack the system. Build the future."
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "moveUpTargetId": "HIS112E131"
                 },
                 {
                     "id": "HIS112E131",
@@ -1611,7 +2808,13 @@
                     "track": "IB",
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["HIS111E160"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "HIS111E160"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "PHI112E140",
@@ -1620,7 +2823,13 @@
                     "level": "SL",
                     "crowdRating": 0.0,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["PHI111E140"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "PHI111E140"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "HIS112E171",
@@ -1630,8 +2839,18 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [
-                            ["HIS010E130", "HIS111E130"],
-                            ["ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F162", "ENG011F161"]
+                            [
+                                "HIS010E130",
+                                "HIS111E130"
+                            ],
+                            [
+                                "ENG011F130",
+                                "ENG011F170",
+                                "ENG011F171",
+                                "ENG011F160",
+                                "ENG011F162",
+                                "ENG011F161"
+                            ]
                         ]
                     }
                 },
@@ -1643,7 +2862,10 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [
-                            ["HIS111E171", "HIS111E170"]
+                            [
+                                "HIS111E171",
+                                "HIS111E170"
+                            ]
                         ]
                     }
                 },
@@ -1705,7 +2927,13 @@
                     "level": "S",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["MAT009E91GE"]] },
+                    "rules": {
+                        "pre": [
+                            [
+                                "MAT009E91GE"
+                            ]
+                        ]
+                    },
                     "moveUpTargetId": "MAT010E93PC"
                 },
                 {
@@ -1715,8 +2943,13 @@
                     "level": "H",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["MAT009E92GE"]] },
-                    "moveUpTargetId": "MAT010E50PC"
+                    "rules": {
+                        "pre": [
+                            [
+                                "MAT009E92GE"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "MAT010E50PC",
@@ -1724,7 +2957,14 @@
                     "track": "AP",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["MAT009E93GE", "MAT009E94GE"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "MAT009E93GE",
+                                "MAT009E94GE"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "MAT010E50CL",
@@ -1732,7 +2972,13 @@
                     "track": "AP",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["MAT009E94GE"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "MAT009E94GE"
+                            ]
+                        ]
+                    }
                 }
             ],
             "11": [
@@ -1743,7 +2989,13 @@
                     "level": "S",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["MAT010E91PC"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "MAT010E91PC"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "MAT011E93CL",
@@ -1752,7 +3004,14 @@
                     "level": "H",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["MAT010E93PC", "MAT010E50PC"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "MAT010E93PC",
+                                "MAT010E50PC"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "MAT011E50ST",
@@ -1762,8 +3021,14 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [
-                            ["MAT010E93PC", "MAT010E50PC"],
-                            ["ENG010S130", "ENG010F131"]
+                            [
+                                "MAT010E93PC",
+                                "MAT010E50PC"
+                            ],
+                            [
+                                "ENG010S130",
+                                "ENG010F131"
+                            ]
                         ]
                     }
                 },
@@ -1775,8 +3040,15 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [
-                            ["MAT010E93PC", "MAT010E50PC"],
-                            ["ENG010S120", "ENG010S130", "ENG010F131"]
+                            [
+                                "MAT010E93PC",
+                                "MAT010E50PC"
+                            ],
+                            [
+                                "ENG010S120",
+                                "ENG010S130",
+                                "ENG010F131"
+                            ]
                         ]
                     }
                 },
@@ -1788,8 +3060,14 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [
-                            ["MAT010E50PC"],
-                            ["ENG010S120", "ENG010S130", "ENG010F131"]
+                            [
+                                "MAT010E50PC"
+                            ],
+                            [
+                                "ENG010S120",
+                                "ENG010S130",
+                                "ENG010F131"
+                            ]
                         ]
                     }
                 },
@@ -1801,8 +3079,17 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["MAT010E50PC", "MAT010E50CL"]],
-                        "next": [["MAT012E71AA"]]
+                        "pre": [
+                            [
+                                "MAT010E50PC",
+                                "MAT010E50CL"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "MAT012E71AA"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -1813,8 +3100,17 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["MAT010E50PC", "MAT010E50CL"]],
-                        "next": [["MAT012E73AA"]]
+                        "pre": [
+                            [
+                                "MAT010E50PC",
+                                "MAT010E50CL"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "MAT012E73AA"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -1825,8 +3121,17 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["MAT010E50PC", "MAT010E50CL"]],
-                        "next": [["MAT012E71AI"]]
+                        "pre": [
+                            [
+                                "MAT010E50PC",
+                                "MAT010E50CL"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "MAT012E71AI"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -1837,8 +3142,17 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["MAT010E50PC", "MAT010E50CL"]],
-                        "next": [["MAT012E73AI"]]
+                        "pre": [
+                            [
+                                "MAT010E50PC",
+                                "MAT010E50CL"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "MAT012E73AI"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -1849,8 +3163,17 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["MAT010E93PC", "MAT010E50PC"]],
-                        "next": [["MAT012E10AL"]]
+                        "pre": [
+                            [
+                                "MAT010E93PC",
+                                "MAT010E50PC"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "MAT012E10AL"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -1861,8 +3184,17 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["MAT010E93PC", "MAT010E50PC"]],
-                        "next": [["MAT012E10FM"]]
+                        "pre": [
+                            [
+                                "MAT010E93PC",
+                                "MAT010E50PC"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "MAT012E10FM"
+                            ]
+                        ]
                     }
                 }
             ],
@@ -1874,7 +3206,16 @@
                     "level": "S",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["MAT011E91CL", "MAT011E93CL", "MAT011E51CL", "MAT011E53CL"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "MAT011E91CL",
+                                "MAT011E93CL",
+                                "MAT011E51CL",
+                                "MAT011E53CL"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "MAT012E93AM",
@@ -1883,7 +3224,15 @@
                     "level": "H",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["MAT011E93CL", "MAT011E51CL", "MAT011E53CL"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "MAT011E93CL",
+                                "MAT011E51CL",
+                                "MAT011E53CL"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "MAT012E93FM",
@@ -1892,7 +3241,15 @@
                     "level": "H",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["MAT011E93CL", "MAT011E51CL", "MAT011E53CL"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "MAT011E93CL",
+                                "MAT011E51CL",
+                                "MAT011E53CL"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "MAT012E93MC",
@@ -1901,7 +3258,15 @@
                     "level": "H",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["MAT011E53CL", "MAT011E51CL", "MAT011E93CL"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "MAT011E53CL",
+                                "MAT011E51CL",
+                                "MAT011E93CL"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "MAT012E93SP",
@@ -1910,7 +3275,16 @@
                     "level": "H",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["MAT011E93CL", "MAT011E51CL", "MAT011E53CL", "MAT011E50ST"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "MAT011E93CL",
+                                "MAT011E51CL",
+                                "MAT011E53CL",
+                                "MAT011E50ST"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "MAT012E50ST",
@@ -1920,8 +3294,20 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [
-                            ["MAT011E93CL", "MAT011E51CL", "MAT011E53CL", "MAT011E50ST"],
-                            ["ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F162", "ENG011F161"]
+                            [
+                                "MAT011E93CL",
+                                "MAT011E51CL",
+                                "MAT011E53CL",
+                                "MAT011E50ST"
+                            ],
+                            [
+                                "ENG011F130",
+                                "ENG011F170",
+                                "ENG011F171",
+                                "ENG011F160",
+                                "ENG011F162",
+                                "ENG011F161"
+                            ]
                         ]
                     }
                 },
@@ -1931,7 +3317,13 @@
                     "track": "AP",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["MAT011E50ST"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "MAT011E50ST"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "MAT012E71AA",
@@ -1940,7 +3332,13 @@
                     "level": "SL",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["MAT011E71AA"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "MAT011E71AA"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "MAT012E73AA",
@@ -1949,7 +3347,13 @@
                     "level": "HL",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["MAT011E73AA"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "MAT011E73AA"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "MAT012E71AI",
@@ -1958,7 +3362,13 @@
                     "level": "SL",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["MAT011E71AI"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "MAT011E71AI"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "MAT012E73AI",
@@ -1967,7 +3377,13 @@
                     "level": "HL",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["MAT011E73AI"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "MAT011E73AI"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "MAT012E10AL",
@@ -1976,7 +3392,13 @@
                     "level": "A2",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["MAT011E10AL"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "MAT011E10AL"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "MAT012E10FM",
@@ -1985,7 +3407,13 @@
                     "level": "A2",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["MAT011E10FM"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "MAT011E10FM"
+                            ]
+                        ]
+                    }
                 }
             ]
         },
@@ -2007,9 +3435,7 @@
                     "track": "school",
                     "level": "H",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future.",
-                    "moveUp": "Exceed standards on the diagnostic test within the first month",
-                    "moveUpTargetId": "MUS110E170"
+                    "crowdReview": "ISA - Hack the system. Build the future."
                 },
                 {
                     "id": "MUS110E170",
@@ -2060,8 +3486,16 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["MUS110E130"]],
-                        "next": [["MUS112E140"]]
+                        "pre": [
+                            [
+                                "MUS110E130"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "MUS112E140"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -2072,8 +3506,16 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["MUS110E130"]],
-                        "next": [["MUS112E150"]]
+                        "pre": [
+                            [
+                                "MUS110E130"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "MUS112E150"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -2084,10 +3526,19 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [
-                            ["MUS110E131"],
-                            ["ENG010S130", "ENG010F131"]
+                            [
+                                "MUS110E131"
+                            ],
+                            [
+                                "ENG010S130",
+                                "ENG010F131"
+                            ]
                         ],
-                        "next": [["MUS112E141"]]
+                        "next": [
+                            [
+                                "MUS112E141"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -2130,7 +3581,13 @@
                     "level": "SL",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["MUS111E140"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "MUS111E140"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "MUS112E150",
@@ -2139,7 +3596,13 @@
                     "level": "HL",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["MUS111E150"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "MUS111E150"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "MUS112E141",
@@ -2147,7 +3610,13 @@
                     "track": "IB",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["MUS111E141"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "MUS111E141"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "MUS112E170",
@@ -2166,7 +3635,8 @@
                     "track": "school",
                     "level": "S",
                     "crowdRating": 6.7,
-                    "crowdReview": "ISA - Hack the system. Build the future."
+                    "crowdReview": "ISA - Hack the system. Build the future.",
+                    "moveUpTargetId": "PHY009E120"
                 },
                 {
                     "id": "PHY009E120",
@@ -2194,7 +3664,14 @@
                     "level": "S",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["PHY009E110", "PHY009E120"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "PHY009E110",
+                                "PHY009E120"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "PHY010E130",
@@ -2203,7 +3680,13 @@
                     "level": "H",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["PHY009E130"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "PHY009E130"
+                            ]
+                        ]
+                    }
                 }
             ],
             "11": [
@@ -2214,7 +3697,13 @@
                     "level": "S",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["PHY010E110"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "PHY010E110"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "PHY111E130",
@@ -2223,7 +3712,13 @@
                     "level": "H",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["PHY010E130"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "PHY010E130"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "PHY111E170",
@@ -2233,8 +3728,14 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [
-                            ["PHY010E130"],
-                            ["ENG010S120", "ENG010S130", "ENG010F131"]
+                            [
+                                "PHY010E130"
+                            ],
+                            [
+                                "ENG010S120",
+                                "ENG010S130",
+                                "ENG010F131"
+                            ]
                         ]
                     }
                 },
@@ -2246,8 +3747,16 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["PHY010E130"]],
-                        "next": [["PHY112E140"]]
+                        "pre": [
+                            [
+                                "PHY010E130"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "PHY112E140"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -2258,8 +3767,16 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["PHY010E130"]],
-                        "next": [["PHY112E150"]]
+                        "pre": [
+                            [
+                                "PHY010E130"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "PHY112E150"
+                            ]
+                        ]
                     }
                 },
                 {
@@ -2270,8 +3787,17 @@
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
-                        "pre": [["PHY010E110", "PHY010E130"]],
-                        "next": [["PHY112E180"]]
+                        "pre": [
+                            [
+                                "PHY010E110",
+                                "PHY010E130"
+                            ]
+                        ],
+                        "next": [
+                            [
+                                "PHY112E180"
+                            ]
+                        ]
                     }
                 }
             ],
@@ -2283,7 +3809,13 @@
                     "level": "S",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["PHY111E110"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "PHY111E110"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "PHY112E130",
@@ -2292,7 +3824,13 @@
                     "level": "H",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["PHY111E130"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "PHY111E130"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "PHY112E170",
@@ -2300,7 +3838,13 @@
                     "track": "AP",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["PHY111E170"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "PHY111E170"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "PHY112E171",
@@ -2310,7 +3854,13 @@
                     "crowdReview": "ISA - Hack the system. Build the future.",
                     "rules": {
                         "pre": [
-                            ["PHY111E170", "CHE011E070", "BIO111E070", "ENV111E070", "PHY111E130"]
+                            [
+                                "PHY111E170",
+                                "CHE011E070",
+                                "BIO111E070",
+                                "ENV111E070",
+                                "PHY111E130"
+                            ]
                         ]
                     }
                 },
@@ -2321,7 +3871,13 @@
                     "level": "SL",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["PHY111E140"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "PHY111E140"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "PHY112E150",
@@ -2330,7 +3886,13 @@
                     "level": "HL",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["PHY111E150"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "PHY111E150"
+                            ]
+                        ]
+                    }
                 },
                 {
                     "id": "PHY112E180",
@@ -2339,7 +3901,13 @@
                     "level": "A2",
                     "crowdRating": 6.7,
                     "crowdReview": "ISA - Hack the system. Build the future.",
-                    "rules": { "pre": [["PHY111E180"]] }
+                    "rules": {
+                        "pre": [
+                            [
+                                "PHY111E180"
+                            ]
+                        ]
+                    }
                 }
             ]
         }
