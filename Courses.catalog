@@ -1,27 +1,36 @@
 {   "catalogName": "Course catalog 26-27 experimental",
-    "version": "0.3f by willuhd (f for formatting?)",
-    "lastUpdated": "Apr 9, 2026",
-    "grades": ["9", "10", "11", "12"], "tracks": ["school", "AP", "IB", "ASA2"], "departments": {
+    "version": "0.3g by willuhd (g for good, finally?)",
+    "lastUpdated": "Apr 9, 2026; changed Bio stuff",
+    "grades": ["9", "10", "11", "12"], 
+    "tracks": ["school", "AP", "IB", "ASA2"], 
+    "departments": {
         "biology": {
             "9": [
-                {   "id": "BIO109E010",
+                {
+                    "id": "BIO109E010",
                     "name": "Biology 9 Standard",
                     "track": "school",
                     "level": "S",
                     "description": "spy",
                     "crowdRating": 6.7,
                     "crowdReview": " spyReview"
-                }, {"id": "BIO109E030",
+                },
+                {
+                    "id": "BIO109E030",
                     "name": "Biology 9 Honors",
                     "track": "school",
                     "level": "H",
                     "description": "spy",
                     "crowdRating": 6.7,
                     "crowdReview": " spyReview",
-                    "rules": {"current":  [["ENG109SPLUS"]]}
+                    "rules": {
+                        "current": [["ENG009S120", "ENG009F130", "ENG009F131"]]
+                    }
                 }
-            ], "10": [
-                {   "id": "BIO110E010",
+            ],
+            "10": [
+                {
+                    "id": "BIO110E010",
                     "name": "Biology 10 Standard",
                     "track": "school",
                     "level": "S",
@@ -30,159 +39,248 @@
                     "crowdReview": " spyReview",
                     "moveUp": "Strong midyear performance may qualify students to move up into Honors Biology 10.",
                     "moveUpTargetId": "BIO110E030"
-                }, {"id": "BIO110E030",
+                },
+                {
+                    "id": "BIO110E030",
                     "name": "Biology 10 Honors",
                     "track": "school",
                     "level": "H",
                     "description": "spy",
                     "crowdRating": 6.7,
                     "crowdReview": " spyReview",
-                    "rules": {"pre":  [["BIO109E030"]], "current":  [["ENG110SPLUS"]]}
+                    "rules": {
+                        "pre": [["BIO109E030"]],
+                        "current": [["ENG010S120", "ENG010S130", "ENG010F131"]]
+                    }
                 }
-            ], "11": [
-                {   "id": "BIO111E010",
+            ],
+            "11": [
+                {
+                    "id": "BIO111E010",
                     "name": "Elective Biology Standard 11",
                     "track": "school",
                     "level": "S",
                     "description": "spy",
                     "crowdRating": 6.7,
                     "crowdReview": " spyReview",
-                    "rules": {"next":  [["BIO112E010"]]}
-                }, {"id": "BIO111E030",
+                    "rules": { "next": [["BIO112E010"]] }
+                },
+                {
+                    "id": "BIO111E030",
                     "name": "Elective Biology Honors 11",
                     "track": "school",
                     "level": "H",
                     "description": "spy",
                     "crowdRating": 6.7,
                     "crowdReview": " spyReview",
-                    "rules": {"pre":  [["BIO110E010", "BIO110E030"]], "current":  [["ENG111SPLUS"]], "next":  [["BIO112E030"]]}
-                }, {"id": "BIO111E070",
+                    "rules": {
+                        "pre": [["BIO110E010", "BIO110E030"]],
+                        "current": [["ENG011S120", "ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F162", "ENG011F161"]],
+                        "next": [["BIO112E030"]]
+                    }
+                },
+                {
+                    "id": "BIO111E070",
                     "name": "AP Biology 11",
                     "track": "AP",
                     "description": "spy",
                     "crowdRating": 6.7,
                     "crowdReview": " spyReview",
-                    "rules": {"pre":  [["BIO110E030"]], "current":  [["ENG111SPLUS"]]}
-                }, {"id": "ENV111E070",
+                    "rules": {
+                        "pre": [["BIO110E030"]],
+                        "current": [["ENG011S120", "ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F162", "ENG011F161"]]
+                    }
+                },
+                {
+                    "id": "ENV111E070",
                     "name": "AP Environmental Science 11",
                     "track": "AP",
                     "description": "spy",
                     "crowdRating": 6.7,
                     "crowdReview": " spyReview",
-                    "rules": {"pre":  [["BIO110E030", "CHE110E030"]], "current":  [["ENG111H"]]}
-                }, {"id": "ENV111E100",
+                    "rules": {
+                        "pre": [["BIO110E030", "CHE010E030"]],
+                        "current": [["ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F162", "ENG011F161"]]
+                    }
+                },
+                {
+                    "id": "ENV111E100",
                     "name": "Environmental Engineering 11",
                     "track": "school",
                     "description": "spy",
                     "crowdRating": 6.7,
                     "crowdReview": " spyReview",
-                    "rules": {"current":  [["ENG111SPLUS"]]}
-                }, {"id": "ENV111E040",
+                    "rules": {
+                        "current": [["ENG011S120", "ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F162", "ENG011F161"]]
+                    }
+                },
+                {
+                    "id": "ENV111E040",
                     "name": "IB Environmental Systems and Societies SL Y1",
                     "track": "IB",
                     "level": "SL",
                     "description": "spy",
                     "crowdRating": 6.7,
                     "crowdReview": " spyReview",
-                    "rules": {"pre":  [["BIO110E030", "CHE110E030"]], "current":  [["ENG111H"]], "next":  [["ENV112E040"]]}
-                }, {"id": "BIO111E040",
+                    "rules": {
+                        "pre": [["BIO110E030", "CHE010E030"]],
+                        "current": [["ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F162", "ENG011F161"]],
+                        "next": [["ENV112E040"]]
+                    }
+                },
+                {
+                    "id": "BIO111E040",
                     "name": "IB Biology SL Y1",
                     "track": "IB",
                     "level": "SL",
                     "description": "spy",
                     "crowdRating": 6.7,
                     "crowdReview": " spyReview",
-                    "rules": {"pre":  [["BIO110E030"]], "current":  [["ENG111H"]], "next":  [["BIO112E040"]]}
-                }, {"id": "BIO111E050",
+                    "rules": {
+                        "pre": [["BIO110E030"]],
+                        "current": [["ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F162", "ENG011F161"]],
+                        "next": [["BIO112E040"]]
+                    }
+                },
+                {
+                    "id": "BIO111E050",
                     "name": "IB Biology HL Y1",
                     "track": "IB",
                     "level": "HL",
                     "description": "spy",
                     "crowdRating": 6.7,
                     "crowdReview": " spyReview",
-                    "rules": {"pre":  [["BIO110E030"]], "current":  [["ENG111H"]], "next":  [["BIO112E050"]]}
-                }, {"id": "BIO111E080",
+                    "rules": {
+                        "pre": [["BIO110E030"]],
+                        "current": [["ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F162", "ENG011F161"]],
+                        "next": [["BIO112E050"]]
+                    }
+                },
+                {
+                    "id": "BIO111E080",
                     "name": "A-Level Biology AS",
                     "track": "ASA2",
                     "level": "AS",
                     "description": "spy",
                     "crowdRating": 6.7,
                     "crowdReview": " spyReview",
-                    "rules": {"pre":  [["BIO110E010", "BIO110E030"]], "next":  [["BIO112E080"]]}
+                    "rules": {
+                        "pre": [["BIO110E010", "BIO110E030"]],
+                        "next": [["BIO112E080"]]
+                    }
                 }
-            ], "12": [
-                {   "id": "BIO112E010",
+            ],
+            "12": [
+                {
+                    "id": "BIO112E010",
                     "name": "Elective Biology Standard 12",
                     "track": "school",
                     "level": "S",
                     "description": "spy",
                     "crowdRating": 6.7,
                     "crowdReview": " spyReview"
-                }, {"id": "BIO112E030",
+                },
+                {
+                    "id": "BIO112E030",
                     "name": "Elective Biology Honors 12",
                     "track": "school",
                     "level": "H",
                     "description": "spy",
                     "crowdRating": 6.7,
                     "crowdReview": " spyReview",
-                    "rules": {"pre":  [["BIO110E010", "BIO110E030"]], "current":  [["ENG112SPLUS"]]}
-                }, {"id": "BIO112E070",
+                    "rules": {
+                        "pre": [["BIO110E010", "BIO110E030"]],
+                        "current": [["ENG012S120", "ENG012F130", "ENG012F170", "ENG012F171", "ENG012F160", "ENG012F162", "ENG012F161"]]
+                    }
+                },
+                {
+                    "id": "BIO112E070",
                     "name": "AP Biology 12",
                     "track": "AP",
                     "description": "spy",
                     "crowdRating": 6.7,
                     "crowdReview": " spyReview",
-                    "rules": {"pre":  [["BIO111E030", "CHE111E070", "ENV111E070"]], "current":  [["ENG112SPLUS"]]}
-                }, {"id": "ENV112E070",
+                    "rules": {
+                        "pre": [["BIO111E030", "CHE011E070", "ENV111E070"]],
+                        "current": [["ENG012S120", "ENG012F130", "ENG012F170", "ENG012F171", "ENG012F160", "ENG012F162", "ENG012F161"]]
+                    }
+                },
+                {
+                    "id": "ENV112E070",
                     "name": "AP Environmental Science 12",
                     "track": "AP",
                     "description": "spy",
                     "crowdRating": 6.7,
                     "crowdReview": " spyReview",
-                    "rules": {"pre":  [["BIO111E070", "CHE111E070"]], "current":  [["ENG112H"]]}
-                }, {"id": "ENV112E100",
+                    "rules": {
+                        "pre": [["BIO111E070", "CHE011E070"]],
+                        "current": [["ENG012F130", "ENG012F170", "ENG012F171", "ENG012F160", "ENG012F162", "ENG012F161"]]
+                    }
+                },
+                {
+                    "id": "ENV112E100",
                     "name": "Environmental Engineering 12",
                     "track": "school",
                     "description": "spy",
                     "crowdRating": 6.7,
                     "crowdReview": " spyReview",
-                    "rules": {"current":  [["ENG112SPLUS"]]}
-                }, {"id": "ENV112E040",
+                    "rules": {
+                        "current": [["ENG012S120", "ENG012F130", "ENG012F170", "ENG012F171", "ENG012F160", "ENG012F162", "ENG012F161"]]
+                    }
+                },
+                {
+                    "id": "ENV112E040",
                     "name": "IB Environmental Systems and Societies SL Y2",
                     "track": "IB",
                     "level": "SL",
                     "description": "spy",
                     "crowdRating": 6.7,
                     "crowdReview": " spyReview",
-                    "rules": {"pre":  [["ENV111E040"]], "current":  [["ENG112H"]]}
-                }, {"id": "BIO112E040",
+                    "rules": {
+                        "pre": [["ENV111E040"]],
+                        "current": [["ENG012F130", "ENG012F170", "ENG012F171", "ENG012F160", "ENG012F162", "ENG012F161"]]
+                    }
+                },
+                {
+                    "id": "BIO112E040",
                     "name": "IB Biology SL Y2",
                     "track": "IB",
                     "level": "SL",
                     "description": "spy",
                     "crowdRating": 6.7,
                     "crowdReview": " spyReview",
-                    "rules": {"pre":  [["BIO111E040"]], "current":  [["ENG112H"]]}
-                }, {"id": "BIO112E050",
+                    "rules": {
+                        "pre": [["BIO111E040"]],
+                        "current": [["ENG012F130", "ENG012F170", "ENG012F171", "ENG012F160", "ENG012F162", "ENG012F161"]]
+                    }
+                },
+                {
+                    "id": "BIO112E050",
                     "name": "IB Biology HL Y2",
                     "track": "IB",
                     "level": "HL",
                     "description": "spy",
                     "crowdRating": 6.7,
                     "crowdReview": " spyReview",
-                    "rules": {"pre":  [["BIO111E050"]], "current":  [["ENG112H"]]}
-                }, {"id": "BIO112E080",
+                    "rules": {
+                        "pre": [["BIO111E050"]],
+                        "current": [["ENG012F130", "ENG012F170", "ENG012F171", "ENG012F160", "ENG012F162", "ENG012F161"]]
+                    }
+                },
+                {
+                    "id": "BIO112E080",
                     "name": "A-Level Biology A2",
                     "track": "ASA2",
                     "level": "A2",
                     "description": "spy",
                     "crowdRating": 6.7,
                     "crowdReview": " spyReview",
-                    "rules": {"pre":  [["BIO111E080"]]}
+                    "rules": {
+                        "pre": [["BIO111E080"]]
+                    }
                 }
             ]
-        },
-        "chemistry": {
+        }, "chemistry": {
             "9": [
                 {   "id": "CHE009E010",
                     "name": "Chemistry 9 Standard",
