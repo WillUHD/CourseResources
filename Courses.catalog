@@ -1,280 +1,238 @@
 {   "catalogName": "Course catalog 26-27 experimental",
-    "version": "0.3g by willuhd (g for good, finally?)",
-    "lastUpdated": "Apr 9, 2026; changed Bio stuff",
+    "version": "0.3h by willuhd (h for honestly whens the last version???)",
+    "lastUpdated": "Apr 9, 2026; changed more random things",
     "grades": ["9", "10", "11", "12"], 
     "tracks": ["school", "AP", "IB", "ASA2"], 
     "departments": {
         "biology": {
             "9": [
-                {
-                    "id": "BIO109E010",
+                {   "id": "BIO109E010",
                     "name": "Biology 9 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
-                    "crowdReview": " spyReview"
-                },
-                {
-                    "id": "BIO109E030",
+                    "crowdReview": "spyReview"
+                }, {"id": "BIO109E030",
                     "name": "Biology 9 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
-                    "crowdReview": " spyReview",
+                    "crowdReview": "spyReview",
                     "rules": {
                         "current": [["ENG009S120", "ENG009F130", "ENG009F131"]]
                     }
                 }
-            ],
-            "10": [
-                {
-                    "id": "BIO110E010",
+            ], "10": [
+                {   "id": "BIO110E010",
                     "name": "Biology 10 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
-                    "crowdReview": " spyReview",
+                    "crowdReview": "spyReview",
                     "moveUp": "Strong midyear performance may qualify students to move up into Honors Biology 10.",
                     "moveUpTargetId": "BIO110E030"
-                },
-                {
-                    "id": "BIO110E030",
+                }, {"id": "BIO110E030",
                     "name": "Biology 10 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
-                    "crowdReview": " spyReview",
+                    "crowdReview": "spyReview",
                     "rules": {
                         "pre": [["BIO109E030"]],
                         "current": [["ENG010S120", "ENG010S130", "ENG010F131"]]
                     }
                 }
-            ],
-            "11": [
-                {
-                    "id": "BIO111E010",
+            ], "11": [
+                {   "id": "BIO111E010",
                     "name": "Elective Biology Standard 11",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
-                    "crowdReview": " spyReview",
+                    "crowdReview": "spyReview",
                     "rules": { "next": [["BIO112E010"]] }
-                },
-                {
-                    "id": "BIO111E030",
+                }, {"id": "BIO111E030",
                     "name": "Elective Biology Honors 11",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
-                    "crowdReview": " spyReview",
+                    "crowdReview": "spyReview",
                     "rules": {
                         "pre": [["BIO110E010", "BIO110E030"]],
                         "current": [["ENG011S120", "ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F162", "ENG011F161"]],
                         "next": [["BIO112E030"]]
                     }
-                },
-                {
-                    "id": "BIO111E070",
+                }, {"id": "BIO111E070",
                     "name": "AP Biology 11",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
-                    "crowdReview": " spyReview",
+                    "crowdReview": "spyReview",
                     "rules": {
                         "pre": [["BIO110E030"]],
                         "current": [["ENG011S120", "ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F162", "ENG011F161"]]
                     }
-                },
-                {
-                    "id": "ENV111E070",
+                }, {"id": "ENV111E070",
                     "name": "AP Environmental Science 11",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
-                    "crowdReview": " spyReview",
+                    "crowdReview": "spyReview",
                     "rules": {
                         "pre": [["BIO110E030", "CHE010E030"]],
                         "current": [["ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F162", "ENG011F161"]]
                     }
-                },
-                {
-                    "id": "ENV111E100",
+                }, {"id": "ENV111E100",
                     "name": "Environmental Engineering 11",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
-                    "crowdReview": " spyReview",
+                    "crowdReview": "spyReview",
                     "rules": {
                         "current": [["ENG011S120", "ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F162", "ENG011F161"]]
                     }
-                },
-                {
-                    "id": "ENV111E040",
+                }, {"id": "ENV111E040",
                     "name": "IB Environmental Systems and Societies SL Y1",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
-                    "crowdReview": " spyReview",
+                    "crowdReview": "spyReview",
                     "rules": {
                         "pre": [["BIO110E030", "CHE010E030"]],
                         "current": [["ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F162", "ENG011F161"]],
                         "next": [["ENV112E040"]]
                     }
-                },
-                {
-                    "id": "BIO111E040",
+                }, {"id": "BIO111E040",
                     "name": "IB Biology SL Y1",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
-                    "crowdReview": " spyReview",
+                    "crowdReview": "spyReview",
                     "rules": {
                         "pre": [["BIO110E030"]],
                         "current": [["ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F162", "ENG011F161"]],
                         "next": [["BIO112E040"]]
                     }
-                },
-                {
-                    "id": "BIO111E050",
+                }, {"id": "BIO111E050",
                     "name": "IB Biology HL Y1",
                     "track": "IB",
                     "level": "HL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
-                    "crowdReview": " spyReview",
+                    "crowdReview": "spyReview",
                     "rules": {
                         "pre": [["BIO110E030"]],
                         "current": [["ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F162", "ENG011F161"]],
                         "next": [["BIO112E050"]]
                     }
-                },
-                {
-                    "id": "BIO111E080",
+                }, {"id": "BIO111E080",
                     "name": "A-Level Biology AS",
                     "track": "ASA2",
                     "level": "AS",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
-                    "crowdReview": " spyReview",
+                    "crowdReview": "spyReview",
                     "rules": {
                         "pre": [["BIO110E010", "BIO110E030"]],
                         "next": [["BIO112E080"]]
                     }
                 }
-            ],
-            "12": [
+            ], "12": [
                 {
                     "id": "BIO112E010",
                     "name": "Elective Biology Standard 12",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
-                    "crowdReview": " spyReview"
-                },
-                {
-                    "id": "BIO112E030",
+                    "crowdReview": "spyReview"
+                }, {"id": "BIO112E030",
                     "name": "Elective Biology Honors 12",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
-                    "crowdReview": " spyReview",
+                    "crowdReview": "spyReview",
                     "rules": {
                         "pre": [["BIO110E010", "BIO110E030"]],
                         "current": [["ENG012S120", "ENG012F130", "ENG012F170", "ENG012F171", "ENG012F160", "ENG012F162", "ENG012F161"]]
                     }
-                },
-                {
-                    "id": "BIO112E070",
+                }, {"id": "BIO112E070",
                     "name": "AP Biology 12",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
-                    "crowdReview": " spyReview",
+                    "crowdReview": "spyReview",
                     "rules": {
                         "pre": [["BIO111E030", "CHE011E070", "ENV111E070"]],
                         "current": [["ENG012S120", "ENG012F130", "ENG012F170", "ENG012F171", "ENG012F160", "ENG012F162", "ENG012F161"]]
                     }
-                },
-                {
-                    "id": "ENV112E070",
+                }, {"id": "ENV112E070",
                     "name": "AP Environmental Science 12",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
-                    "crowdReview": " spyReview",
+                    "crowdReview": "spyReview",
                     "rules": {
                         "pre": [["BIO111E070", "CHE011E070"]],
                         "current": [["ENG012F130", "ENG012F170", "ENG012F171", "ENG012F160", "ENG012F162", "ENG012F161"]]
                     }
-                },
-                {
-                    "id": "ENV112E100",
+                }, {"id": "ENV112E100",
                     "name": "Environmental Engineering 12",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
-                    "crowdReview": " spyReview",
+                    "crowdReview": "spyReview",
                     "rules": {
                         "current": [["ENG012S120", "ENG012F130", "ENG012F170", "ENG012F171", "ENG012F160", "ENG012F162", "ENG012F161"]]
                     }
-                },
-                {
-                    "id": "ENV112E040",
+                }, {"id": "ENV112E040",
                     "name": "IB Environmental Systems and Societies SL Y2",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
-                    "crowdReview": " spyReview",
+                    "crowdReview": "spyReview",
                     "rules": {
                         "pre": [["ENV111E040"]],
                         "current": [["ENG012F130", "ENG012F170", "ENG012F171", "ENG012F160", "ENG012F162", "ENG012F161"]]
                     }
-                },
-                {
-                    "id": "BIO112E040",
+                }, {"id": "BIO112E040",
                     "name": "IB Biology SL Y2",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
-                    "crowdReview": " spyReview",
+                    "crowdReview": "spyReview",
                     "rules": {
                         "pre": [["BIO111E040"]],
                         "current": [["ENG012F130", "ENG012F170", "ENG012F171", "ENG012F160", "ENG012F162", "ENG012F161"]]
                     }
-                },
-                {
-                    "id": "BIO112E050",
+                }, {"id": "BIO112E050",
                     "name": "IB Biology HL Y2",
                     "track": "IB",
                     "level": "HL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
-                    "crowdReview": " spyReview",
+                    "crowdReview": "spyReview",
                     "rules": {
                         "pre": [["BIO111E050"]],
                         "current": [["ENG012F130", "ENG012F170", "ENG012F171", "ENG012F160", "ENG012F162", "ENG012F161"]]
                     }
-                },
-                {
-                    "id": "BIO112E080",
+                }, {"id": "BIO112E080",
                     "name": "A-Level Biology A2",
                     "track": "ASA2",
                     "level": "A2",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
-                    "crowdReview": " spyReview",
+                    "crowdReview": "spyReview",
                     "rules": {
                         "pre": [["BIO111E080"]]
                     }
@@ -286,7 +244,7 @@
                     "name": "Chemistry 9 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "moveUpTargetId": "CHE009E020"
@@ -294,7 +252,7 @@
                     "name": "Chemistry 9 S+",
                     "track": "school",
                     "level": "S+",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "moveUpTargetId": "CHE009E030"
@@ -302,7 +260,7 @@
                     "name": "Chemistry 9 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }
@@ -311,7 +269,7 @@
                     "name": "Chemistry 10 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHE009E010"]]},
@@ -320,7 +278,7 @@
                     "name": "Chemistry 10 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHE009E030"]]}
@@ -330,7 +288,7 @@
                     "name": "Chemistry 11 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHE010E010"]]},
@@ -339,14 +297,14 @@
                     "name": "Chemistry 11 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHE010E030"]]}
                 }, {"id": "CHE011E070",
                     "name": "AP Chemistry 11",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHE010E030"], ["ENG010S120", "ENG010S130", "ENG010F131"]]}
@@ -354,7 +312,7 @@
                     "name": "IB Chemistry SL Y1",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHE010E030"]], "next":  [["CHE012E040"]]}
@@ -362,7 +320,7 @@
                     "name": "IB Chemistry HL Y1",
                     "track": "IB",
                     "level": "HL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHE010E030"]], "next":  [["CHE012E050"]]}
@@ -370,7 +328,7 @@
                     "name": "A-Level Chemistry AS",
                     "track": "ASA2",
                     "level": "AS",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHE010E010", "CHE010E030"]], "next":  [["CHE012E180"]]}
@@ -380,7 +338,7 @@
                     "name": "Chemistry 12 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHE011E010"]]},
@@ -389,14 +347,14 @@
                     "name": "Chemistry 12 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHE011E030"]]}
                 }, {"id": "CHE012E070",
                     "name": "AP Chemistry 12",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {
@@ -408,7 +366,7 @@
                     "name": "IB Chemistry SL Y2",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHE011E040"]]}
@@ -416,7 +374,7 @@
                     "name": "IB Chemistry HL Y2",
                     "track": "IB",
                     "level": "HL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHE011E050"]]}
@@ -424,77 +382,76 @@
                     "name": "A-Level Chemistry A2",
                     "track": "ASA2",
                     "level": "A2",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHE011E180"]]}
                 }, {"id": "CHE012E120",
                     "name": "Organic Chemistry 12",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHE011E070"]]}
                 }
             ]
-        },
-        "chinese": {
+        }, "chinese": {
             "9": [
                 {   "id": "CHI009E001",
                     "name": "Chinese Level 1 9 Y1",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI009E002",
                     "name": "Chinese Level 2 9 Y1",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI009E003",
                     "name": "Chinese Level 3 9 Y1",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI009E004",
                     "name": "Chinese Level 4 9 Y1",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI009E005",
                     "name": "Chinese Level 5 9 Y1",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI009E006",
                     "name": "Chinese Level 6 9 Y1",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI009E110",
                     "name": "Chinese Level 8 9 (S)",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI009E120",
                     "name": "Chinese Level 9 9 (H)",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI009E130",
                     "name": "Chinese Level 10 9 (H+)",
                     "track": "school",
                     "level": "H+",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }
@@ -502,50 +459,50 @@
                 {   "id": "CH010E000",
                     "name": "Chinese Beginner 10",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI010E001",
                     "name": "Chinese Level 1 10 Y2",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI010E002",
                     "name": "Chinese Level 2 10 Y2",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI010E003",
                     "name": "Chinese Level 3 10 Y2",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI010E004",
                     "name": "Chinese Level 4 10 Y2",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI010E005",
                     "name": "Chinese Level 5 10 Y2",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI010E006",
                     "name": "Chinese Level 6 10 Y2",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI010E170",
                     "name": "AP Chinese 10 (AP)",
                     "track": "AP",
                     "level": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHI009E005", "CHI009E006", "CHI009E110"]], "next":  [["CHI011E160"]]}
@@ -553,21 +510,21 @@
                     "name": "Chinese Level 8 10 (S)",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI010E120",
                     "name": "Chinese Level 9 10 (H)",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI010E130",
                     "name": "Chinese Level 10 10 (H+)",
                     "track": "school",
                     "level": "H+",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }
@@ -575,72 +532,72 @@
                 {   "id": "CHI011E001",
                     "name": "Chinese Level 1 11 Y1",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI011E002",
                     "name": "Chinese Level 2 11 Y1",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI011E003",
                     "name": "Chinese Level 3 11 Y1",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI011E004",
                     "name": "Chinese Level 4 11 Y1",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI011E005",
                     "name": "Chinese Level 5 11 Y1",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI011E006",
                     "name": "Chinese Level 6 11 Y1",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI011E007",
                     "name": "Chinese Level 7 11 (AP) Y1",
                     "track": "school",
                     "level": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI011E110",
                     "name": "Chinese Level 8 11 (S)",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI011E120",
                     "name": "Chinese Level 9 11 (H)",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI011E130",
                     "name": "Chinese Level 10 11 (H+)",
                     "track": "school",
                     "level": "H+",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI011E160",
                     "name": "IB Acquisition Mandarin SL 11 Y1",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHI010E005", "CHI010E006", "CHI010E170"]], "next":  [["CHI012E160"]]}
@@ -648,21 +605,21 @@
                     "name": "IB Acquisition Mandarin HL 11 Y1",
                     "track": "IB",
                     "level": "HL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHI010E110", "CHI010E170"]], "next":  [["CHI012E161"]]}
                 }, {"id": "CHI011E162",
                     "name": "IB Language and Literature 11 Y1",
                     "track": "IB",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHI010E120", "CHI010E130"]], "next":  [["CHI012E162"]]}
                 }, {"id": "CHI011E163",
                     "name": "IB Chinese Literature 11 Y1",
                     "track": "IB",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHI010E120", "CHI010E130"]], "next":  [["CHI012E163"]]}
@@ -671,78 +628,78 @@
                 {   "id": "CH012E000",
                     "name": "Chinese Beginner 12",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI012E001",
                     "name": "Chinese Level 1 12 Y2",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI012E002",
                     "name": "Chinese Level 2 12 Y2",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI012E003",
                     "name": "Chinese Level 3 12 Y2",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI012E004",
                     "name": "Chinese Level 4 12 Y2",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI012E005",
                     "name": "Chinese Level 5 12 Y2",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI012E006",
                     "name": "Chinese Level 6 12 Y2",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI012E007",
                     "name": "Chinese Level 7 12 (AP) Y2",
                     "track": "school",
                     "level": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI012E110",
                     "name": "Chinese Level 8 12 (S)",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI012E120",
                     "name": "Chinese Level 9 12 (H)",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI012E130",
                     "name": "Chinese Level 10 12 (H+)",
                     "track": "school",
                     "level": "H+",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "CHI012E160",
                     "name": "IB Acquisition Mandarin SL 12 Y2",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHI011E160"]]}
@@ -750,34 +707,32 @@
                     "name": "IB Acquisition Mandarin HL 12 Y2",
                     "track": "IB",
                     "level": "HL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHI011E161"]]}
                 }, {"id": "CHI012E162",
                     "name": "IB Language and Literature 12 Y2",
                     "track": "IB",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHI011E162"]]}
                 }, {"id": "CHI012E163",
                     "name": "IB Chinese Literature 12 Y2",
                     "track": "IB",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHI011E163"]]}
                 }
             ]
-        },
-        "computer science": {
-            "9": [
+        }, "computer science": {"9": [
                 {   "id": "COM109E112",
                     "name": "Computing Essentials 9 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "moveUpTargetId": "COM109E130"
@@ -785,7 +740,7 @@
                     "name": "Programming Methodology 9 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }
@@ -794,7 +749,7 @@
                     "name": "Computer Fundamentals 10 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "moveUpTargetId": "COM110E130"
@@ -802,14 +757,14 @@
                     "name": "Computer Fundamentals 10 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["COM109E130"]]}
                 }, {"id": "COM110E170",
                     "name": "AP Computer Science Principles 10",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["COM109E130"]]}
@@ -818,7 +773,7 @@
                 {   "id": "COM111E170",
                     "name": "AP Computer Science A 11",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["COM110E170", "COM110E130"]]}
@@ -826,7 +781,7 @@
                     "name": "IB Computer Science SL Y1",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["COM110E170", "COM110E130"]], "next":  [["COM112E140"]]}
@@ -834,14 +789,14 @@
                     "name": "IB Computer Science HL Y1",
                     "track": "IB",
                     "level": "HL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["COM110E170", "COM110E130"]], "next":  [["COM112E150"]]}
                 }, {"id": "COM111E100",
                     "name": "Computer Skills 11",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }
@@ -850,7 +805,7 @@
                     "name": "IB Computer Science SL Y2",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["COM111E140"]]}
@@ -858,26 +813,26 @@
                     "name": "IB Computer Science HL Y2",
                     "track": "IB",
                     "level": "HL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["COM111E150"]]}
                 }, {"id": "COM112E100",
                     "name": "Computer Skills 12",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }
             ]
-        },
-        "social science": {
-            "9": [], "10": [
+        }, "social sciences": {
+            "9": [
+            ], "10": [
                 {   "id": "ECO110E110",
                     "name": "Economics & Business 10 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "moveUpTargetId": "ECO110E130"
@@ -885,13 +840,13 @@
                     "name": "Economics & Business 10 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "ECO110E170",
                     "name": "AP Microeconomics 10",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }
@@ -899,20 +854,20 @@
                 {   "id": "ECO111E170",
                     "name": "AP Microeconomics 11",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "ECO111E171",
                     "name": "AP Macroeconomics 11",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ECO110E170"]]}
                 }, {"id": "ECO111E160",
                     "name": "IB Economics Y1",
                     "track": "IB",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ECO110E130", "ECO110E170"]], "next":  [["ECO112E160"]]}
@@ -920,7 +875,7 @@
                     "name": "IB Business Management SL Y1",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ECO110E170", "ECO110E130"]], "next":  [["BUS112E140"]]}
@@ -928,7 +883,7 @@
                     "name": "A-Level Economics AS",
                     "track": "ASA2",
                     "level": "AS",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"next":  [["ECO112E180"]]}
@@ -936,33 +891,33 @@
                     "name": "Business Management 11",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "LAW111E130",
                     "name": "Introduction to Law 11",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "SOC111E130",
                     "name": "Sociology 11 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "PSY111E100",
                     "name": "Psychology 11 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "PSY111E170",
                     "name": "AP Psychology 11",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG010S130", "ENG010F131"]]}
@@ -970,7 +925,7 @@
                     "name": "IB Psychology SL Y1",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"next":  [["PSY112E140"]]}
@@ -978,7 +933,7 @@
                     "name": "IB Psychology HL Y1",
                     "track": "IB",
                     "level": "HL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"next":  [["PSY112E150"]]}
@@ -986,7 +941,7 @@
                     "name": "A-Level Psychology AS",
                     "track": "ASA2",
                     "level": "AS",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"next":  [["PSY112E180"]]}
@@ -995,13 +950,13 @@
                 {   "id": "ECO112E170",
                     "name": "AP Macroeconomics 12",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "ECO112E160",
                     "name": "IB Economics Y2",
                     "track": "IB",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ECO111E160"]]}
@@ -1009,7 +964,7 @@
                     "name": "IB Business Management SL Y2",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["BUS111E140"]]}
@@ -1017,7 +972,7 @@
                     "name": "A-Level Economics A2",
                     "track": "ASA2",
                     "level": "A2",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ECO111E180"]]}
@@ -1025,54 +980,54 @@
                     "name": "Business Management 12",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "ACC112E130",
                     "name": "Accounting 12 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG011F130", "ENG011F170", "ENG011F171", "ENG011F160", "ENG011F161", "ENG011F162"]]}
                 }, {"id": "LAW112E130",
                     "name": "Introduction to Law 12",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "SOC112E130",
                     "name": "Sociology 12 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "BUS112E170",
                     "name": "AP Business with Personal Finance 12",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "PSY112E100",
                     "name": "Psychology 12 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "PSY112E170",
                     "name": "AP Psychology 12",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "PSY112E140",
                     "name": "IB Psychology SL Y2",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["PSY111E140"]]}
@@ -1080,7 +1035,7 @@
                     "name": "IB Psychology HL Y2",
                     "track": "IB",
                     "level": "HL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["PSY111E150"]]}
@@ -1088,20 +1043,19 @@
                     "name": "A-Level Psychology A2",
                     "track": "ASA2",
                     "level": "A2",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["PSY111E180"]]}
                 }
             ]
-        },
-        "english": {
+        }, "english": {
             "9": [
                 {   "id": "ENG009S110",
                     "name": "English 9 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "moveUpTargetId": "ENG009S120"
@@ -1109,7 +1063,7 @@
                     "name": "English 9 S+",
                     "track": "school",
                     "level": "S+",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "moveUpTargetId": "ENG009F130"
@@ -1117,7 +1071,7 @@
                     "name": "English 9 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "moveUpTargetId": "ENG009F131"
@@ -1125,7 +1079,7 @@
                     "name": "English 9 H+",
                     "track": "school",
                     "level": "H+",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }
@@ -1134,7 +1088,7 @@
                     "name": "English 10 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG009S110"]]},
@@ -1143,7 +1097,7 @@
                     "name": "English 10 S+",
                     "track": "school",
                     "level": "S+",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG009S120"]]},
@@ -1152,7 +1106,7 @@
                     "name": "English 10 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG009F130"]]},
@@ -1161,7 +1115,7 @@
                     "name": "English 10 H+",
                     "track": "school",
                     "level": "H+",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG009F131"]]}
@@ -1171,7 +1125,7 @@
                     "name": "English 11 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG010S110"]]},
@@ -1180,7 +1134,7 @@
                     "name": "English 11 S+",
                     "track": "school",
                     "level": "S+",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG010S120"]]},
@@ -1189,49 +1143,49 @@
                     "name": "English 11 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG010S130", "ENG010F131"]]}
                 }, {"id": "ENG111E101",
                     "name": "Creative Writing 11",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG010S130", "ENG010F131"]]}
                 }, {"id": "ENG011F170",
                     "name": "AP Language and Composition 11",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG010F131"]]}
                 }, {"id": "ENG011F171",
                     "name": "AP Language and Composition Y1",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG010S130", "ENG010F131"]], "next":  [["ENG012F171"]]}
                 }, {"id": "ENG011F160",
                     "name": "IB English A Literature Y1",
                     "track": "IB",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG010F131"]], "next":  [["ENG012F160"]]}
                 }, {"id": "ENG011F162",
                     "name": "IB English A Language & Literature Y1",
                     "track": "IB",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG010F131"]], "next":  [["ENG012F162"]]}
                 }, {"id": "ENG011F161",
                     "name": "IB English B Language Y1",
                     "track": "IB",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG010S130", "ENG010F131"]], "next":  [["ENG012F161"]]}
@@ -1241,7 +1195,7 @@
                     "name": "English 12 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG011S110"]]},
@@ -1250,7 +1204,7 @@
                     "name": "English 12 S+",
                     "track": "school",
                     "level": "S+",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG011S120"]]},
@@ -1259,68 +1213,69 @@
                     "name": "English 12 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG011F130", "ENG011S120"]]}
                 }, {"id": "ENG112E103",
                     "name": "Advanced Creative Writing 12",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG111E101"]]}
                 }, {"id": "ENG012F170",
                     "name": "AP Literature and Composition 12",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG011F170", "ENG011F171"]]}
                 }, {"id": "ENG012F171",
                     "name": "AP Language and Composition Y2",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG011F171"]]}
                 }, {"id": "ENG012F160",
                     "name": "IB English A Literature Y2",
                     "track": "IB",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG011F160"]]}
                 }, {"id": "ENG012F162",
                     "name": "IB English A Language & Literature Y2",
                     "track": "IB",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG011F162"]]}
                 }, {"id": "ENG012F161",
                     "name": "IB English B Language Y2",
                     "track": "IB",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG011F161"]]}
                 }
             ]
-        },
-        "world languages": {
-            "9": [], "10": [], "11": [
+        }, "world languages": {
+            "9": [
+            ], "10": [
+            ], "11": [
                 {   "id": "LAN111E130",
                     "name": "World Language 11 French",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"next":  [["LAN112E130"]]}
                 }, {"id": "LAN111E132",
                     "name": "World Language 11 Japanese/Spanish",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"next":  [["LAN112E132"]]}
@@ -1328,7 +1283,7 @@
                     "name": "IB French ab initio Y1",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"next":  [["LAN112E161"]]}
@@ -1336,7 +1291,7 @@
                     "name": "IB Spanish ab initio Y1",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"next":  [["LAN112E160"]]}
@@ -1345,14 +1300,14 @@
                 {   "id": "LAN112E130",
                     "name": "World Language 12 French",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["LAN111E130"]]}
                 }, {"id": "LAN112E132",
                     "name": "World Language 12 Japanese/Spanish",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["LAN111E132"]]}
@@ -1360,7 +1315,7 @@
                     "name": "IB French ab initio Y2",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["LAN111E161"]]}
@@ -1368,20 +1323,19 @@
                     "name": "IB Spanish ab initio Y2",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["LAN111E160"]]}
                 }
             ]
-        },
-        "arts": {
+        }, "art": {
             "9": [
                 {   "id": "ART109E100",
                     "name": "Arts 9",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }
@@ -1390,20 +1344,20 @@
                     "name": "Visual Arts 10 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "ART110E130",
                     "name": "Visual Arts 10 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "ART110E170",
                     "name": "AP Drawing 10",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }
@@ -1412,7 +1366,7 @@
                     "name": "IB Visual Arts HL Y1",
                     "track": "IB",
                     "level": "HL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ART110E130", "ART110E170"]], "next":  [["ART112E150"]]}
@@ -1420,21 +1374,21 @@
                     "name": "IB Visual Arts SL Y1",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ART110E130", "ART110E170"]], "next":  [["ART112E140"]]}
                 }, {"id": "ART111E170",
                     "name": "AP Drawing 11",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ART110E110", "ART110E130"]]}
                 }, {"id": "ART111E172",
                     "name": "AP 3-D Art and Design 11",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ART110E110", "ART110E130"]]}
@@ -1442,7 +1396,7 @@
                     "name": "Drawing 11 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }
@@ -1451,7 +1405,7 @@
                     "name": "IB Visual Arts HL Y2",
                     "track": "IB",
                     "level": "HL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ART111E150"]]}
@@ -1459,7 +1413,7 @@
                     "name": "IB Visual Arts SL Y2",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ART111E140"]]}
@@ -1467,20 +1421,19 @@
                     "name": "Drawing 12 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ART111E100"]]}
                 }
             ]
-        },
-        "geography": {
+        }, "geography": {
             "9": [
                 {   "id": "GEO109E110",
                     "name": "Physical Geography 9 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "moveUpTargetId": "GEO109E130"
@@ -1488,7 +1441,7 @@
                     "name": "Physical Geography 9 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }
@@ -1497,7 +1450,7 @@
                     "name": "Human Geography 10 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "moveUpTargetId": "GEO110E130"
@@ -1505,7 +1458,7 @@
                     "name": "Human Geography 10 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["GEO109E130"]]}
@@ -1515,26 +1468,25 @@
                     "name": "Human Geography 11 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "GEO111E170",
                     "name": "AP Human Geography 11",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["GEO110E130"], ["ENG010S120", "ENG010S130", "ENG010F131"]]}
                 }
             ]
-        },
-        "history": {
+        }, "history": {
             "9": [
                 {   "id": "HIS009E110",
                     "name": "World History to 1500 9 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "moveUpTargetId": "HIS009E120"
@@ -1542,7 +1494,7 @@
                     "name": "World History to 1500 9 S+",
                     "track": "school",
                     "level": "S+",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "moveUpTargetId": "HIS009E130"
@@ -1550,7 +1502,7 @@
                     "name": "World History to 1500 9 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }
@@ -1559,7 +1511,7 @@
                     "name": "World History Since 1500 10 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["HIS009E110"]]},
@@ -1568,7 +1520,7 @@
                     "name": "World History Since 1500 10 S+",
                     "track": "school",
                     "level": "S+",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["HIS009E120"]]},
@@ -1577,14 +1529,14 @@
                     "name": "World History Since 1500 10 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["HIS009E130"]]}
                 }, {"id": "HIS110E170",
                     "name": "AP World History 10",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["HIS009E130"], ["ENG010S130", "ENG010F131"]]}
@@ -1594,7 +1546,7 @@
                     "name": "United States Overview 11 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "moveUpTargetId": "HIS111E130"
@@ -1602,14 +1554,14 @@
                     "name": "United States Overview 11 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "HIS111E111",
                     "name": "Traditional China: History and Culture 11 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHI010E110", "CHI010E120", "CHI010E130"]]},
@@ -1618,7 +1570,7 @@
                     "name": "Traditional China: History and Culture 11 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["CHI010E120", "CHI010E130"]]}
@@ -1626,7 +1578,7 @@
                     "name": "Western Civilization 1 11 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "moveUpTargetId": "HIS111E132"
@@ -1634,13 +1586,13 @@
                     "name": "Western Civilization 1 11 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "HIS111E160",
                     "name": "IB World History SL/HL Y1",
                     "track": "IB",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["HIS010E130", "HIS110E170"], ["ENG010S130", "ENG010F131"]], "next":  [["HIS112E160"]]}
@@ -1648,35 +1600,35 @@
                     "name": "IB Philosophy SL Y1",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["ENG010F131"]], "next":  [["PHI112E140"]]}
                 }, {"id": "HIS111E171",
                     "name": "AP US History 11",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["HIS010E130", "HIS111E130"], ["ENG010S130", "ENG010F131"]]}
                 }, {"id": "HIS111E170",
                     "name": "AP World History 11",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["HIS010E130"], ["ENG010S130", "ENG010F131"]]}
                 }, {"id": "HIS111E172",
                     "name": "AP Art History 11",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["HIS010E120", "HIS010E130", "HIS110E170"], ["ENG010S130", "ENG010F131"]]}
                 }, {"id": "PHI111E100",
                     "name": "Philosophy 11",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }
@@ -1685,7 +1637,7 @@
                     "name": "Western Civilization 2 12 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["HIS111E112"]]},
@@ -1694,7 +1646,7 @@
                     "name": "Western Civilization 2 12 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["HIS111E132"]]}
@@ -1702,7 +1654,7 @@
                     "name": "American Government and Politics 12 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "moveUpTargetId": "HIS112E131"
@@ -1710,13 +1662,13 @@
                     "name": "American Government and Politics 12 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "HIS112E160",
                     "name": "IB World History SL/HL Y2",
                     "track": "IB",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["HIS111E160"]]}
@@ -1724,14 +1676,14 @@
                     "name": "IB Philosophy SL Y2",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["PHI111E140"]]}
                 }, {"id": "HIS112E171",
                     "name": "AP US History 12",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {
@@ -1742,26 +1694,25 @@
                 }, {"id": "HIS112E172",
                     "name": "AP Art History 12",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["HIS111E171", "HIS111E170"]]}
                 }, {"id": "PHI112E100",
                     "name": "Philosophy 12",
                     "track": "school",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }
             ]
-        },
-        "math": {
+        }, "math": {
             "9": [
                 {   "id": "MAT009E91GE",
                     "name": "Geometry 9 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "moveUp": "Midyear performance may qualify students to move up.",
@@ -1770,7 +1721,7 @@
                     "name": "Geometry 9 S+",
                     "track": "school",
                     "level": "S+",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "moveUp": "Midyear performance may qualify students to move up.",
@@ -1779,7 +1730,7 @@
                     "name": "Geometry 9 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "moveUp": "Strong performance may qualify students to move up.",
@@ -1788,7 +1739,7 @@
                     "name": "Geometry 9 H+",
                     "track": "school",
                     "level": "H+",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }
@@ -1797,7 +1748,7 @@
                     "name": "Pre-calculus 10 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT009E91GE"]]},
@@ -1806,21 +1757,21 @@
                     "name": "Pre-calculus 10 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT009E92GE"]]}
                 }, {"id": "MAT010E50PC",
                     "name": "AP Precalculus 10",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT009E93GE", "MAT009E94GE"]]}
                 }, {"id": "MAT010E50CL",
                     "name": "AP Calculus 10",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT009E94GE"]]}
@@ -1830,7 +1781,7 @@
                     "name": "Calculus 11 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT010E91PC"]]}
@@ -1838,28 +1789,28 @@
                     "name": "Calculus 11 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT010E93PC", "MAT010E50PC"]]}
                 }, {"id": "MAT011E50ST",
                     "name": "AP Statistics 11",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT010E93PC", "MAT010E50PC"], ["ENG010S130", "ENG010F131"]]}
                 }, {"id": "MAT011E51CL",
                     "name": "AP Calculus AB 11",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT010E93PC", "MAT010E50PC"], ["ENG010S120", "ENG010S130", "ENG010F131"]]}
                 }, {"id": "MAT011E53CL",
                     "name": "AP Calculus BC 11",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT010E50PC"], ["ENG010S120", "ENG010S130", "ENG010F131"]]}
@@ -1867,7 +1818,7 @@
                     "name": "IB Mathematics: Analysis and Approaches SL Y1",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT010E50PC", "MAT010E50CL"]], "next":  [["MAT012E71AA"]]}
@@ -1875,7 +1826,7 @@
                     "name": "IB Mathematics: Analysis and Approaches HL Y1",
                     "track": "IB",
                     "level": "HL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT010E50PC", "MAT010E50CL"]], "next":  [["MAT012E73AA"]]}
@@ -1883,7 +1834,7 @@
                     "name": "IB Mathematics: Applications and Interpretation SL Y1",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT010E50PC", "MAT010E50CL"]], "next":  [["MAT012E71AI"]]}
@@ -1891,7 +1842,7 @@
                     "name": "IB Mathematics: Applications and Interpretation HL Y1",
                     "track": "IB",
                     "level": "HL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT010E50PC", "MAT010E50CL"]], "next":  [["MAT012E73AI"]]}
@@ -1899,7 +1850,7 @@
                     "name": "A-Level Math AS",
                     "track": "ASA2",
                     "level": "AS",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT010E93PC", "MAT010E50PC"]], "next":  [["MAT012E10AL"]]}
@@ -1907,7 +1858,7 @@
                     "name": "A-Level Further Mathematics AS",
                     "track": "ASA2",
                     "level": "AS",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT010E93PC", "MAT010E50PC"]], "next":  [["MAT012E10FM"]]}
@@ -1917,7 +1868,7 @@
                     "name": "Advanced Mathematics 12 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT011E91CL", "MAT011E93CL", "MAT011E51CL", "MAT011E53CL"]]}
@@ -1925,7 +1876,7 @@
                     "name": "Advanced Mathematics 12 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT011E93CL", "MAT011E51CL", "MAT011E53CL"]]}
@@ -1933,7 +1884,7 @@
                     "name": "Further Mathematics 12 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT011E93CL", "MAT011E51CL", "MAT011E53CL"]]}
@@ -1941,7 +1892,7 @@
                     "name": "Multivariable Calculus 12 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT011E53CL", "MAT011E51CL", "MAT011E93CL"]]}
@@ -1949,14 +1900,14 @@
                     "name": "Statistics in Practice 12 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT011E93CL", "MAT011E51CL", "MAT011E53CL", "MAT011E50ST"]]}
                 }, {"id": "MAT012E50ST",
                     "name": "AP Statistics 12",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {
@@ -1967,7 +1918,7 @@
                 }, {"id": "MAT012E51CL",
                     "name": "AP Calculus AB 12",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT011E50ST"]]}
@@ -1975,7 +1926,7 @@
                     "name": "IB Mathematics: Analysis and Approaches SL Y2",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT011E71AA"]]}
@@ -1983,7 +1934,7 @@
                     "name": "IB Mathematics: Analysis and Approaches HL Y2",
                     "track": "IB",
                     "level": "HL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT011E73AA"]]}
@@ -1991,7 +1942,7 @@
                     "name": "IB Mathematics: Applications and Interpretation SL Y2",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT011E71AI"]]}
@@ -1999,7 +1950,7 @@
                     "name": "IB Mathematics: Applications and Interpretation HL Y2",
                     "track": "IB",
                     "level": "HL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT011E73AI"]]}
@@ -2007,7 +1958,7 @@
                     "name": "A-Level Math A2",
                     "track": "ASA2",
                     "level": "A2",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT011E10AL"]]}
@@ -2015,20 +1966,19 @@
                     "name": "A-Level Further Mathematics A2",
                     "track": "ASA2",
                     "level": "A2",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MAT011E10FM"]]}
                 }
             ]
-        },
-        "music": {
+        }, "music": {
             "9": [
                 {   "id": "MUS109E100",
                     "name": "Music and Performing Arts Culture and Administration 9 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }
@@ -2037,20 +1987,20 @@
                     "name": "Music Appreciation 10 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "MUS110E170",
                     "name": "AP Music Theory 10",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "MUS110E131",
                     "name": "Western Theatre 10 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }
@@ -2059,28 +2009,28 @@
                     "name": "A Cappella & Ensemble Singing 11 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "MUS111E101",
                     "name": "Applied Acting Technique 11 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "MUS111E102",
                     "name": "Opera and German - Austrian Art Song Singing 11 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "MUS111E140",
                     "name": "IB Music SL Y1",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MUS110E130"]], "next":  [["MUS112E140"]]}
@@ -2088,21 +2038,21 @@
                     "name": "IB Music HL Y1",
                     "track": "IB",
                     "level": "HL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MUS110E130"]], "next":  [["MUS112E150"]]}
                 }, {"id": "MUS111E141",
                     "name": "IB Theatre Y1",
                     "track": "IB",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MUS110E131"], ["ENG010S130", "ENG010F131"]], "next":  [["MUS112E141"]]}
                 }, {"id": "MUS111E170",
                     "name": "AP Music Theory 11",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }
@@ -2111,28 +2061,28 @@
                     "name": "Digital Music Design 12 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "MUS112E102",
                     "name": "Dramaturgy & Dramatic Criticism 12 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "MUS112E103",
                     "name": "Opera and German - Austrian Art Song Singing 12 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }, {"id": "MUS112E140",
                     "name": "IB Music SL Y2",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MUS111E140"]]}
@@ -2140,33 +2090,32 @@
                     "name": "IB Music HL Y2",
                     "track": "IB",
                     "level": "HL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MUS111E150"]]}
                 }, {"id": "MUS112E141",
                     "name": "IB Theatre Y2",
                     "track": "IB",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["MUS111E141"]]}
                 }, {"id": "MUS112E170",
                     "name": "AP Music Theory 12",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }
             ]
-        },
-        "physics": {
+        }, "physics": {
             "9": [
                 {   "id": "PHY009E110",
                     "name": "Physics 9 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "moveUpTargetId": "PHY009E120"
@@ -2174,7 +2123,7 @@
                     "name": "Physics 9 S+",
                     "track": "school",
                     "level": "S+",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "moveUpTargetId": "PHY009E130"
@@ -2182,7 +2131,7 @@
                     "name": "Physics 9 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
                 }
@@ -2191,7 +2140,7 @@
                     "name": "Physics 10 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["PHY009E110", "PHY009E120"]]}
@@ -2199,7 +2148,7 @@
                     "name": "Physics 10 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["PHY009E130"]]}
@@ -2209,7 +2158,7 @@
                     "name": "Physics 11 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["PHY010E110"]]}
@@ -2217,14 +2166,14 @@
                     "name": "Physics 11 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["PHY010E130"]]}
                 }, {"id": "PHY111E170",
                     "name": "AP Physics 1 11",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["PHY010E130"], ["ENG010S120", "ENG010S130", "ENG010F131"]]}
@@ -2232,7 +2181,7 @@
                     "name": "IB Physics SL Y1",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["PHY010E130"]], "next":  [["PHY112E140"]]}
@@ -2240,7 +2189,7 @@
                     "name": "IB Physics HL Y1",
                     "track": "IB",
                     "level": "HL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["PHY010E130"]], "next":  [["PHY112E150"]]}
@@ -2248,7 +2197,7 @@
                     "name": "A-Level Physics AS",
                     "track": "ASA2",
                     "level": "AS",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["PHY010E110", "PHY010E130"]], "next":  [["PHY112E180"]]}
@@ -2258,7 +2207,7 @@
                     "name": "Physics 12 Standard",
                     "track": "school",
                     "level": "S",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["PHY111E110"]]}
@@ -2266,21 +2215,21 @@
                     "name": "Physics 12 Honors",
                     "track": "school",
                     "level": "H",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["PHY111E130"]]}
                 }, {"id": "PHY112E170",
                     "name": "AP Physics 2 12",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["PHY111E170"]]}
                 }, {"id": "PHY112E171",
                     "name": "AP Physics C Mechanics 12",
                     "track": "AP",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["PHY111E170", "CHE011E070", "BIO111E070", "ENV111E070", "PHY111E130"]]}
@@ -2288,7 +2237,7 @@
                     "name": "IB Physics SL Y2",
                     "track": "IB",
                     "level": "SL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["PHY111E140"]]}
@@ -2296,7 +2245,7 @@
                     "name": "IB Physics HL Y2",
                     "track": "IB",
                     "level": "HL",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["PHY111E150"]]}
@@ -2304,7 +2253,7 @@
                     "name": "A-Level Physics A2",
                     "track": "ASA2",
                     "level": "A2",
-                    "description": "spy",
+                    "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
                     "rules": {"pre":  [["PHY111E180"]]}
