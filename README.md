@@ -8,7 +8,7 @@ Continuously updated course profiles and catalogs of SHSID's curriculums for cur
 - Original app made by [MichelG](https://github.com/michelg10/)
 - Reworked by me (to include remote update functionality, rule checking, configurable score maps), with some IB contributions by [ziqian-huang0607](https://github.com/Ziqian-Huang0607)
 
-### `Courses.catalog` (last update: `April 7, 2026`)
+### `Courses.catalog` (last update: `April 10, 2026`)
 - The catalog file used for SHSID's interactive course planner (made by Indexademics)
 - Currently in alpha! PRs NOT(!!!) welcome we are sTILL testing; contact me in person if something is really wrong.
 
