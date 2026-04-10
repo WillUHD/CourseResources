@@ -1,6 +1,6 @@
 {   "catalogName": "Course catalog 26-27 experimental",
-    "version": "0.3h by willuhd (i for idk how many versions there will be)",
-    "lastUpdated": "Apr 9, 2026; fixed Chinese things",
+    "version": "0.3j Revision 10",
+    "lastUpdated": "Apr 10, 2026; fixed various math/physics requirements",
     "grades": ["9", "10", "11", "12"], 
     "tracks": ["school", "AP", "IB", "ASA2"], 
     "departments": {
@@ -1605,7 +1605,7 @@
                     "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
-                    "rules": {"pre":  [["MAT009E91GE"]]},
+                    "rules": {"pre":  [["MAT009E91GE", "MAT009E92GE"]]},
                     "moveUpTargetId": "MAT010E93PC"
                 }, {"id": "MAT010E93PC",
                     "name": "Pre-calculus 10 Honors",
@@ -2005,7 +2005,7 @@
                     "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
-                    "rules": {"pre":  [["PHY009E130"]]}
+                    "rules": {"pre":  [["PHY009E130", "PHY009E120"]]}
                 }
             ], "11": [
                 {   "id": "PHY111E110",
