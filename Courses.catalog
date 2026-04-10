@@ -1,10 +1,10 @@
 {   "catalogName": "Course Catalog Interactive 26-27",
-    "version": "0.3 experimental prerelease (revision 12)",
-    "lastUpdated": "Apr 10, 2026",
+    "version": "0.3 experimental prerelease (revision 13)",
+    "lastUpdated": "Apr 10, 2026 - fixed Psychology and department names",
     "grades": ["9", "10", "11", "12"], 
     "tracks": ["school", "AP", "IB", "ASA2"], 
     "departments": {
-        "biology": {
+        "Biology": {
             "9": [
                 {   "id": "BIO109E010",
                     "name": "Biology 9 Standard",
@@ -238,7 +238,7 @@
                     }
                 }
             ]
-        }, "chemistry": {
+        }, "Chemistry": {
             "9": [
                 {   "id": "CHE009E010",
                     "name": "Chemistry 9 Standard",
@@ -395,7 +395,7 @@
                     "rules": {"pre":  [["CHE011E070"]]}
                 }
             ]
-        }, "chinese": {
+        }, "Chinese": {
             "9": [
                 {   "id": "CHI009E001",
                     "name": "Chinese 9 L1-L6",
@@ -581,7 +581,7 @@
                     "rules": {"pre":  [["CHI011E163"]]}
                 }
             ]
-        }, "computer science": {"9": [
+        }, "Computer Science": {"9": [
                 {   "id": "COM109E112",
                     "name": "Computing Essentials 9 Standard",
                     "track": "school",
@@ -679,9 +679,90 @@
                     "crowdReview": "spyReview"
                 }
             ]
-        }, "psychology": {
-
-        }, "social sciences": {
+        }, "Psychology": {
+            "9": [
+            ], "10": [
+            ], "11": [
+                {"id": "PSY111E100",
+                    "name": "Psychology 11 Standard",
+                    "track": "school",
+                    "level": "S",
+                    "description": "spyDescription",
+                    "crowdRating": 6.7,
+                    "crowdReview": "spyReview"
+                }, {"id": "PSY111E170",
+                    "name": "AP Psychology 11",
+                    "track": "AP",
+                    "description": "spyDescription",
+                    "crowdRating": 6.7,
+                    "crowdReview": "spyReview",
+                    "rules": {"pre":  [["ENG010S130", "ENG010F131"]]}
+                }, {"id": "PSY111E140",
+                    "name": "IB Psychology SL Y1",
+                    "track": "IB",
+                    "level": "SL",
+                    "description": "spyDescription",
+                    "crowdRating": 6.7,
+                    "crowdReview": "spyReview",
+                    "rules": {"next":  [["PSY112E140"]]}
+                }, {"id": "PSY111E150",
+                    "name": "IB Psychology HL Y1",
+                    "track": "IB",
+                    "level": "HL",
+                    "description": "spyDescription",
+                    "crowdRating": 6.7,
+                    "crowdReview": "spyReview",
+                    "rules": {"next":  [["PSY112E150"]]}
+                }, {"id": "PSY111E180",
+                    "name": "A-Level Psychology AS",
+                    "track": "ASA2",
+                    "level": "AS",
+                    "description": "spyDescription",
+                    "crowdRating": 6.7,
+                    "crowdReview": "spyReview",
+                    "rules": {"next":  [["PSY112E180"]]}
+                }
+            ], "12": [
+                {"id": "PSY112E100",
+                    "name": "Psychology 12 Standard",
+                    "track": "school",
+                    "level": "S",
+                    "description": "spyDescription",
+                    "crowdRating": 6.7,
+                    "crowdReview": "spyReview"
+                }, {"id": "PSY112E170",
+                    "name": "AP Psychology 12",
+                    "track": "AP",
+                    "description": "spyDescription",
+                    "crowdRating": 6.7,
+                    "crowdReview": "spyReview"
+                }, {"id": "PSY112E140",
+                    "name": "IB Psychology SL Y2",
+                    "track": "IB",
+                    "level": "SL",
+                    "description": "spyDescription",
+                    "crowdRating": 6.7,
+                    "crowdReview": "spyReview",
+                    "rules": {"pre":  [["PSY111E140"]]}
+                }, {"id": "PSY112E150",
+                    "name": "IB Psychology HL Y2",
+                    "track": "IB",
+                    "level": "HL",
+                    "description": "spyDescription",
+                    "crowdRating": 6.7,
+                    "crowdReview": "spyReview",
+                    "rules": {"pre":  [["PSY111E150"]]}
+                }, {"id": "PSY112E180",
+                    "name": "A-Level Psychology A2",
+                    "track": "ASA2",
+                    "level": "A2",
+                    "description": "spyDescription",
+                    "crowdRating": 6.7,
+                    "crowdReview": "spyReview",
+                    "rules": {"pre":  [["PSY111E180"]]}
+                }
+            ]
+        }, "Social Sciences": {
             "9": [
             ], "10": [
                 {   "id": "ECO110E110",
@@ -763,44 +844,6 @@
                     "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
-                }, {"id": "PSY111E100",
-                    "name": "Psychology 11 Standard",
-                    "track": "school",
-                    "level": "S",
-                    "description": "spyDescription",
-                    "crowdRating": 6.7,
-                    "crowdReview": "spyReview"
-                }, {"id": "PSY111E170",
-                    "name": "AP Psychology 11",
-                    "track": "AP",
-                    "description": "spyDescription",
-                    "crowdRating": 6.7,
-                    "crowdReview": "spyReview",
-                    "rules": {"pre":  [["ENG010S130", "ENG010F131"]]}
-                }, {"id": "PSY111E140",
-                    "name": "IB Psychology SL Y1",
-                    "track": "IB",
-                    "level": "SL",
-                    "description": "spyDescription",
-                    "crowdRating": 6.7,
-                    "crowdReview": "spyReview",
-                    "rules": {"next":  [["PSY112E140"]]}
-                }, {"id": "PSY111E150",
-                    "name": "IB Psychology HL Y1",
-                    "track": "IB",
-                    "level": "HL",
-                    "description": "spyDescription",
-                    "crowdRating": 6.7,
-                    "crowdReview": "spyReview",
-                    "rules": {"next":  [["PSY112E150"]]}
-                }, {"id": "PSY111E180",
-                    "name": "A-Level Psychology AS",
-                    "track": "ASA2",
-                    "level": "AS",
-                    "description": "spyDescription",
-                    "crowdRating": 6.7,
-                    "crowdReview": "spyReview",
-                    "rules": {"next":  [["PSY112E180"]]}
                 }
             ], "12": [
                 {   "id": "ECO112E170",
@@ -866,46 +909,9 @@
                     "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview"
-                }, {"id": "PSY112E100",
-                    "name": "Psychology 12 Standard",
-                    "track": "school",
-                    "level": "S",
-                    "description": "spyDescription",
-                    "crowdRating": 6.7,
-                    "crowdReview": "spyReview"
-                }, {"id": "PSY112E170",
-                    "name": "AP Psychology 12",
-                    "track": "AP",
-                    "description": "spyDescription",
-                    "crowdRating": 6.7,
-                    "crowdReview": "spyReview"
-                }, {"id": "PSY112E140",
-                    "name": "IB Psychology SL Y2",
-                    "track": "IB",
-                    "level": "SL",
-                    "description": "spyDescription",
-                    "crowdRating": 6.7,
-                    "crowdReview": "spyReview",
-                    "rules": {"pre":  [["PSY111E140"]]}
-                }, {"id": "PSY112E150",
-                    "name": "IB Psychology HL Y2",
-                    "track": "IB",
-                    "level": "HL",
-                    "description": "spyDescription",
-                    "crowdRating": 6.7,
-                    "crowdReview": "spyReview",
-                    "rules": {"pre":  [["PSY111E150"]]}
-                }, {"id": "PSY112E180",
-                    "name": "A-Level Psychology A2",
-                    "track": "ASA2",
-                    "level": "A2",
-                    "description": "spyDescription",
-                    "crowdRating": 6.7,
-                    "crowdReview": "spyReview",
-                    "rules": {"pre":  [["PSY111E180"]]}
                 }
             ]
-        }, "english": {
+        }, "English": {
             "9": [
                 {   "id": "ENG009S110",
                     "name": "English 9 Standard",
@@ -1117,7 +1123,7 @@
                     "rules": {"pre":  [["ENG011F161"]]}
                 }
             ]
-        }, "world languages": {
+        }, "World Languages": {
             "9": [
             ], "10": [
             ], "11": [
@@ -1185,7 +1191,7 @@
                     "rules": {"pre":  [["LAN111E160"]]}
                 }
             ]
-        }, "art": {
+        }, "Art": {
             "9": [
                 {   "id": "ART109E100",
                     "name": "Arts 9",
@@ -1283,7 +1289,7 @@
                     "rules": {"pre":  [["ART111E100"]]}
                 }
             ]
-        }, "geography": {
+        }, "Geography": {
             "9": [
                 {   "id": "GEO109E110",
                     "name": "Physical Geography 9 Standard",
@@ -1336,7 +1342,7 @@
                     "rules": {"pre":  [["GEO110E130"], ["ENG010S120", "ENG010S130", "ENG010F131"]]}
                 }
             ]
-        }, "history": {
+        }, "History": {
             "9": [
                 {   "id": "HIS009E110",
                     "name": "World History to 1500 9 Standard",
@@ -1562,7 +1568,7 @@
                     "crowdReview": "spyReview"
                 }
             ]
-        }, "math": {
+        }, "Math": {
             "9": [
                 {   "id": "MAT009E91GE",
                     "name": "Geometry 9 Standard",
@@ -1828,7 +1834,7 @@
                     "rules": {"pre":  [["MAT011E10FM"]]}
                 }
             ]
-        }, "music": {
+        }, "Music": {
             "9": [
                 {   "id": "MUS109E100",
                     "name": "Music and Performing Arts Culture and Administration 9 Standard",
@@ -1965,7 +1971,7 @@
                     "crowdReview": "spyReview"
                 }
             ]
-        }, "physics": {
+        }, "Physics": {
             "9": [
                 {   "id": "PHY009E110",
                     "name": "Physics 9 Standard",
