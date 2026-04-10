@@ -1,6 +1,6 @@
 {   "catalogName": "Course catalog 26-27 experimental",
-    "version": "0.3j Revision 10",
-    "lastUpdated": "Apr 10, 2026; fixed various math/physics requirements",
+    "version": "0.3k Revision 11",
+    "lastUpdated": "Apr 10, 2026; fixed math requirements",
     "grades": ["9", "10", "11", "12"], 
     "tracks": ["school", "AP", "IB", "ASA2"], 
     "departments": {
@@ -1614,7 +1614,7 @@
                     "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
-                    "rules": {"pre":  [["MAT009E92GE"]]}
+                    "rules": {"pre":  [["MAT009E92GE", "MAT009E93GE"]]}
                 }, {"id": "MAT010E50PC",
                     "name": "AP Precalculus 10",
                     "track": "AP",
