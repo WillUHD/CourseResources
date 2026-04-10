@@ -1,6 +1,6 @@
-{   "catalogName": "Course catalog 26-27 experimental",
-    "version": "0.3k Revision 11",
-    "lastUpdated": "Apr 10, 2026; fixed math requirements",
+{   "catalogName": "Course Catalog Interactive 26-27",
+    "version": "0.3 experimental prerelease (revision 11)",
+    "lastUpdated": "Apr 10, 2026",
     "grades": ["9", "10", "11", "12"], 
     "tracks": ["school", "AP", "IB", "ASA2"], 
     "departments": {
