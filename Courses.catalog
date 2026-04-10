@@ -1,5 +1,5 @@
 {   "catalogName": "Course Catalog Interactive 26-27",
-    "version": "0.3 experimental prerelease (revision 11)",
+    "version": "0.3 experimental prerelease (revision 12)",
     "lastUpdated": "Apr 10, 2026",
     "grades": ["9", "10", "11", "12"], 
     "tracks": ["school", "AP", "IB", "ASA2"], 
@@ -272,7 +272,7 @@
                     "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
-                    "rules": {"pre":  [["CHE009E010"]]},
+                    "rules": {"pre":  [["CHE009E010", "CHE009E020"]]},
                     "moveUpTargetId": "CHE010E030"
                 }, {"id": "CHE010E030",
                     "name": "Chemistry 10 Honors",
@@ -281,7 +281,7 @@
                     "description": "spyDescription",
                     "crowdRating": 6.7,
                     "crowdReview": "spyReview",
-                    "rules": {"pre":  [["CHE009E030"]]}
+                    "rules": {"pre":  [["CHE009E030", "CHE009E020"]]}
                 }
             ], "11": [
                 {   "id": "CHE011E010",
@@ -679,6 +679,8 @@
                     "crowdReview": "spyReview"
                 }
             ]
+        }, "psychology": {
+
         }, "social sciences": {
             "9": [
             ], "10": [
