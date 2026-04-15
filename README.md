@@ -8,9 +8,9 @@ Continuously updated course profiles and catalogs of SHSID's curriculums for cur
 - Original app made by [MichelG](https://github.com/michelg10/)
 - Reworked by me (to include remote update functionality, rule checking, configurable score maps), with some IB contributions by [ziqian-huang0607](https://github.com/Ziqian-Huang0607)
 
-### `Courses.catalog` (last update: `April 10, 2026`)
-- The catalog file used for SHSID's interactive course planner (made by Indexademics)
-- Currently in alpha! PRs NOT(!!!) welcome we are sTILL testing; contact me in person if something is really wrong.
+### `Courses.catalog` (last update: `April 12, 2026`)
+- The catalog file used for SHSID's [interactive course planner](https://github.com/Ziqian-Huang0607/SHSID_CC_Advisor) (made by Indexademics and Data Science club)
+- Prerelease! For the latest experimental changes visit my fork [here](https://github.com/WillUHD/SHSID_CC_Advisor)
 
 ### How all this works
 - The client (iOS/serverless web) will download the continuously updated configuration file from here to use in its own UI.
